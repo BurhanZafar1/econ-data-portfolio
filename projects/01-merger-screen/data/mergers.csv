@@ -1,0 +1,5 @@
+merger_id,market_id,firm_a,firm_b,deal_type,description
+heinz_beechnut,heinz_2000,Heinz,Beech-Nut,actual,Heinz acquisition of Beech-Nut (D.C. Circuit reversed the denial of a preliminary injunction in 2001)
+hrb_taxact,hrb_2010,H&R Block,TaxACT,actual,H&R Block acquisition of TaxACT (enjoined 2011)
+hrb_taxhawk,hrb_2010,H&R Block,TaxHawk,hypothetical,What if H&R Block had bought TaxHawk instead (same court shares)
+footnote_example,heinz_fn9,Firm C,Firm H,worked example,Court's teaching example: firms with 13 and 5 percent merge

@@ -1,0 +1,5 @@
+merger_id,deal_type,parties,share_a,share_b,merged_share,fringe_share,pre_hhi,pre_hhi_upper,delta_hhi,delta_hhi_min_rounding,delta_hhi_max_rounding,post_hhi,post_hhi_upper,hhi_test,share_test,presumed_illegal,presumed_at_upper_bound
+heinz_beechnut,actual,Heinz + Beech-Nut,17.4,15.4,32.8,2.2,4764.92,4769.76,535.92,532.64,539.21,5300.84,5305.68,True,True,True,True
+hrb_taxact,actual,H&R Block + TaxACT,15.6,12.8,28.4,3.5,4293.57,4305.82,399.36,396.52,402.21,4692.93,4705.18,True,False,True,True
+hrb_taxhawk,hypothetical,H&R Block + TaxHawk,15.6,3.2,18.8,3.5,4293.57,4305.82,99.84,97.96,101.72,4393.41,4405.66,False,False,False,False
+footnote_example,worked example,Firm C + Firm H,13.0,5.0,18.0,0.0,1304.0,1304.0,130.0,128.2,131.8,1434.0,1434.0,False,False,False,False

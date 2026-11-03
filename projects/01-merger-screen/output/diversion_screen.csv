@@ -1,0 +1,25 @@
+merger_id,price_raised_by,sales_diverted_to,diversion_ratio,breakeven_margin,assumed_margin,guppi,net_upp_per_dollar
+heinz_beechnut,Heinz,Beech-Nut,0.1864,0.3491,0.3,0.0559,-0.0141
+heinz_beechnut,Heinz,Beech-Nut,0.1864,0.3491,0.5,0.0932,0.0432
+heinz_beechnut,Heinz,Beech-Nut,0.1864,0.3491,0.7,0.1305,0.1005
+heinz_beechnut,Beech-Nut,Heinz,0.2057,0.3271,0.3,0.0617,-0.0083
+heinz_beechnut,Beech-Nut,Heinz,0.2057,0.3271,0.5,0.1028,0.0528
+heinz_beechnut,Beech-Nut,Heinz,0.2057,0.3271,0.7,0.144,0.114
+hrb_taxact,H&R Block,TaxACT,0.1517,0.3974,0.3,0.0455,-0.0245
+hrb_taxact,H&R Block,TaxACT,0.1517,0.3974,0.5,0.0758,0.0258
+hrb_taxact,H&R Block,TaxACT,0.1517,0.3974,0.7,0.1062,0.0762
+hrb_taxact,TaxACT,H&R Block,0.1789,0.3586,0.3,0.0537,-0.0163
+hrb_taxact,TaxACT,H&R Block,0.1789,0.3586,0.5,0.0894,0.0394
+hrb_taxact,TaxACT,H&R Block,0.1789,0.3586,0.7,0.1252,0.0952
+hrb_taxhawk,H&R Block,TaxHawk,0.0379,0.7251,0.3,0.0114,-0.0586
+hrb_taxhawk,H&R Block,TaxHawk,0.0379,0.7251,0.5,0.019,-0.031
+hrb_taxhawk,H&R Block,TaxHawk,0.0379,0.7251,0.7,0.0265,-0.0035
+hrb_taxhawk,TaxHawk,H&R Block,0.1612,0.3829,0.3,0.0483,-0.0217
+hrb_taxhawk,TaxHawk,H&R Block,0.1612,0.3829,0.5,0.0806,0.0306
+hrb_taxhawk,TaxHawk,H&R Block,0.1612,0.3829,0.7,0.1128,0.0828
+footnote_example,Firm C,Firm H,0.0575,0.635,0.3,0.0172,-0.0528
+footnote_example,Firm C,Firm H,0.0575,0.635,0.5,0.0287,-0.0213
+footnote_example,Firm C,Firm H,0.0575,0.635,0.7,0.0402,0.0102
+footnote_example,Firm H,Firm C,0.1368,0.4222,0.3,0.0411,-0.0289
+footnote_example,Firm H,Firm C,0.1368,0.4222,0.5,0.0684,0.0184
+footnote_example,Firm H,Firm C,0.1368,0.4222,0.7,0.0958,0.0658
