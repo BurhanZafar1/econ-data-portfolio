@@ -8,7 +8,7 @@ Between 2004 and 2007, some US states raised their minimum wage and others did n
 
 ## Why it matters
 
-In a simulated stress test with growing effects, TWFE reports 0.049 when the truth is 0.186. Analysts must know whether that happens in their data.
+In a simulated stress test with growing effects, TWFE reports 0.049 when the truth is 0.186. Does that happen in real data?
 
 ## Data
 
@@ -40,7 +40,7 @@ python run.py
 pytest
 ```
 
-Runs in under a minute. Outputs go to `output/`; `report/summary.md` is for managers.
+Runs in under a minute. `report/summary.md` is for managers.
 
 ## Results
 
@@ -68,7 +68,7 @@ Log points: -0.031 is roughly -3.1 percent. CS is Callaway and Sant'Anna.
 - **The big number is one state.** The event study average of -0.077 becomes -0.029 with the same cohorts in years 0 and 1. Years 2 and 3 are Illinois alone, so clustering cannot measure their noise.
 - **Illinois alone proves little.** Five of 16 never treated states show an average gap as large, p = 0.35 (minimum possible 0.06). Illinois raised its wage twice, mixing timing and dose.
 - **Pre trends.** The joint test does not reject (p = 0.17 county, 0.28 state), but power is limited.
-- **Simulated check, not real data** (independent units, 3,000 draws of 500, simple ATT). Stress test, 90 percent treated over 10 years: truth 0.186, CS 0.186, TWFE 0.049. Shaped like this sample: truth 0.077, CS 0.078, TWFE 0.060. CS intervals cover 93.8 percent, under 95. Few cluster inference is not tested.
+- **Simulated check, not real data** (independent units, 3,000 draws of 500, simple ATT). Stress test, 90 percent treated over 10 years: truth 0.186, CS 0.186, TWFE 0.049. Shaped like this sample: truth 0.077, CS 0.078, TWFE 0.060. CS intervals cover 93.8 percent. Few cluster inference is untested.
 
 **Checks.** Tests reproduce published `did` output (including pre test p = 0.16812) and `bacondecomp` weights. `python cross_check.py` matches moderndid 0.4.1 and pyfixest 0.60.0 within 1e-7.
 
