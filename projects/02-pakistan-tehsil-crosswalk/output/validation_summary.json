@@ -1,0 +1,50 @@
+{
+ "tehsil_rows": 612,
+ "units_2017": 535,
+ "units_2017_in_frame": 535,
+ "units_2023": 590,
+ "units_2023_in_frame": 590,
+ "pop_weight_sum_max_abs_dev": 3.3306690738754696e-16,
+ "area_weight_sum_max_abs_dev": 3.3306690738754696e-16,
+ "tehsil_conservation_max_abs_dev": 0,
+ "provincial_2017_totals": {
+  "BALOCHISTAN": {
+   "crosswalk": 12335129,
+   "pbs_2023_table1": 12335129,
+   "pbs_2017_table1": 12335129
+  },
+  "KHYBER PAKHTUNKHWA": {
+   "crosswalk": 35501964,
+   "pbs_2023_table1": 35501964,
+   "pbs_2017_table1": 35501964
+  },
+  "PUNJAB": {
+   "crosswalk": 109989655,
+   "pbs_2023_table1": 109989655,
+   "pbs_2017_table1": 109989655
+  },
+  "SINDH": {
+   "crosswalk": 47854510,
+   "pbs_2023_table1": 47854510,
+   "pbs_2017_table1": 47854510
+  }
+ },
+ "confidence": {
+  "high": 530,
+  "medium": 82
+ },
+ "weight_basis": {
+  "pbs_restatement": 554,
+  "pbs_restatement+lp_adjacency": 58
+ },
+ "area_basis": {
+  "identity": 481,
+  "pbs_area_2023_exact": 101,
+  "pbs_area_2023_uniform_density": 30
+ },
+ "relation_counts": {
+  "one_to_one": 481,
+  "split_or_transfer_2017_units": 54,
+  "2023_units_with_multiple_sources": 19
+ }
+}

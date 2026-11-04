@@ -1,0 +1,4 @@
+pandas>=2.0
+pyarrow
+geopandas>=1.0
+scipy

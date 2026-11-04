@@ -1,0 +1,11 @@
+Raw inputs are not included in this package (size). Download them into raw/ before running build/:
+  https://darbar.adaad.org/data/warehouse/census_panel_2017.parquet
+  https://darbar.adaad.org/data/warehouse/census_panel_2023.parquet
+  https://darbar.adaad.org/data/warehouse/subdistrict_crosswalk_2017_2023.parquet
+  https://darbar.adaad.org/data/warehouse/district_crosswalk_2017_2023.parquet
+  https://darbar.adaad.org/data/warehouse/census_unit_map.parquet
+  https://darbar.adaad.org/data/boundaries/pbs_tehsils_2023.geojson
+  https://darbar.adaad.org/data/boundaries/pbs_districts_2023.geojson
+  https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PAK/ADM3/geoBoundaries-PAK-ADM3.geojson  (save as gb_PAK_ADM3_2017.geojson)
+  https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PAK/ADM2/geoBoundaries-PAK-ADM2.geojson  (save as gb_PAK_ADM2_2017.geojson)
+All accessed 3 November 2026.
