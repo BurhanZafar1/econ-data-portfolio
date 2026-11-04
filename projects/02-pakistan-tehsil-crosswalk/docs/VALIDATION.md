@@ -1,5 +1,7 @@
 # Validation report: Pakistan tehsil crosswalk, Census 2017 to Census 2023
 
+(The 1998 layer has its own report, VALIDATION_1998.md.)
+
 Built 3 November 2026. Scope: Punjab, Sindh, Khyber Pakhtunkhwa (including the former FATA, which the 2023 frame places inside KP) and Balochistan. Islamabad, AJK and Gilgit-Baltistan are excluded.
 
 ## 1. Completeness
@@ -56,7 +58,7 @@ All 2017-to-2023 pairs were matched on exact unit names within the district, or 
 ## 8. Open items
 1. PBS's 2017 restatement has no published method note. Whether it is an exact re-aggregation of 2017 census blocks or a proration cannot be told from the tables; the D.I. Khan case above suggests adjustments beyond boundary changes in at least some districts.
 2. A PBS 2017 tehsil shapefile (or the 2017 block layer with tehsil codes) would turn the 10 LP-resolved groups and the 30 uniform-density area rows into measured figures. Request to PBS pending Professor Khan's go-ahead.
-3. Notifications for the splits listed in section 6 have not been collected; the crosswalk rests on the census tables, which is sufficient for the frame-to-frame mapping but not for effective dates between censuses.
+3. Effective dates: the splits in section 6 and every other district change are now dated, with sources, in output/event_register.csv and docs/EVENT_REGISTER.md (second release). The weights themselves still rest on the census tables.
 
 ## 9. Every split and transfer row
 | district_group | unit_2017 | pop_2017 | unit_2023 | pop_2017_restated_2023 | pop_weight | area_weight | confidence | weight_basis |

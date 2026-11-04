@@ -1,5 +1,7 @@
 # Data dictionary
 
+All population figures are persons as published; all areas are square kilometres as published. Years in column names are census years, and a column such as pop_1998_restated_2017 is PBS's own count of the 1998 population on the 2017 boundary.
+
 ## crosswalk_tehsil_2017_to_2023.csv (612 rows)
 One row per (2017 unit, 2023 unit) pair with a positive flow. A 2017 unit that was not split has one row with both weights = 1.
 
@@ -24,9 +26,30 @@ One row per (2017 unit, 2023 unit) pair with a positive flow. A 2017 unit that w
 | flow_2017 | integer | people (2017 count) moved along the row = pop_weight x pop_2017 |
 | area_weight | float | share of the 2017 unit's land in the 2023 unit; sums to 1 over the 2017 unit. Use for land-based variables. |
 | area_basis | text | identity; pbs_area_2023_exact (published areas of the children); pbs_area_2023_uniform_density (2023 unit's area split between sources in proportion to people) |
-| overlay_area_weight | float | check only: area share from overlaying a geoBoundaries 2017 polygon on the 2023 polygons, where that polygon matched and covered the row's 2023 units by >= 90%; blank otherwise |
-| overlay_coverage | float | share of the geoBoundaries 2017 polygon's area that falls in the crosswalk's 2023 units |
+| overlay_coverage | float | check only: share of the US Census Bureau Demobase 2017 polygon of the 2017 unit that falls inside the crosswalk's 2023 units (1 = the free polygon agrees with the crosswalk) |
+| overlay_area_weight | float | check only: area share of the row from that overlay; blank where the 2017 polygon did not match |
 | karachi_division | boolean | TRUE for the seven Karachi districts, so users can collapse Karachi to one unit |
+
+## crosswalk_tehsil_1998_to_2017.csv (598 rows)
+Same layout as above with the years shifted: unit_id_1998 (T98-nnnn, assigned in the order of the PCO 1951-98 report), province_1998, district_1998, unit_1998, unit_type_1998 (tehsil, sub_division, district for a Frontier Region, district_collapsed for Karachi, Lahore and Peshawar), pop_1998 (PCO report), then the 2017 unit columns, pop_1998_restated_2017 (the "POPULATION 1998" PBS printed for the 2017 unit), pop_2017, flow_1998 (persons of the 1998 count moved along the row), pop_weight, weight_basis (pbs_restatement_exact for same-name or one-to-one rows; pbs_restatement+milp_adjacency for rows opened by the solver), method (one_to_one, one_to_one_renamed, split, merge, split_and_merge), confidence, note, area_2017_km2, area_2017_source (pbs_2017_table1, or implied_from_pbs_2023_areas for Kohistan and Killa Saifullah where PBS printed no sub-district areas), area_weight, area_basis, area_1998_pco_km2 and area_1998_implied_km2 (check columns: the area printed in the 1951-98 report and the area implied by the crosswalk), frame_note_1998 (flags the three collapsed districts), karachi_division.
+
+## crosswalk_tehsil_1998_to_2023.csv (678 rows)
+The base-year table: 1998 units onto 2023 units, chained through 2017. Columns: the 1998 unit columns, the 2023 unit columns, flow_1998 (persons of the 1998 count, fractional because it multiplies two shares), pop_weight, area_weight, via_2017 (the 2017 unit(s) the row passes through), weight_basis, confidence (the lower of the two layers), frame_note_1998, karachi_division. There is no PBS restatement of 1998 on 2023 units, so no pop_1998_restated_2023 column exists.
+
+## crosswalk_district_1998_to_2017.csv (142 rows), crosswalk_district_1998_to_2023.csv (151 rows)
+Aggregated from the tehsil flows: province_1998, district_1998, province/district of the later frame, flow_1998, n_tehsil_rows, pop_1998, pop_weight, area_weight, relation (whole / part), confidence, karachi_division, and for 1998 -> 2017 pop_1998_restated_2017 and pop_2017; for 1998 -> 2023 pop_2023.
+
+## new_district_lineage.csv
+One row per (new district, earlier tehsil that contributed to it) for every district that first appears in the 2017 or 2023 frame. Columns: new_district, province, frame_first_seen, interval, parent_districts, source_tehsil, source_tehsil_id, source_tehsil_district, persons_from_tehsil, share_of_new_district (sums to 1 over the new district), share_of_source_tehsil, tehsil_upgraded (yes when a tehsil of the same name as the new district existed in the parent: the "Tehsil A became District A" case), confidence, and from the event register event_year, event_date, event_source_url, event_confidence.
+
+## tehsil_district_membership.csv (1,435 rows)
+For every earlier tehsil, the district(s) it falls in on the later frame: frame_from, frame_to, unit_id, province_from, district_from, unit_name, unit_type, pop_from, province_to, district_to, persons, share_of_tehsil, district_changed, tehsil_name_matches_new_district, confidence. Covers 1998 -> 2017, 2017 -> 2023 and 1998 -> 2023.
+
+## event_register.csv
+One row per dated change: province, level (district / tehsil), event_type (new_district, tehsil_upgraded_to_district, district_transfer, new_tehsil, renamed, merged, abolished), unit_name, parent_or_source_units, new_or_destination_units, year, date, interval (1998-2017, 2017-2023, post-2023), in_crosswalk (whether the change is visible between two census frames in these tables), notes (one plain sentence), source_url, source_title, confidence (verified: official notification or two independent news reports; reported: one news or Wikipedia source; unverified: not found, year blank).
+
+## unit_master_1998.csv (457 rows), district_master_1998.csv (114 rows)
+The 1998 frame from the PCO 1951-98 report: province_1998, district_1998, unit_1998, unit_type_1998, pop_1998, pop_1981, pop_1972, pop_1961, pop_1951, area_km2, mark (the report's footnote marks), frame_note (the 36 Karachi, Lahore and Peshawar town rows), unit_id_1998. The crosswalk uses this file with the three town-frame districts collapsed to one unit each (build/intermediate/unit_master_1998_solved_frame.csv, 424 units).
 
 ## crosswalk_district_2017_to_2023.csv (143 rows)
 Aggregated from the tehsil flows. pop_weight = share of the 2017 district's population in the 2023 district; area_weight from the tehsil area attributions; relation = whole (weight 1) or part; confidence = lowest confidence of the tehsil rows involved.
@@ -34,10 +57,11 @@ Aggregated from the tehsil flows. pop_weight = share of the 2017 district's popu
 ## unit_master_2017_all.csv, unit_master_2023_all.csv
 Every unit (districts included) in PBS Table 1 of each census with area, population and the restated population of the previous census. Islamabad is included here but not in the crosswalk.
 
-## check_overlay_disagreements.csv
-For split 2017 units with a matched geoBoundaries polygon: 2023 units that polygon overlaps by more than 2% of its area but which are not in the unit's crosswalk rows. Documents the limits of the geoBoundaries layer.
+## check_overlay_mismatches.csv
+2017 units whose Demobase 2017 polygon lies mostly (coverage below 0.5) outside the 2023 units the crosswalk assigns them to, with the 2023 units the polygon actually covers. These are label swaps and digitisation differences in the free polygon layer, documented so nobody uses that layer as a source of weights.
 
 ## Conventions
-- Weights are shares of the 2017 unit (forward direction, 2017 -> 2023). To move 2023 data back to 2017 units, use flow_2017 / pop_2017_restated_2023 as the backward weight (share of the 2023 unit's 2017 population that came from each 2017 unit); it sums to 1 over each 2023 unit.
-- Counts: multiply by the weight and sum. Rates and means: weighted average with flow_2017 as the weight. Shares of a total: rebuild numerator and denominator as counts.
+- Weights are shares of the earlier unit (forward direction). To move later-frame data back to earlier units, use flow / (restated population of the later unit) as the backward weight; it sums to 1 over each later unit. For the chained 1998 -> 2023 table the backward weight is flow_1998 divided by the sum of flow_1998 over the 2023 unit.
+- Counts: multiply by the weight and sum. Rates and means: weighted average with the flow column as the weight. Shares of a total: rebuild numerator and denominator as counts.
+- Ids: unit_id_1998 = T98-nnnn, unit_id_2017 = T17-nnnn (both assigned in this project), unit_id_2023 = PBS Digital Census dds_id. District files use district names as ids.
 - Unit names are PBS's own spellings; "TALA GANG", "D.I.KHAN"-style variants were not altered.

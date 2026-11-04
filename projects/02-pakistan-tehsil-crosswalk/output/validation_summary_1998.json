@@ -1,0 +1,88 @@
+{
+ "tehsil_1998_to_2017": {
+  "rows": 598,
+  "units_1998": 424,
+  "units_1998_in_frame": 424,
+  "units_2017": 535,
+  "units_2017_in_frame": 535,
+  "pop_weight_sum_max_abs_dev": 1.4432899320127035e-15,
+  "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
+  "tehsil_conservation_max_abs_dev": 0,
+  "confidence": {
+   "high": 594,
+   "medium": 4
+  },
+  "method": {
+   "one_to_one": 274,
+   "split": 195,
+   "split_and_merge": 90,
+   "merge": 33,
+   "one_to_one_renamed": 6
+  },
+  "area_basis": {
+   "identity": 313,
+   "pbs_area_2017_exact": 191,
+   "pbs_area_2017_uniform_density": 89,
+   "implied_2017_area_uniform_density": 5
+  },
+  "split_1998_units": 111,
+  "units_2017_with_multiple_sources": 60,
+  "collapsed_1998_districts": [
+   "KARACHI CITY DISTRICT",
+   "LAHORE CITY DISTRICT",
+   "PESHAWAR DISTRICT"
+  ]
+ },
+ "provincial_1998_totals": {
+  "BALOCHISTAN": {
+   "crosswalk": 6565885,
+   "pbs_2017_table1_restated": 6565885,
+   "pco_1998_report": 6565885
+  },
+  "FATA": {
+   "crosswalk": 3176331,
+   "pbs_2017_table1_restated": 3176331,
+   "pco_1998_report": 3176331
+  },
+  "KHYBER PAKHTUNKHWA": {
+   "crosswalk": 17743645,
+   "pbs_2017_table1_restated": 17743645,
+   "pco_1998_report": 17743645
+  },
+  "PUNJAB": {
+   "crosswalk": 73621290,
+   "pbs_2017_table1_restated": 73621290,
+   "pco_1998_report": 73621290
+  },
+  "SINDH": {
+   "crosswalk": 30439893,
+   "pbs_2017_table1_restated": 30439893,
+   "pco_1998_report": 30439893
+  }
+ },
+ "tehsil_1998_to_2023": {
+  "rows": 678,
+  "units_1998": 424,
+  "units_2023": 590,
+  "pop_weight_sum_max_abs_dev": 3.3306690738754696e-16,
+  "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
+  "total_1998_persons_in": 131547044.01,
+  "total_1998_persons_pco": 131547044,
+  "confidence": {
+   "high": 587,
+   "medium": 91
+  },
+  "split_1998_units": 143
+ },
+ "district_1998_to_2017": {
+  "rows": 142,
+  "districts_1998": 114,
+  "districts_2017": 134,
+  "inflow_vs_pbs_max_abs_dev": 0
+ },
+ "district_1998_to_2023": {
+  "rows": 151,
+  "districts_1998": 114,
+  "districts_2023": 135
+ }
+}

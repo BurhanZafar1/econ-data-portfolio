@@ -9,3 +9,9 @@ Raw inputs are not included in this package (size). Download them into raw/ befo
   https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PAK/ADM3/geoBoundaries-PAK-ADM3.geojson  (save as gb_PAK_ADM3_2017.geojson)
   https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PAK/ADM2/geoBoundaries-PAK-ADM2.geojson  (save as gb_PAK_ADM2_2017.geojson)
 All accessed 3 November 2026.
+
+Added 4 November 2026 (1998 layer):
+  https://darbar.adaad.org/data/warehouse/census_admin_units_1951_1998.parquet   (PCO Census Publication 161, Population of Administrative Units 1951-98, as parsed by Data Darbar)
+  https://darbar.adaad.org/data/warehouse/census_panel_1998.parquet
+  https://darbar.adaad.org/data/warehouse/census_population_history.parquet
+  US Census Bureau, Demobase Pakistan, pakistan-uscb-20241.zip (file geodatabase Pakistan.gdb, layer PK_GEOG1_ADM4_2017_uscb_202401), https://www.census.gov/geographies/mapping-files/time-series/demo/international-programs/demobase.html  (save under raw/demobase/)

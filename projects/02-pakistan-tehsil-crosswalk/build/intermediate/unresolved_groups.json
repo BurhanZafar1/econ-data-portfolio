@@ -1,0 +1,246 @@
+[
+ {
+  "group": "ABBOTTABAD DISTRICT",
+  "units_2017": "ABBOTTABAD TEHSIL + HAVELIAN TEHSIL",
+  "units_2023": "ABBOTTABAD TEHSIL + HAVELIAN TEHSIL + LORA TEHSIL + LOWER TANAWAL TEHSIL",
+  "pop_2017": [
+   982837,
+   350252
+  ],
+  "restated": [
+   939576,
+   235725,
+   97876,
+   59912
+  ],
+  "unmatched": [
+   "LORA TEHSIL",
+   "LOWER TANAWAL TEHSIL"
+  ],
+  "resid": [
+   43261,
+   114527
+  ]
+ },
+ {
+  "group": "DERA ISMAIL KHAN DISTRICT + FR D.I.KHAN",
+  "units_2017": "DERA ISMAIL KHAN TEHSIL + PAHARPUR TEHSIL + PAROA TEHSIL",
+  "units_2023": "DERA ISMAIL KHAN TEHSIL + PAHARPUR TEHSIL + PAROA TEHSIL",
+  "pop_2017": [
+   725449,
+   381086,
+   292343
+  ],
+  "restated": [
+   730678,
+   362606,
+   305594
+  ],
+  "unmatched": [],
+  "resid": [
+   -5229,
+   18480,
+   -13251
+  ]
+ },
+ {
+  "group": "KACHHI DISTRICT + NASIRABAD DISTRICT",
+  "units_2017": "BABA KOT TEHSIL + BHAG TEHSIL + CHATTAR SUB-TEHSIL + TAMBOO TEHSIL",
+  "units_2023": "BABA KOT TEHSIL + BHAG SUB-DIVISION + CHATTAR SUB-DIVISION + LANDHI TEHSIL + MIR HASSAN KHOSA TEHSIL + TAMBOO TEHSIL",
+  "pop_2017": [
+   49480,
+   73459,
+   76536,
+   131056
+  ],
+  "restated": [
+   45446,
+   71527,
+   25925,
+   6063,
+   50611,
+   130959
+  ],
+  "unmatched": [
+   "LANDHI TEHSIL",
+   "MIR HASSAN KHOSA TEHSIL"
+  ],
+  "resid": [
+   4034,
+   1932,
+   50611,
+   97
+  ]
+ },
+ {
+  "group": "KHARAN DISTRICT",
+  "units_2017": "KHARAN TEHSIL + SUB TEHSIL TOHMULK",
+  "units_2023": "KHARAN SUB-DIVISION + PATKAIN SUB-TEHSIL + TOHMULK SUB-TEHSIL",
+  "pop_2017": [
+   80703,
+   32670
+  ],
+  "restated": [
+   66438,
+   16493,
+   30442
+  ],
+  "unmatched": [
+   "PATKAIN SUB-TEHSIL"
+  ],
+  "resid": [
+   14265,
+   2228
+  ]
+ },
+ {
+  "group": "KOHISTAN DISTRICT",
+  "units_2017": "DASSU SUB-DIVISION + KANDIA SUB-DIVISION + PALAS SUB-DIVISION + PATTAN SUB-DIVISION",
+  "units_2023": "BANKAND RANOLIA TEHSIL + BATTAIRA SUB-DIVISION + DASSU SUB-DIVISION + HARBAN BHASHA TEHSIL + KANDIA SUB-DIVISION + PALAS SUB-DIVISION + PATTAN SUB-DIVISION + SEO SUB-DIVISION",
+  "pop_2017": [
+   228350,
+   77101,
+   276325,
+   202935
+  ],
+  "restated": [
+   56366,
+   93879,
+   124374,
+   32510,
+   83850,
+   181044,
+   146136,
+   66552
+  ],
+  "unmatched": [
+   "BANKAND RANOLIA TEHSIL",
+   "BATTAIRA SUB-DIVISION",
+   "HARBAN BHASHA TEHSIL",
+   "SEO SUB-DIVISION"
+  ],
+  "resid": [
+   103976,
+   -6749,
+   95281,
+   56799
+  ]
+ },
+ {
+  "group": "MARDAN DISTRICT",
+  "units_2017": "KATLANG TEHSIL + MARDAN TEHSIL",
+  "units_2023": "GHARI KAPOORA TEHSIL + KATLANG TEHSIL + MARDAN TEHSIL + RUSTAM TEHSIL",
+  "pop_2017": [
+   343225,
+   1403002
+  ],
+  "restated": [
+   266290,
+   316506,
+   921581,
+   241850
+  ],
+  "unmatched": [
+   "GHARI KAPOORA TEHSIL",
+   "RUSTAM TEHSIL"
+  ],
+  "resid": [
+   26719,
+   481421
+  ]
+ },
+ {
+  "group": "MUSAKHEL DISTRICT",
+  "units_2017": "DRUG TEHSIL + MUSAKHEL TEHSIL",
+  "units_2023": "DRUG TEHSIL + MUSAKHEL TEHSIL + TIYAR ESSOT SUB-TEHSIL + TOISAR TEHSIL + ZIMRI PLASEEN SUB-TEHSIL",
+  "pop_2017": [
+   37599,
+   98305
+  ],
+  "restated": [
+   21232,
+   45509,
+   9124,
+   50843,
+   9196
+  ],
+  "unmatched": [
+   "TIYAR ESSOT SUB-TEHSIL",
+   "TOISAR TEHSIL",
+   "ZIMRI PLASEEN SUB-TEHSIL"
+  ],
+  "resid": [
+   16367,
+   52796
+  ]
+ },
+ {
+  "group": "PISHIN DISTRICT",
+  "units_2017": "BARSHORE SUB-TEHSIL + KAREZAT SUB-TEHSIL",
+  "units_2023": "BARSHORE TEHSIL + BOSTAN TEHSIL + KAREZAT SUB-DIVISION + NANA SAHIB TEHSIL",
+  "pop_2017": [
+   103423,
+   137466
+  ],
+  "restated": [
+   101356,
+   46972,
+   64058,
+   28503
+  ],
+  "unmatched": [
+   "BOSTAN TEHSIL",
+   "NANA SAHIB TEHSIL"
+  ],
+  "resid": [
+   2067,
+   73408
+  ]
+ },
+ {
+  "group": "QUETTA DISTRICT",
+  "units_2017": "QUETTA CITY TEHSIL + QUETTA SADDAR TEHSIL",
+  "units_2023": "SUB-DIVISION CITY + SUB-DIVISION KUCHLAK + SUB-DIVISION SADDAR TEHSIL + SUB-DIVISION SARIAB",
+  "pop_2017": [
+   1722746,
+   527716
+  ],
+  "restated": [
+   1204306,
+   261209,
+   267713,
+   517234
+  ],
+  "unmatched": [
+   "SUB-DIVISION CITY",
+   "SUB-DIVISION KUCHLAK",
+   "SUB-DIVISION SADDAR TEHSIL",
+   "SUB-DIVISION SARIAB"
+  ],
+  "resid": [
+   1722746,
+   527716
+  ]
+ },
+ {
+  "group": "TORGHAR DISTRICT",
+  "units_2017": "JUDBA TEHSIL + KHANDER TEHSIL",
+  "units_2023": "DAUR MERA TEHSIL + JUDBA TEHSIL + KHANDER TEHSIL",
+  "pop_2017": [
+   96888,
+   74461
+  ],
+  "restated": [
+   41661,
+   57745,
+   71943
+  ],
+  "unmatched": [
+   "DAUR MERA TEHSIL"
+  ],
+  "resid": [
+   39143,
+   2518
+  ]
+ }
+]
