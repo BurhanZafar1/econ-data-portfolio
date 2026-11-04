@@ -3,7 +3,7 @@
 | # | Project | Real problem it solves | Methods | Typical user | Status |
 |---|---|---|---|---|---|
 | 01 | Merger screen toolkit | Antitrust teams must flag mergers that raise concentration under the 2023 US Merger Guidelines | HHI and change in HHI, diversion ratios, upward pricing pressure | Econ consulting (CRA, Cornerstone, Analysis Group) | DONE (2026-11-02) |
-| 02 | Staggered difference in differences done right | Policy rollouts at different times bias standard two way fixed effects | TWFE vs Callaway and Sant'Anna, event study plots, Goodman Bacon decomposition | Predoc / PhD code sample | TODO |
+| 02 | Staggered difference in differences done right | Policy rollouts at different times bias standard two way fixed effects | TWFE vs Callaway and Sant'Anna, event study plots, Goodman Bacon decomposition | Predoc / PhD code sample | DONE (2026-11-04) |
 | 03 | Fuzzy record linkage pipeline | Researchers and firms must merge messy name lists without a shared ID | Blocking, string similarity, Fellegi Sunter style scoring, precision and recall against labeled pairs | Predoc, data analytics | TODO |
 | 04 | Bank deposit beta and rate pass through | Banks must forecast how deposit rates and margins move when the Fed changes rates | Time series regression, asymmetric betas, scenario analysis | Commercial banking, credit | TODO |
 | 05 | Price fixing overcharge damages model | Litigation teams must estimate how much a cartel overcharged buyers | Before during after regression, yardstick comparison, robustness | Econ consulting (damages) | TODO |

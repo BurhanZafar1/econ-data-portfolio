@@ -6,6 +6,7 @@ Small, complete, tested projects in applied microeconomics, antitrust, finance a
 |---|---|---|---|---|
 | 01 | Merger screen toolkit | Flag mergers that trip the 2023 US Merger Guidelines concentration presumption | HHI and change in HHI, 30 percent share test, proportional diversion, GUPPI and UPP | [projects/01-merger-screen](projects/01-merger-screen) |
 | 02 | Pakistan tehsil crosswalk, Census 2017 to 2023 | Move tehsil and district data between Pakistan's 2017 and 2023 census frames with population and area weights | Exact population balancing on PBS restatements, transportation LP for transfers, published-area weights, conservation checks | [projects/02-pakistan-tehsil-crosswalk](projects/02-pakistan-tehsil-crosswalk) |
+| 03 | Staggered difference in differences | Estimate the effect of state minimum wage increases when adoption is staggered, and find out what TWFE hides | TWFE, Goodman-Bacon decomposition, Callaway and Sant'Anna from scratch, event study, state clustering, placebo states, randomization inference | [projects/03-staggered-did](projects/03-staggered-did) |
 
 ## Running a project
 
