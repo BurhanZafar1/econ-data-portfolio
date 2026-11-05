@@ -1,0 +1,38 @@
+{
+ "1951": {
+  "historical_districts": 57,
+  "weights_sum_to_1": true,
+  "population_allocated": 33623907.0,
+  "pco_tehsil_panel_total": 30509725.0,
+  "pco_province_total_four_provinces_and_fata": 33644227,
+  "proxy_rows": 40,
+  "chained_weights_sum_to_1": true
+ },
+ "1961": {
+  "historical_districts": 58,
+  "weights_sum_to_1": true,
+  "population_allocated": 42762709.0,
+  "pco_tehsil_panel_total": 40180255.0,
+  "pco_province_total_four_provinces_and_fata": 42762709,
+  "proxy_rows": 16,
+  "chained_weights_sum_to_1": true
+ },
+ "1972": {
+  "historical_districts": 59,
+  "weights_sum_to_1": true,
+  "population_allocated": 65071791.0,
+  "pco_tehsil_panel_total": 63203087.0,
+  "pco_province_total_four_provinces_and_fata": 65071791,
+  "proxy_rows": 6,
+  "chained_weights_sum_to_1": true
+ },
+ "1981": {
+  "historical_districts": 73,
+  "weights_sum_to_1": true,
+  "population_allocated": 83913358.0,
+  "pco_tehsil_panel_total": 83913358.0,
+  "pco_province_total_four_provinces_and_fata": 83913358,
+  "proxy_rows": 0,
+  "chained_weights_sum_to_1": true
+ }
+}

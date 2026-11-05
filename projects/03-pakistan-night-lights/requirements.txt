@@ -1,0 +1,6 @@
+rasterio
+geopandas>=1.0
+exactextract>=0.3
+pyproj
+pandas>=2.0
+numpy

@@ -1,6 +1,6 @@
 # Pakistan tehsil and district crosswalk, Censuses 1998, 2017 and 2023
 
-Second release, 4 November 2026 (first release 3 November covered 2017 to 2023 only). Built by Burhan Zafar for Professor M. Yasir Khan (University of Pittsburgh).
+Third release, 5 November 2026 (first release 3 November: 2017 to 2023; second, 4 November: the 1998 layer, lineage and event register; third: back to 1951, see docs/BACKWARD_EXTENSION.md). Built by Burhan Zafar for Professor M. Yasir Khan (University of Pittsburgh).
 
 ## What it is
 Tables that move any tehsil- or district-level variable reported on one census frame of Pakistan's four provinces onto another, with a population weight and an area weight for every pair of units:
@@ -11,6 +11,8 @@ Tables that move any tehsil- or district-level variable reported on one census f
 - the same three at district level (114 -> 134 -> 135 districts)
 
 Two companion tables answer the questions in Professor Khan's note of 3 November: which tehsils became which districts (new_district_lineage.csv, tehsil_district_membership.csv), and when each district and tehsil change happened (event_register.csv, with a source and a confidence grade for every dated row).
+
+The third release goes back to the first census. PCO's 1951-98 report already restates 1951, 1961, 1972 and 1981 on the 1998 frame; this release carries those figures to the 2023 frame (population_panel_2023_frame.csv: every 2023 tehsil and district at all seven censuses) and reconstructs the district map of each census from a sourced lineage table, giving a district crosswalk from the 1951, 1961, 1972 and 1981 maps to 1998 and 2023 (crosswalk_district_historical_to_*.csv). docs/BACKWARD_EXTENSION.md explains what can and cannot be built for those years.
 
 ## Files
 ```
@@ -23,14 +25,19 @@ output/crosswalk_district_2017_to_2023.csv    district level (143 rows)
 output/new_district_lineage.csv               every district new in 2017 or 2023: the earlier tehsils that formed it, shares, year, source
 output/tehsil_district_membership.csv         every tehsil's district in the later frame(s), with the share of its people there
 output/event_register.csv                     dated district and tehsil changes 1998-2026 with sources (see docs/EVENT_REGISTER.md)
+output/population_panel_1998_frame*.csv       1951, 1961, 1972, 1981, 1998 populations on the 1998 frame (PCO), tehsil and district
+output/population_panel_2023_frame*.csv       all seven censuses 1951-2023 on the 2023 tehsils and districts
+output/district_lineage_1951_1998.csv         when each 1998 district was created and from what, with sources
+output/district_frames_by_census.csv          the district map at each census, 1951-1998
+output/crosswalk_district_historical_to_1998.csv, ..._to_2023.csv   district crosswalk from the 1951-1981 maps
 output/unit_master_1998.csv, district_master_1998.csv   the 1998 frame (PCO 1951-98 report)
 output/unit_master_2017_all.csv, unit_master_2023_all.csv   all units in PBS Table 1 of each census
 output/check_overlay_mismatches.csv           diagnostics on the free 2017 polygon layers
 output/validation_summary.json, validation_summary_1998.json   the numbers behind the validation reports
 code/apply_crosswalk.R                        apply in R (base R, no packages); works on all six tables
 code/apply_crosswalk.do                       apply in Stata (14+); same interface
-build/01 .. 11                                reproducible pipeline (Python), build/crosswalk_lib.py is the matching engine
-docs/DATA_DICTIONARY.md, VALIDATION.md (2017->2023), VALIDATION_1998.md (1998 layer), EVENT_REGISTER.md
+build/01 .. 13                                reproducible pipeline (Python), build/crosswalk_lib.py is the matching engine
+docs/DATA_DICTIONARY.md, VALIDATION.md (2017->2023), VALIDATION_1998.md (1998 layer), EVENT_REGISTER.md, BACKWARD_EXTENSION.md (1951-1981)
 raw/                                          inputs as downloaded (see Sources)
 ```
 
@@ -76,4 +83,5 @@ Your data must carry the source unit id (unit_id_1998 = T98-nnnn, unit_id_2017 =
 pip install pandas pyarrow geopandas scipy
 python build/01_unit_master.py && python build/02_crosswalk_pop.py && python build/03_resolve_lp.py && python build/02b_overlay.py && python build/04_area_weights.py && python build/05_district_and_validate.py
 python build/06_unit_master_1998.py && python build/07_crosswalk_1998_2017.py && python build/08_crosswalk_1998_tables.py && python build/10_event_register.py && python build/09_lineage.py && python build/11_validation_1998_md.py
+python build/12_population_panel.py && python build/13_backward_district_crosswalk.py
 ```

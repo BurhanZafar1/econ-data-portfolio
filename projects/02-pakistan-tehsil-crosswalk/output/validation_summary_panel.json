@@ -1,0 +1,63 @@
+{
+ "coverage_1998_frame": {
+  "1951": {
+   "units_with_figure": 250,
+   "units": 424,
+   "share_of_1998_population_covered": 0.9011427653212792,
+   "districts_with_figure": 92
+  },
+  "1961": {
+   "units_with_figure": 349,
+   "units": 424,
+   "share_of_1998_population_covered": 0.9491273023208336,
+   "districts_with_figure": 110
+  },
+  "1972": {
+   "units_with_figure": 364,
+   "units": 424,
+   "share_of_1998_population_covered": 0.9754986816731511,
+   "districts_with_figure": 114
+  },
+  "1981": {
+   "units_with_figure": 418,
+   "units": 424,
+   "share_of_1998_population_covered": 0.9983769760725296,
+   "districts_with_figure": 114
+  },
+  "1998": {
+   "units_with_figure": 424,
+   "units": 424,
+   "share_of_1998_population_covered": 1.0,
+   "districts_with_figure": 114
+  }
+ },
+ "totals_1998_frame": {
+  "1951": 30509725.0,
+  "1961": 40180255.0,
+  "1972": 63203087.0,
+  "1981": 83913358.0,
+  "1998": 131547044.0
+ },
+ "totals_2023_frame": {
+  "1951": 30509725.3,
+  "1961": 40180255.099999994,
+  "1972": 63203087.2,
+  "1981": 83913358.10000001,
+  "1998": 131547044.5,
+  "2017": 205681258.0,
+  "2023": 239135568.0
+ },
+ "pco_province_totals": {
+  "1951": 33644227.0,
+  "1961": 42762709.0,
+  "1972": 65071791.0,
+  "1981": 83913358.0,
+  "1998": 131547044.0
+ },
+ "district_2023_vs_pbs_rows": {
+  "max_abs_dev_2023": 0.0,
+  "max_abs_dev_2017": 0.0
+ },
+ "units_2023": 590,
+ "districts_2023": 135
+}

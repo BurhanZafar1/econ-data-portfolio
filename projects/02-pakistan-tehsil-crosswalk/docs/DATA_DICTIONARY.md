@@ -48,6 +48,21 @@ For every earlier tehsil, the district(s) it falls in on the later frame: frame_
 ## event_register.csv
 One row per dated change: province, level (district / tehsil), event_type (new_district, tehsil_upgraded_to_district, district_transfer, new_tehsil, renamed, merged, abolished), unit_name, parent_or_source_units, new_or_destination_units, year, date, interval (1998-2017, 2017-2023, post-2023), in_crosswalk (whether the change is visible between two census frames in these tables), notes (one plain sentence), source_url, source_title, confidence (verified: official notification or two independent news reports; reported: one news or Wikipedia source; unverified: not found, year blank).
 
+## population_panel_1998_frame.csv (424 rows), population_panel_1998_frame_districts.csv (114 rows)
+PCO's restatement of the 1951, 1961, 1972 and 1981 censuses on the 1998 frame, plus 1998: unit columns, pop_1951 .. pop_1998, avail_YYYY (pco, or "not separately printed (inside a parent unit)"), mark (PCO footnote mark), note.
+
+## population_panel_2023_frame.csv (590 rows), population_panel_2023_frame_districts.csv (135 rows)
+Every 2023 tehsil (district) at the seven censuses: pop_1951 .. pop_1998 (1998-frame figures pushed through the 1998 -> 2023 population weights), pop_2017 (PBS restatement on 2023 units), pop_2023 (count); flag_YYYY ("complete", or the 1998 source units with no PCO figure that year), method_pre_1998, karachi_division. District file adds the PBS district rows for 2017 and 2023 as a check.
+
+## district_lineage_1951_1998.csv (128 rows)
+province, district_1998, created_year, created_date, parent_districts_1998_names, former_names, existed_1951 / 1961 / 1972 / 1981 (yes / no / unclear), notes, source_url, source_title, confidence (verified / reported / unverified). Extra rows for historical units that are not 1998 districts (Hazara, Dir, Makran, Quetta-Pishin, Kachhi, Tamboo, Bolan Pass, Umerkot, Karachi East/West/South/Central/Malir).
+
+## district_frames_by_census.csv
+census_year, province, historical_district, status (district, princely state, Federal Capital Area, agency), n_1998_districts, members_1998, population (PCO, on 1998 boundaries), all_members_have_pco_figure.
+
+## crosswalk_district_historical_to_1998.csv (479 rows), crosswalk_district_historical_to_2023.csv (604 rows)
+census_year, province, historical_district, district_1998 (and tehsil_1998 where a two-parent district is split at tehsil level), pop_census_year_on_1998_unit, pop_historical_district, weight (sums to 1 over the historical district), weight_basis (pco_restatement_exact, or proxy_shares_from_YYYY), method, lineage_confidence, lineage_source, note. The 2023 file chains through the 1998 -> 2023 district weights: historical_district -> district_2023 with weight, persons_moved, via_1998, conf_1998_to_2023.
+
 ## unit_master_1998.csv (457 rows), district_master_1998.csv (114 rows)
 The 1998 frame from the PCO 1951-98 report: province_1998, district_1998, unit_1998, unit_type_1998, pop_1998, pop_1981, pop_1972, pop_1961, pop_1951, area_km2, mark (the report's footnote marks), frame_note (the 36 Karachi, Lahore and Peshawar town rows), unit_id_1998. The crosswalk uses this file with the three town-frame districts collapsed to one unit each (build/intermediate/unit_master_1998_solved_frame.csv, 424 units).
 
