@@ -34,6 +34,12 @@ X.loc[(X.area_2017_source!='pbs_2017_table1')&(X.area_basis!='identity'),'area_b
 X['area_1998_pco_km2']=X.unit_id_1998.map(m98.area_km2)          # PCO 1951-98 report, check column only
 X['area_1998_implied_km2']=X.groupby('unit_id_1998').area_ij.transform('sum')
 X['frame_note_1998']=X.unit_id_1998.map(m98.frame_note).fillna('')
+# district as it stood on census day (1 March 1998) where the PCO report's frame differs
+def census_day_district(d,u):
+    if d=='MIRPUR KHAS DISTRICT' and u in ('UMERKOT TALUKA','KUNRI TALUKA','SAMARO TALUKA','PITHORO TALUKA'): return 'UMERKOT DISTRICT'   # district 1993-2000; PBS 1998 total 663,095
+    if d=='NUSHKI DISTRICT': return 'CHAGAI DISTRICT'   # Nushki became a district c. 2004
+    return d
+X['district_1998_at_census']=[census_day_district(d,u) for d,u in zip(X.district_1998,X.unit_1998)]
 X['karachi_division']=X.district_2017.isin(KARACHI)|X.district_1998.isin(KARACHI)
 A=X.drop(columns=['area_ij']).sort_values(['unit_id_1998','unit_id_2017']).reset_index(drop=True)
 A.to_csv(OUT+'crosswalk_tehsil_1998_to_2017.csv',index=False)
@@ -45,17 +51,18 @@ print('implied 1998 area vs PCO 1998 area: median ratio %.3f, within 10%% for %d
 Yk=Y[['unit_id_2017','unit_id_2023','province_2023','district_2023','unit_2023','unit_type_2023','pop_2023','pop_weight','area_weight','confidence','area_2023_km2']].rename(columns={'pop_weight':'pw23','area_weight':'aw23','confidence':'conf23'})
 Z=X.merge(Yk,on='unit_id_2017',how='left'); assert Z.unit_id_2023.notna().all()
 Z['flow_1998_k']=Z.flow_1998*Z.pw23; Z['area_k']=Z.area_ij*Z.aw23
-Z['conf']=np.minimum(Z.confidence.map({'high':2,'medium':1}),Z.conf23.map({'high':2,'medium':1}))
+Z['conf']=np.minimum(Z.confidence.map({'high':2,'medium':1,'low':0}),Z.conf23.map({'high':2,'medium':1,'low':0}))
 g=Z.groupby(['unit_id_1998','unit_id_2023'],as_index=False).agg(flow_1998=('flow_1998_k','sum'),area_ik=('area_k','sum'),conf=('conf','min'),
     via_2017=('unit_2017',lambda s:'; '.join(sorted(set(s)))),province_2023=('province_2023','first'),district_2023=('district_2023','first'),unit_2023=('unit_2023','first'),unit_type_2023=('unit_type_2023','first'),pop_2023=('pop_2023','first'))
 for c in ['province_1998','district_1998','unit_1998','unit_type_1998','pop_1998']: g[c]=g.unit_id_1998.map(X.drop_duplicates('unit_id_1998').set_index('unit_id_1998')[c])
 g['pop_weight']=g.flow_1998/g.pop_1998
 g['area_weight']=g.area_ik/g.groupby('unit_id_1998').area_ik.transform('sum')
-g['confidence']=g.conf.map({2:'high',1:'medium'})
+g['confidence']=g.conf.map({2:'high',1:'medium',0:'low'})
 g['weight_basis']='chained: 1998->2017 PBS restatement x 2017->2023 PBS restatement'
 g['frame_note_1998']=g.unit_id_1998.map(m98.frame_note).fillna('')
+g['district_1998_at_census']=g.unit_id_1998.map(X.drop_duplicates('unit_id_1998').set_index('unit_id_1998').district_1998_at_census)
 g['karachi_division']=g.district_2023.isin(KARACHI)|g.district_1998.isin(KARACHI)
-C=g[['unit_id_1998','province_1998','district_1998','unit_1998','unit_type_1998','pop_1998','unit_id_2023','province_2023','district_2023','unit_2023','unit_type_2023','pop_2023','flow_1998','pop_weight','area_weight','via_2017','weight_basis','confidence','frame_note_1998','karachi_division']]
+C=g[['unit_id_1998','province_1998','district_1998','district_1998_at_census','unit_1998','unit_type_1998','pop_1998','unit_id_2023','province_2023','district_2023','unit_2023','unit_type_2023','pop_2023','flow_1998','pop_weight','area_weight','via_2017','weight_basis','confidence','frame_note_1998','karachi_division']]
 C=C.sort_values(['unit_id_1998','unit_id_2023']).reset_index(drop=True)
 C['flow_1998']=C.flow_1998.round(2)
 C.to_csv(OUT+'crosswalk_tehsil_1998_to_2023.csv',index=False)
@@ -64,7 +71,7 @@ print('1998->2023 rows',len(C),'| 1998 units',C.unit_id_1998.nunique(),'| 2023 u
 # ---- c) district tables
 def district_table(T,yr_new,pop_new_col,area_src):
     key=['province_1998','district_1998',f'province_{yr_new}',f'district_{yr_new}']
-    D=T.groupby(key,as_index=False).agg(flow_1998=('flow_1998','sum'),area=(area_src,'sum'),conf=('confidence',lambda c:'medium' if (c=='medium').any() else 'high'),n_tehsil_rows=('flow_1998','size'))
+    D=T.groupby(key,as_index=False).agg(flow_1998=('flow_1998','sum'),area=(area_src,'sum'),conf=('confidence',lambda c:'low' if (c=='low').any() else 'medium' if (c=='medium').any() else 'high'),n_tehsil_rows=('flow_1998','size'))
     D['pop_1998']=D.district_1998.map(T.groupby('district_1998').pop_1998.apply(lambda s:s.groupby(level=0).first().sum()) if False else T.drop_duplicates('unit_id_1998').groupby('district_1998').pop_1998.sum())
     D['pop_weight']=D.flow_1998/D.pop_1998
     D['area_weight']=D.area/D.groupby('district_1998').area.transform('sum')

@@ -134,12 +134,19 @@ def solve_group(old,new,adjacency=None,label='',district_flows=None,pin_equal=Tr
     assert F is not None, label
     assert (F.sum(1)==P).all() and (F.sum(0)==Q).all(), label
     opened=[(i,j) for i in range(m) for j in range(n) if F[i,j]>0]
-    ambiguous=set()
+    # grade every opened cell that is not a same-name pair:
+    #   forced     - the group cannot balance without it (re-solve with the cell forbidden is infeasible)   -> high
+    #   inferred   - a balancing alternative exists but costs more under the adjacency prior              -> medium
+    #   ambiguous  - an equally cheap alternative exists                                                   -> low
+    grade={}
     for (i,j) in opened:
-        if NM[i,j]: continue
+        if NM[i,j]: grade[(i,j)]='same_name'; continue
         F2,obj2=_solve(P,Q,W,forbid=[(i,j)],fixed=fixed,block_eq=block,allowed=allowed)
-        if F2 is not None and obj2<=obj+1e-6: ambiguous.add((i,j))
-    print(f'   done in {time.time()-t0:.1f}s, {len(opened)} cells, {len(ambiguous)} ambiguous',flush=True)
+        if F2 is None: grade[(i,j)]='forced'
+        elif obj2<=obj+1e-6: grade[(i,j)]='ambiguous'
+        else: grade[(i,j)]='inferred'
+    ambiguous={c for c,g in grade.items() if g=='ambiguous'}; inferred={c for c,g in grade.items() if g=='inferred'}
+    print(f'   done in {time.time()-t0:.1f}s, {len(opened)} cells, {len(inferred)} inferred, {len(ambiguous)} ambiguous',flush=True)
     rows=[]
     outdeg=(F>0).sum(1); indeg=(F>0).sum(0)
     for (i,j) in opened:
@@ -147,13 +154,15 @@ def solve_group(old,new,adjacency=None,label='',district_flows=None,pin_equal=Tr
         elif outdeg[i]>1 and indeg[j]==1: method='split'
         elif outdeg[i]==1 and indeg[j]>1: method='merge'
         else: method='split_and_merge'
-        if NM[i,j]: note='same name'
+        g=grade[(i,j)]
+        if g=='same_name': note='same name'; conf='high'
         else:
-            note=f'{F[i,j]:,} persons (1998 count) of {old.name.iloc[i]} fall in {new.name.iloc[j]} (cell cost {W[i,j]:.2f})'
-            if (i,j) in ambiguous: note+='; an equally parsimonious alternative allocation exists'
-        conf='medium' if (i,j) in ambiguous else 'high'
+            note=f'{F[i,j]:,} persons (source-year count) of {old.name.iloc[i]} fall in {new.name.iloc[j]} (cell cost {W[i,j]:.2f}); '
+            if g=='forced': note+='forced: the group cannot balance without this cell'; conf='high'
+            elif g=='inferred': note+='inferred: another balancing allocation exists but is less parsimonious under the adjacency prior'; conf='medium'
+            else: note+='ambiguous: an equally parsimonious alternative allocation exists'; conf='low'
         rows.append((old.id.iloc[i],new.id.iloc[j],int(F[i,j]),method,conf,note))
-    return rows,('medium' if ambiguous else 'high')
+    return rows,('low' if ambiguous else 'medium' if inferred else 'high')
 
 def components(edges):
     """edges: iterable of (old_key,new_key) -> list of (set(old), set(new))"""

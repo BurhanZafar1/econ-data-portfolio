@@ -98,3 +98,43 @@ check_crosswalk <- function(cw) {
     invisible(NA)
   }
 }
+
+# Historical district maps (1951, 1961, 1972, 1981) -> 1998 or 2023 districts.
+# These tables (crosswalk_district_historical_to_1998.csv / _to_2023.csv) carry one population weight
+# per row and are keyed by census_year and historical_district. `data` must have one row per
+# historical district for one census year, named as in district_frames_by_census.csv.
+apply_historical <- function(data, cw, census_year, id = "historical_district",
+                             counts = character(0), rates = character(0)) {
+  cw <- cw[cw$census_year == census_year, ]
+  if (!nrow(cw)) stop("no rows for census_year ", census_year)
+  to_id <- if ("district_2023" %in% names(cw)) "district_2023" else "district_1998"
+  if (anyDuplicated(data[[id]])) stop("data must have one row per historical district")
+  missing_units <- setdiff(data[[id]], cw$historical_district)
+  if (length(missing_units)) warning(length(missing_units), " historical districts not in crosswalk, e.g. ",
+                                     paste(head(missing_units, 5), collapse = ", "))
+  m <- merge(cw, data, by.x = "historical_district", by.y = id, suffixes = c("", ".data"))
+  dcol <- function(v) if (v %in% names(cw)) paste0(v, ".data") else v
+  m$flow <- m$weight * m$pop_historical_district
+  out <- do.call(rbind, lapply(split(m, m[[to_id]]), function(g) {
+    r <- data.frame(tid = g[[to_id]][1], n_sources = length(unique(g$historical_district)),
+                    min_lineage_confidence = if (any(g$lineage_confidence == "unverified")) "unverified"
+                                             else if (any(g$lineage_confidence == "reported")) "reported" else "verified",
+                    any_proxy_weight = any(grepl("^proxy", g$weight_basis)), stringsAsFactors = FALSE)
+    for (v in counts) r[[v]] <- sum(g$weight * g[[dcol(v)]], na.rm = TRUE)
+    for (v in rates)  r[[v]] <- if (sum(g$flow[!is.na(g[[dcol(v)]])]) > 0)
+      sum(g$flow * g[[dcol(v)]], na.rm = TRUE) / sum(g$flow[!is.na(g[[dcol(v)]])]) else NA_real_
+    r
+  }))
+  names(out)[names(out) == "tid"] <- to_id
+  rownames(out) <- NULL
+  out
+}
+
+check_historical <- function(cw) {
+  for (y in sort(unique(cw$census_year))) {
+    s <- cw[cw$census_year == y, ]
+    w <- tapply(s$weight, s$historical_district, sum)
+    cat(y, ": ", length(w), " historical districts; weights sum to 1: ", all(abs(w - 1) < 1e-6),
+        "; proxy rows: ", sum(grepl("^proxy", s$weight_basis)), "\n", sep = "")
+  }
+}

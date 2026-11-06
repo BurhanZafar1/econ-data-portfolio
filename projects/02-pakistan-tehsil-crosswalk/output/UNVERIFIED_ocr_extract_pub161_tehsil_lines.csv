@@ -1,0 +1,223 @@
+province,district,unit,tier,pop_1998_ocr,line
+KHYBER PAKHTUNKHWA,CHITRAL DISTRICT,CHITRAL DISTRICT,district,318689.0,CHITRAL DISTRICT                               14850         105724      113057      159000     208560      318689
+KHYBER PAKHTUNKHWA,CHITRAL DISTRICT,Chitral Sub-Division,Sub-Division,184874.0,Chitral Sub-Division                            6458                      54844       876 17     12 1641     184874
+KHYBER PAKHTUNKHWA,CHITRAL DISTRICT,Mastuj Sub-Division,Sub-Division,133815.0,Mastuj Sub-Division                              8392                     58213       7 1383      86919      133815
+KHYBER PAKHTUNKHWA,UPPER DIR DISTRICT,UPPER DIR DISTRICT,district,575858.0,UPPER DIR DISTRICT                              3699         148648 *    385183 *    251045     362565      575858
+KHYBER PAKHTUNKHWA,UPPER DIR DISTRICT,Dir Sub-Division,Sub-Division,343464.0,"Dir Sub-Division                                3050                          -,     153276     222271      343464"
+KHYBER PAKHTUNKHWA,UPPER DIR DISTRICT,Wari Sub-Division,Sub-Division,232394.0,Wari Sub-Division                                 649                                 97769      140294     232394
+KHYBER PAKHTUNKHWA,LOWER DIR DISTRICT,LOWER DIR DISTRICT,district,717649.0,LOWER DIR DISTRICT                               1582                                277481     404844      717649
+KHYBER PAKHTUNKHWA,LOWER DIR DISTRICT,Timargara Sub-Division,Sub-Division,528292.0,Timargara Sub-Division                           11 63                               204833     297967      528292
+KHYBER PAKHTUNKHWA,LOWER DIR DISTRICT,Jandul Sub-Division,Sub-Division,189357.0,Jandul Sub-Division                               419                                 72648     106877      189357
+KHYBER PAKHTUNKHWA,SWAT DISTRICT,SWAT DISTRICT,district,1257602.0,SWAT DISTRICT                                   5337        283720      344859       520614     715938     1257602
+KHYBER PAKHTUNKHWA,SWAT DISTRICT,Swat Tehsll,Tehsll,1006234.0,Swat Tehsll                               4654                                   413246          569687     1006234
+KHYBER PAKHTUNKHWA,SWAT DISTRICT,Matta Tehsil,Tehsil,251368.0,Matta Tehsil                                683                                  107368          14625 1     25 1368
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,SHANGLA DISTRICT,district,434563.0,SHANGLA DISTRICT                          1586        107731        121528        179813         251546      434563
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Alpuri Tehsil,Tehsil,172960.0,Alpuri Tehsil                               663        44473         50701         76 108        102742      172960
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Besham Tehsil,Tehsil,57739.0,Besham Tehsil                               184        12331         13972         21240          31022       57739
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,C hakesar Tehsil,Tehsil,67317.0,C hakesar Tehsil                            227        16520         18953         27408          38806       6731 7
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Puran Tehsil,Tehsil,79106.0,Puran Tehsil                                297        18454         21158         32521          45432       791 06
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Martoong Tehsil,Tehsil,57441.0,Martoong Tehsil                             215        15953         16744         22536          33544       57441
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Swat Ra nizai Tehsil,Tehsil,260295.0,Swat Ra nizai Tehsil                        672                      69817        105283         146050      260295
+KHYBER PAKHTUNKHWA,SHANGLA DISTRICT,Sam Ranizai Tehsil,Tehsil,191996.0,Sam Ranizai Tehsil                          280                      638 10        80589         111 747     19 1996
+KHYBER PAKHTUNKHWA,KOHIST AN DISTRICT,KOHIST AN DISTRICT,district,472570.0,KOHIST AN DISTRICT                            7492                                      204521      465237    472570
+KHYBER PAKHTUNKHWA,KOHIST AN DISTRICT,Dassu Tehsil,Tehsil,184746.0,Dassu Tehsil                                  4158                                      121529      180124     184746
+KHYBER PAKHTUNKHWA,KOHIST AN DISTRICT,Pattan Tehsil,Tehsil,122211.0,Pattan Tehsil                                 3334 •                                     82992 ••   161428     122211
+KHYBER PAKHTUNKHWA,KOHIST AN DISTRICT,Palas Tehsil,Tehsil,165613.0,Palas Tehsil                                                                                        123685     1656 13
+KHYBER PAKHTUNKHWA,MANSEHRA DISTRICT,MANSEHRA DISTRICT,district,1152839.0,MANSEHRA DISTRICT                             4579        737320 #       69733 1 #      748422      770235    1152839
+KHYBER PAKHTUNKHWA,MANSEHRA DISTRICT,Mansehra Tehsil,Tehsil,574975.0,Mansehra Tehsil                               1340        159394         216132         315637      394766    574975
+KHYBER PAKHTUNKHWA,MANSEHRA DISTRICT,Balakot Tehsil,Tehsil,214630.0,Balakot Tehsil                                23 76        75369          89743         127287      1523 19   214630
+KHYBER PAKHTUNKHWA,MANSEHRA DISTRICT,Oghi Tehsil,Tehsil,188552.0,Oghi Tehsil                                    409         25868          68 100        109918      139223     188552
+KHYBER PAKHTUNKHWA,BATAGRAM DISTRICT,BATAGRAM DISTRICT,district,307278.0,BATAGRAM DISTRICT                             1301                        94357         174009      33911 9   307278
+KHYBER PAKHTUNKHWA,BATAGRAM DISTRICT,Batagram Tehsil,Tehsil,185626.0,Batagram Tehsil                                 497                        72394         117909      204164    185626
+KHYBER PAKHTUNKHWA,BATAGRAM DISTRICT,Allai Tehsil,Tehsil,121652.0,Allai Tehsil                                    804                        21963          56 100     134955    121652
+KHYBER PAKHTUNKHWA,ABBOTTABAD DISTRICT,ABBOTTABAD DISTRICT,district,880666.0,ABBOTTABAD DISTRICT                            1967        318775        354452         524826       647635    880666
+KHYBER PAKHTUNKHWA,ABBOTTABAD DISTRICT,Abbottabad Tehsil,Tehsil,88066.0,Abbottabad Tehsil                               1967        3 18775    354452         524826          64763 5         88
+KHYBER PAKHTUNKHWA,HARIPUR DISTRICT,HARIPUR DISTRICT,district,692228.0,HARIPUR DISTRICT                                1725        252168     273507         417561          479031          69
+KHYBER PAKHTUNKHWA,HARIPUR DISTRICT,Haripur Tehsil,Tehsil,579179.0,Haripur Tehsil                                  I 7'25 **   213773     219965         3460 18         39 1470         57
+KHYBER PAKHTUNKHWA,HARIPUR DISTRICT,G hazi Tehsil,Tehsil,113049.0,G hazi Tehsil                                                .>8395      5]542         715-B           8756 1         11
+KHYBER PAKHTUNKHWA,MA RDAN DISTRICT,MA RDAN DISTRICT,district,1460100.0,MA RDAN DISTRICT                                1632        357455     481297         696622          88 1465        146
+KHYBER PAKHTUNKHWA,MA RDAN DISTRICT,Mardan Tehsil,Tehsil,1057394.0,Mardan Tehsil .                                 1311        2636 10     3507 16       515943          640260         105
+KHYBER PAKHTUNKHWA,MA RDAN DISTRICT,Takht Bh ai Tehsil,Tehsil,402706.0,Takht Bh ai Tehsil                               32 1        93845      130581        180679          241205          40
+KHYBER PAKHTUNKHWA,MA RDAN DISTRICT,Swabi Tehsil,Tehsil,722001.0,Swabi Tehsil                                  88 1       190370        232138          360246        438388      722001
+KHYBER PAKHTUNKHWA,MA RDAN DISTRICT,Lahor Tehsil,Tehsil,304803.0,Lahor Tehsil                                  662         81909        100405           147385        186647     304803
+KHYBER PAKHTUNKHWA,CHARSADDA DISTRICT,CHARSADDA DISTRICT,district,1022364.0,CHARSADDA DISTRICT                            996       282618         364088          513193        630811     1022364
+KHYBER PAKHTUNKHWA,CHARSADDA DISTRICT,Charsadda Tehsil,Tehsil,767903.0,Charsadda Tehsil                              649       21 6503        280509          396001         481119     767903
+KHYBER PAKHTUNKHWA,PESHAWAR DISTRICT,PESHAWAR DISTRICT,district,2026851.0,PESHAWAR DISTRICT                            1257       390687         529158          807012        1113303    2026851
+KHYBER PAKHTUNKHWA,PESHAWAR DISTRICT,Peshawar Tehsil,Tehsil,2026851.0,Peshawar Tehsil                              1257       390687         529158          8070 12       1113303    202685 1
+KHYBER PAKHTUNKHWA,NOWS HERA DISTRICT,NOWS HERA DISTRICT,district,874373.0,NOWS HERA DISTRICT                           1748       222527         276937          4!0718        537638      874373
+KHYBER PAKHTUNKHWA,NOWS HERA DISTRICT,Nowshera Tehsil,Tehsil,874373.0,Nowshera Tehsil                             1748        222527          276937       4107 18         537638      874373
+KHYBER PAKHTUNKHWA,KOHAT DISTRICT,KOHAT DISTRICT,district,562644.0,KOHAT DISTRICT                                2545     143955    169942      264465    326617     562644
+KHYBER PAKHTUNKHWA,KOHAT DISTRICT,Kohat Tehsil,Tehsil,562644.0,Kohat Tehsil                                  2545     143955    169942      264465    326617     562644
+KHYBER PAKHTUNKHWA,HANGU DISTRICT,HANGU DISTRICT,district,314529.0,HANGU DISTRICT                                1097      55167     87163      125721      182474   3 14529
+KHYBER PAKHTUNKHWA,HANGU DISTRICT,Hangu Tehsil,Tehsil,314529.0,Hangu Tehsil                                  1097      55167     87163      125721      182474   314529
+KHYBER PAKHTUNKHWA,KARAK DISTRICT,KARAK DISTRICT,district,430796.0,KARAK DISTRICT                               3372      99908    121 199     191204    249681     430796
+KHYBER PAKHTUNKHWA,KARAK DISTRICT,Karak Tehsil,Tehsil,162128.0,Karak Tehsil                                  1906 *    392 16    48348       72070      94 192    162128
+KHYBER PAKHTUNKHWA,KARAK DISTRICT,Banda Daud Shah Tehsil,Tehsil,98626.0,Banda Daud Shah Tehsil                        1466      26859     33756       48998      59172      98626
+KHYBER PAKHTUNKHWA,KARAK DISTRICT,Takht-e-Nasriti Tehsil,Tehsil,170042.0,Takht-e-Nasriti Tehsil                                  33833     39095       70136      96317     170042
+KHYBER PAKHTUNKHWA,BANN U DISTRICT,BANN U DISTRICT,district,675667.0,BANN U DISTRICT                              1227     185434      2221 73           341690         422027      675667
+KHYBER PAKHTUNKHWA,BANN U DISTRICT,Bannu Tehsil,Tehsil,675667.0,Bannu Tehsil                                 1227     185-B-1     222173            3-1 11190      -122027      675667
+KHYBER PAKHTUNKHWA,LAKK I MARWAT DISTRICT,LAKK I MARWAT DISTRICT,district,490025.0,LAKK I MARWAT DISTRICT                      3164      117612      153126            225529         288759       490025
+KHYBER PAKHTUNKHWA,LAKK I MARWAT DISTRICT,Lakki Marwat Tehsil,Tehsil,190025.0,Lakki Marwat Tehsil                         3164     11 76 1~    153 126           225529         288759       -190025
+KHYBER PAKHTUNKHWA,D.l.KHAN DISTRICT,D.l.KHAN DISTRICT,district,852995.0,D.l.KHAN DISTRICT                            7326     222895      271888            380229         -194432      852995
+KHYBER PAKHTUNKHWA,D.l.KHAN DISTRICT,D.l.Khan Tehsil,Tehsil,193628.0,D.l.Khan Tehsil                             4557 *    11-1770     1-15-122          211 649        276918       -193628
+KHYBER PAKHTUNKHWA,D.l.KHAN DISTRICT,Pahar Pur Tehsil,Tehsil,100273.0,Pahar Pur Tehsil                                       59762       67-176            90892         1 1 92~ 1    100273
+KHYBER PAKHTUNKHWA,D.l.KHAN DISTRICT,Kulachi Tehsil,Tehsil,159091.0,Kulachi Tehsil                              '2769      -18..163    58990             776XX          98223        15909-1
+KHYBER PAKHTUNKHWA,TANK DISTRICT,TANK DISTRICT,district,238216.0,TANK DISTRICT                                1679      53076       80359             93389         141062       238216
+KHYBER PAKHTUNKHWA,TANK DISTRICT,Tank Tehsil,Tehsil,238216.0,Tank Tehsil                                   1679    5)076        80)59             9]389         1-11062      238216
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,BAJAUR AGENCY,district,595227.0,BAJAUR AGENCY                 1290          320985    280200      364050     289206      595227
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Barang Tehsil,Tehsil,50139.0,Barang Tehsil                                                                 44048       50 139
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Bar Chamer Kand Tehsil,Tehsil,3247.0,Bar Chamer Kand Tehsil                                                        34376        3247
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Khar Bajaur Tehsil,Tehsil,116196.0,Khar Bajaur Tehsil                                                            36874      11 6196
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Mamund Tehsil,Tehsil,168283.0,Mamund Tehsil                                                                 83102      168283
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Salarzai Tehsil,Tehsil,141750.0,Salarzai Tehsil                                                               62 172     141750
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Utmankhel(Qzafi) Tehsil,Tehsil,58348.0,Utmankhel(Qzafi) Tehsil                                                       28634       58348
+KHYBER PAKHTUNKHWA,BAJAUR AGENCY,Nawagai Tehsil,Tehsil,57264.0,Nawagai Tehsil                                                                            57264
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,MOHMAND AGENCY,district,334453.0,MOHMAND AGENCY                2296          129300    294215      382922     163933      334453
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Halimzai Tehsil,Tehsil,48418.0,Halimzai Tehsil                                                               26783       484 18
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Pindiali Tehsil,Tehsil,51276.0,Pindiali Tehsil                                                               2367 1      51276
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Safi Tehsil,Tehsil,71503.0,Safi Tehsil                                                                   35708       71503
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Upper Mohmand Tehsil,Tehsil,80177.0,Upper Mohmand Tehsil                                                          48757       80 177
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Utman Khel (Ambar) Tehsil,Tehsil,30728.0,Utman Khel (Ambar) Tehsil                                                     166 13      30728
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Yake Ghuncl Tehsil,Tehsil,33731.0,Yake Ghuncl Tehsil                                                            12401       3373 1
+KHYBER PAKHTUNKHWA,MOHMAND AGENCY,Pringh ar Tehsil,Tehsil,,Pringh ar Tehsil                                                                                     IX620
+KHYBER PAKHTUNKHWA,KHYBER AGENCY,KHYBER AGENCY,district,546730.0,KHYBER AGENCY                       2576     216622    3013 19          378032           284256    546730
+KHYBER PAKHTUNKHWA,KHYBER AGENCY,Bara Tehsil,Tehsil,2861114.0,Bara Tehsil                                                             24231 5          142501    28611!4
+KHYBER PAKHTUNKHWA,KHYBER AGENCY,Jamrud Tehsil,Tehsil,961118.0,Jamrud Tehsil                                                            67 16 1          60748     96 11!8
+KHYBER PAKHTUNKHWA,KHYBER AGENCY,Landi Kota l Tehsil,Tehsil,144714.0,Landi Kota l Tehsil                                                      68556            81007    144714
+KHYBER PAKHTUNKHWA,KHYBER AGENCY,Mula G hori Tehsil,Tehsil,19644.0,Mula G hori Tehsil                                                                                  19644
+KHYBER PAKHTUNKHWA,KURRAM AGENCY,KURRAM AGENCY,district,448310.0,KURRAM AGENCY                       3380     158420    200512           279998           294362    4483!0
+KHYBER PAKHTUNKHWA,KURRAM AGENCY,Upper K urram Tehsil,Tehsil,185571.0,Upper K urram Tehsil                                                                     118476    18557 1
+KHYBER PAKHTUNKHWA,KURRAM AGENCY,Lower Kurram Tehsil,Tehsil,81323.0,Lower Kurram Tehsil                                            .-                         53073     81323
+KHYBER PAKHTUNKHWA,KURRAM AGENCY,Kurra m F.R.,F.R.,181416.0,Kurra m F.R.                                                                             122813    1814 16
+KHYBER PAKHTUNKHWA,KURRAM AGENCY,Lower Tehsil,Tehsil,65416.0,Lower Tehsil                                                                              7 1582    654 16
+FATA,,ls m11ilZ11i Tehsil,Tehsil,28843.0,ls m11ilZ11i Tehsil                                                                             -!811 6    28843
+FATA,,Datta Khel Tehsil,Tehsil,110006.0,Datta Khel Tehsil                                                                               72880     I 10006
+FATA,,Oossali Tehsil,Tehsil,20482.0,Oossali Tehsil                                                                                  I 1895     20482
+FATA,,Garyum Tehsil,Tehsil,3917.0,Garyum Tehsil                                                                                    51 84      39 17
+FATA,,Mir Ali Tehsil,Tehsil,93855.0,Mir Ali Tehsil                                                                                  49304      93855
+FATA,,Mira n Sha h Tehsil,Tehsil,67530.0,Mira n Sha h Tehsil                                                                             47427      67530
+FATA,,Razmak Tehsil,Tehsil,5729.0,Razmak Tehsil                                                                                   10562       5729
+FATA,,Spinwam Tehsil,Tehsil,23520.0,Spinwam Tehsil                                                                                  32344      23520
+FATA,,Shewa Tehsil,Tehsil,22956.0,Shewa Tehsil                                                                                               22956
+FATA,,Makin(C harlai) Tehsil,Tehsil,30528.0,Makin(C harlai) Tehsil                                                                          24238      30528
+FATA,,Sa rarogha Tehsil,Tehsil,72063.0,Sa rarogha Tehsil                                                                               2 1355     72063
+FATA,,Sarwekai Tehsil,Tehsil,31472.0,Sarwekai Tehsil                                                                                         32676     3 1472
+FATA,,Tiarza Tehsil,Tehsil,37708.0,Tiarza Tehsil                                                                                           22207     37708
+FATA,,Wa na Tehsil,Tehsil,90772.0,Wa na Tehsil                                                                                            76222     90772
+FATA,,Birma l Tehsil,Tehsil,58512.0,Birma l Tehsil                                                                                                    58512
+FATA,,\lianw ali Tehsil,Tehsil,532156.0,\lianw ali Tehsil                                     2689            1 7 1 65~         22 1957           306058        
+FATA,,Chiniot Tehsil,Tehsil,,Chiniot Tehsil                      2643     3296 15     396948         570775            694080      %5 124
+FATA,TORA TEh'. Sl :-.IGH DISTRICT,TORA TEh'. Sl :-.IGH DISTRICT,district,1621593.0,TORA TEh'. Sl :-.IGH DISTRICT             3252     615582      706800         1os.u.t2     I 134572     1621593
+SINDH,JACOBABAD DISTRICT,JACOBABAD DISTRICT,district,1425572.0,JACOBABAD DISTRICT                5278       344889     427737         709967         1011212      1425572
+SINDH,JACOBABAD DISTRICT,Jacobabad Taluka,Taluka,267998.0,"Jacobabad Taluka                   664        67805      ""90049        135482          18 11 63     267998"
+SINDH,JACOBABAD DISTRICT,Garhi i..:hairo Taluka,Taluka,117207.0,Garhi i..:hairo Taluka             73:l       45934       51048         73878          102236       11 7207
+SINDH,JACOBABAD DISTRICT,Thul Taluka,Taluka,356705.0,Thul Taluka                       1301        74979       91796        192754          302835       356705
+SINDH,JACOBABAD DISTRICT,Kandhkot Taluka,Taluka,393501.0,Kandhkot Taluka                   1277        99642     11 9413        186036          246 199      393501
+SINDH,JACOBABAD DISTRICT,Kashmor Taluka,Taluka,290161.0,Kashmor Taluka                    1303        56529      75431         12181 7         178779       29016 1
+SINDH,JACOBABAD DISTRICT,Shikarpur Taluka,Taluka,272493.0,Shikarpur Taluka                   56 1      101745     106370         163534         180385       272493
+SINDH,JACOBABAD DISTRICT,Khanpur Taluka,Taluka,191681.0,Khanpur Taluka                     629        59690      58963          88417         100 139      19 1681
+SINDH,JACOBABAD DISTRICT,Ga rhi Yasin Taluka,Taluka,227966.0,Ga rhi Yasin Taluka                97 1       88492     87050          156804         145692       227966
+SINDH,JACOBABAD DISTRICT,Lakhi Taluka,Taluka,188298.0,Lakhi Taluka                       35 1      56080      62397          121 796        170 193      188298
+SINDH,LARKANA DISTRICT,LARKANA DISTRICT,district,,LARKANA DISTRICT                                    7423     501538    604460        921457       1138580    192706<1
+SINDH,LARKANA DISTRICT,Miro Khan Taluka,Taluka,181808.0,Miro Khan Taluka                                     752      5 1078     59593        98035        112058     18 1808
+SINDH,LARKANA DISTRICT,Dokri Taluka,Taluka,308975.0,Dokri Taluka                                         837      82297     11 3389      165 194       185869     308975
+SINDH,LARKANA DISTRICT,Kambar Ali Khan Taluka,Taluka,268934.0,Kambar Ali Khan Taluka                              2260      81813      91612       139327        166332     268934
+SINDH,LARKANA DISTRICT,Warah Taluka,Taluka,283227.0,Warah Taluka                                        1002      66094      816 17      136328        163206     283227
+SINDH,"Sl'KKl""R DISTRICT","Sl'KKl""R DISTRICT",district,908373.0,"Sl'KKl""R DISTRICT                                   5165     218321     27227 1      451287       560566      908373"
+SINDH,"Sl'KKl""R DISTRICT",Rohri Taluka,Taluka,224362.0,Rohri Taluka                                        3658 •    6.t560     76044       111367        137271     224362
+SINDH,"Sl'KKl""R DISTRICT",Salehpat Taluka,Taluka,64646.0,Salehpat Taluka                          8340      9704        33364        31947      64646
+SINDH,Gl-IOTKI DISTRICT,Gl-IOTKI DISTRICT,district,,Gl-IOTKI DISTRICT              6083    179823    221020       -'02-H6      562105     9705-'9
+SINDH,Gl-IOTKI DISTRICT,Ghotki Taluka,Taluka,298634.0,Ghotki Taluka                   763     56969     74080        1311 65     182 123    298634
+SINDH,Gl-IOTKI DISTRICT,Daharki Taluka,Taluka,201495.0,Daharki Taluka                2088      26444     31968        75005       111481     20 1495
+SINDH,Gl-IOTKI DISTRICT,Khairpur Taluka,Taluka,288655.0,Khairpur Taluka               585      67593    93477        130904       1756 13   288655
+SINDH,Gl-IOTKI DISTRICT,Kingri Taluka,Taluka,214066.0,Kingri Taluka                  53 1     52620    71620        109462       14432 1   214066
+SINDH,Gl-IOTKI DISTRICT,F11iz Ganj Taluka,Taluka,116436.0,F11iz Ganj Taluka                                   9-16         28057     50992      74-199    102775     1-16436
+SINDH,Gl-IOTKI DISTRICT,Kaniliaro Taluka,Taluka,316788.0,Kaniliaro Taluka                                    934          80574     99458     185954     207855     3 16788
+SINDH,Gl-IOTKI DISTRICT,Bhiria Taluka,Taluka,265206.0,Bhiria Taluka                                       686          65980     99227     147024     193307     265206
+SINDH,Gl-IOTKI DISTRICT,Moro Taluka,Taluka,265251.0,Moro Taluka                                         609          6 1298    79749     22 115 1   255771     26525 1
+SINDH,Gl-IOTKI DISTRICT,Sakrand Taluka,Taluka,269860.0,Sakrand Taluka                   1394    . 49500     67337       177069          231572      269860
+SINDH,Gl-IOTKI DISTRICT,Oa ulatpur Taluka,Taluka,246797.0,Oa ulatpur Taluka                 556     57 100     85 138      194682          216 180     246797
+SINDH,DAl>l1 DISTRICT,DAl>l1 DISTRICT,district,1688811.0,DAl>l1 DISTRICT                 19070    418963    -'87167        8!0987        !081611     1688811
+SINDH,DAl>l1 DISTRICT,Mehar Taluka,Taluka,318053.0,Mehar Taluka                      928      81984    106345        163211         194056     318053
+SINDH,DAl>l1 DISTRICT,K.N.Shah Taluka,Taluka,253309.0,K.N.Shah Taluka                  2583     63228      76627        120729         155905     253309
+SINDH,DAl>l1 DISTRICT,Schwa n Taluka,Taluka,170589.0,Schwa n Taluka                   2347     46587      51965         89708         117637     170589
+SINDH,DAl>l1 DISTRICT,Oadu Taluka,Taluka,327972.0,Oadu Taluka                       846     75558      89789        142353         187487     327972
+SINDH,DAl>l1 DISTRICT,Johi Taluka,Taluka,207383.0,Johi Taluka                      350l)    74632     70 178       130376          168221     207383
+SINDH,DAl>l1 DISTRICT,Kotri Taluka,Taluka,307679.0,Kotri Taluka                     3653     49109     63118        11 3752         183583     307679
+SINDH,HYDERABAD DISTRICT,HYDERABAD DISTRICT,district,2891488.0,HYDERABAD DISTRICT                                 5519          643208          955619         1659185        2059026  
+SINDH,HYDERABAD DISTRICT,Hyderabad City Taluka,Taluka,525299.0,Hyderabad City Taluka                                 43         242651          436 171         630624        39485 3  
+SINDH,HYDERABAD DISTRICT,L11tifabad Taluka,Taluka,563761.0,L11tifabad Taluka                                    204           3780            7968           1451 7       366799   
+SINDH,HYDERABAD DISTRICT,Hydera bad Taluka,Taluka,290432.0,Hydera bad Taluka                                                 6943 1          87636          159471        211 765  
+SINDH,HYDERABAD DISTRICT,Qasimabad Taluka,Taluka,115374.0,Qasimabad Taluka                                                   3370            5225            9448         32043   
+SINDH,HYDERABAD DISTRICT,Gohirchi Taluka,Taluka,199197.0,Gohirchi Taluka                                      1765           33670      44834          118464        137854    19
+SINDH,HYDERABAD DISTRICT,!\latli Taluka,Taluka,283273.0,!\latli Taluka                                       1143           66169     84610           134122        21431 I   28
+SINDH,HYDERABAD DISTRICT,Tando Bag ho Taluka,Taluka,298114.0,Tando Bag ho Taluka                                  1734           67550     90321           158283        194043    29
+SINDH,TIHTTA DISTRICT,TIHTTA DISTRICT,district,1113194.0,TIHTTA DISTRICT                                    17355          286253      360266         676036         761039    11
+SINDH,TIHTTA DISTRICT,Thatta Taluka,Taluka,253748.0,Thatta Taluka                                       3823            64568    75746           149521        170737    253
+SINDH,TIHTTA DISTRICT,Ghorabari Taluka,Taluka,105482.0,Ghorabari Taluka                                    1018           251 17    272 15          54644          74 149   105
+SINDH,TIHTTA DISTRICT,Khipro Taluka,Taluka,,Khipro Taluka                                      5933           77072       85614          147221             205555  
+SINDH,TIHTTA DISTRICT,Jam :'i11waz Ali Taluka,Taluka,90091.0,Jam :'i11waz Ali Taluka                             440           23650       33056           S'.i364            6J686  
+SINDH,TIHTTA DISTRICT,Kot Ghulam Muhammad Taluka,Taluka,179008.0,Kot Ghulam Muhammad Taluka                      762         43374     51318           73916         104490    179008
+SINDH,TIHTTA DISTRICT,Digri Taluka,Taluka,298652.0,Digri Taluka                                   1075         65517     80734          123440         185819    298652
+SINDH,t:MERKOT DISTRICT,t:MERKOT DISTRICT,district,663095.0,t:MERKOT DISTRICT                              5608        145976     173872         265683         383018    663095
+SINDH,t:MERKOT DISTRICT,Samaro Taluka,Taluka,112647.0,Samaro Taluka                                   959         2732 1     29605          4676 1         68458    11 2647
+SINDH,t:MERKOT DISTRICT,limerkot Taluka,Taluka,312753.0,limerkot Taluka                                3209         66555      74573         115678         165039    3 12753
+SINDH,t:MERKOT DISTRICT,Pithoro Taluka,Taluka,79480.0,Pithoro Taluka                                  855         21550      23225          37057         51 162     79480
+SINDH,THARPARKAR DISTRICT,THARPARKAR DISTRICT,district,914291.0,THARPARKAR DISTRICT                           19638        249280     290402         359357         540985    914291
+SINDH,THARPARKAR DISTRICT,Diplo Taluka,Taluka,161880.0,Diplo Taluka                                  4037           36870     427 16         74647         105428    161880
+SINDH,THARPARKAR DISTRICT,Mithi Taluka,Taluka,241548.0,Mithi Taluka                                  5340           63933    775 18         113638         154431    241 548
+SINDH,KARAC lll WEST DISTRICT,KARAC lll WEST DISTRICT,district,2105923.0,KARAC lll WEST DISTRICT                               929                                                          91269
+SINDH,KARAClll CENTRAL DISTRICT,KARAClll CENTRAL DISTRICT,district,2277931.0,KARAClll CENTRAL DISTRICT                               69                                                        135700
+SINDH,\L\ l.IR DISTRICT,\L\ l.IR DISTRICT,district,,\L\ l.IR DISTRICT                                    2268                                                          -1295
+BALOCHISTAN,,Tafla n Sub-Division,Sub-Division,21695.0,Tafla n Sub-Division                        254 10                          4699           7498      13246     2169S
+BALOCHISTAN,,Nokundi Sub-Tehsil,Sub-Tehsil,14029.0,Nokundi Sub-Tehsil                                                          3030           6150      11183      14029
+BALOCHISTAN,LORAL\! DISTRICT,LORAL\! DISTRICT,district,297555.0,LORAL\! DISTRICT                             9830          86735 **        56644         !04068     235038    297555
+BALOCHISTAN,LORAL\! DISTRICT,Loralai Sub-Division,Sub-Division,134171.0,Loralai Sub-Division                         3785                          232'}3         41615      97887     134171
+BALOCHISTAN,LORAL\! DISTRICT,Mekhtar Sub-Tehsil,Sub-Tehsil,31745.0,Mekhtar Sub-Tehsil                                                          8944           9809      21699      31745
+BALOCHISTAN,LORAL\! DISTRICT,Duki Sub-Division,Sub-Division,115976.0,Duki Sub-Division                            6045 #                       22771          42751      106168     115976
+BALOCHISTAN,LORAL\! DISTRICT,Duki Tehsil,Tehsil,115976.0,Duki Tehsil                                                               22771          4275 1     106 168    11 5976
+BALOCHISTAN,LORAL\! DISTRICT,Sinjawi Sub-Division,Sub-Division,47408.0,Sinjawi Sub-Division                                                       10579          19702     30983      47408
+BALOCHISTAN,BARKl-IAi'I DISTRICT,BARKl-IAi'I DISTRICT,district,103545.0,BARKl-IAi'I DISTRICT                         3514                            29756         44704    61686     103545
+BALOCHISTAN,BARKl-IAi'I DISTRICT,Barkh11n Sub-Division,Sub-Division,103545.0,Barkh11n Sub-Division             3514            29756            -14704      6 1686    103545
+BALOCHISTAN,BARKl-IAi'I DISTRICT,Barlmon Tehsil,Tehsil,103545.0,Barlmon Tehsil                                    29756            44704       6 1686    103545
+BALOCHISTAN,MllSAKHEL DISTRICT,MllSAKHEL DISTRICT,district,134056.0,MllSAKHEL DISTRICT                5728            24320            38547       91174     134056
+BALOCHISTAN,MllSAKHEL DISTRICT,Musakhel Tehsil,Tehsil,109234.0,Musakhel Tehsil                                    18153           29351       73290     109234
+BALOCHISTAN,MllSAKHEL DISTRICT,Kingri Sub-Tehsil,Sub-Tehsil,24822.0,Kingri Sub-Tehsil                                  6167             9196        17884     24822
+BALOCHISTAN,KILLA SAIHILLAH DISTRICT,KILLA SAIHILLAH DISTRICT,district,193553.0,KILLA SAIHILLAH DISTRICT          6831            37577            72086       1-48362   193553
+BALOCHISTAN,KILLA SAIHILLAH DISTRICT,Ziarat Sub-Division,Sub-Division,33340.0,Ziarat Sub-Division                                1489                          5274          17986        32 196      
+BALOCHISTAN,"h'.0111.l"" DISTRICT","h'.0111.l"" DISTRICT",district,99846.0,"h'.0111.l"" DISTRICT                                7610                         28 101        55497         71269       "
+BALOCHISTAN,"h'.0111.l"" DISTRICT",Mawand Tehsil,Tehsil,24056.0,Mawand Tehsil                                                                                    10716       12929      
+BALOCHISTAN,DERA Bl;GTI DISTRICT,DERA Bl;GTI DISTRICT,district,181310.0,DERA Bl;GTI DISTRICT                             10160 *                           32049         52718      103821     1
+BALOCHISTAN,DERA Bl;GTI DISTRICT,Sui Sub-Division,Sub-Division,69218.0,Sui Sub-Division                                                                   11606         10495       37735      
+BALOCHISTAN,DERA Bl;GTI DISTRICT,Malam Sub-Tehsil,Sub-Tehsil,16575.0,Malam Sub-Tehsil                                                                    1964          4480        633 1     
+BALOCHISTAN,DERA Bl;GTI DISTRICT,Jhat Pat Sub-Division,Sub-Division,272587.0,Jhat Pat Sub-Division                                  1467               53950          105665       158203    272587
+BALOCHISTAN,DERA Bl;GTI DISTRICT,Tamboo Tehsil,Tehsil,91341.0,Tamboo Tehsil                                                             10152          16660        56464     91341
+BALOCHISTAN,DERA Bl;GTI DISTRICT,.Jhal M11gsi Sub-Division,Sub-Division,63588.0,.Jhal M11gsi Sub-Division                                                       338-l3          46665         39308     
+BALOCHISTAN,DERA Bl;GTI DISTRICT,Jhal Magsi Tehsil,Tehsil,63588.0,Jhal Magsi Tehsil                                                               33843           46665         39308     
+BALOCHISTAN,h:Al ..-\T DISTRICT,h:Al ..-\T DISTRICT,district,237834.0,h:Al ..-\T DISTRICT                              6622 •        298267           30821           71 746       209149     
+BALOCHISTAN,h:Al ..-\T DISTRICT,Kalal Tehsil,Tehsil,86565.0,Kalal Tehsil                                                                     22 185         50008         592 19    
+BALOCHISTAN,h:Al ..-\T DISTRICT,Johan Sub-Tehsil,Sub-Tehsil,12299.0,Johan Sub-Tehsil                                                                                              21850     
+BALOCHISTAN,h:Al ..-\T DISTRICT,Gazg Sub-Tehsil,Sub-Tehsil,3979.0,Gazg Sub-Tehsil                                                                                                6204     
+BALOCHISTAN,Klll 1ZDr\R DISTRICT,Klll 1ZDr\R DISTRICT,district,,Klll 1ZDr\R DISTRICT             35380 *             71214         146207       276-449    -H7466
+BALOCHISTAN,Klll 1ZDr\R DISTRICT,Wadh Sub-Tehsil,Sub-Tehsil,52333.0,Wadh Sub-Tehsil                                     19 152       39226     35263       52333
+BALOCHISTAN,".\\\""..\RA;\ DISTRICT",".\\\""..\RA;\ DISTRICT",district,118173.0,".\\\""..\RA;\ DISTRICT          29510                31893        51918     110353     118173"
+BALOCHISTAN,".\\\""..\RA;\ DISTRICT",Jhal Jao Sub-Tehsil,Sub-Tehsil,34214.0,Jhal Jao Sub-Tehsil                                                        2829 1      34214
+BALOCHISTAN,"h'.H .-\R\:""\ DISTRICT","h'.H .-\R\:""\ DISTRICT",district,206909.0,"h'.H .-\R\:""\ DISTRICT         -t8051    .f9.f13    388-t5       76800     1280-tO    206909"
+BALOCHISTAN,"h'.H .-\R\:""\ DISTRICT",Mashkhel Sub-Tehsil,Sub-Tehsil,29844.0,Mashkhel Sub-Tehsil                                                    55 16       10784      14763    29844
+BALOCHISTAN,LASBELA DISTRICT,LASBELA DISTRICT,district,31269.0,LASBELA DISTRICT                               15153        68189    82997        125263     188139   31269~
+BALOCHISTAN,LASBELA DISTRICT,Lakhra Tehsil,Tehsil,25474.0,Lakhra Tehsil                                                          9727        14630     19807     25474
+BALOCHISTAN,LASBELA DISTRICT,Liari Sub-Tehsil,Sub-Tehsil,7846.0,Liari Sub-Tehsil                                                      4368          52 11     8007      7846
+BALOCHISTAN,LASBELA DISTRICT,Kanraj Sub-Division,Sub-Division,8116.0,Kanraj Sub-Division                                                   2394         4477       6287      8116
+BALOCHISTAN,LASBELA DISTRICT,Kanraj Tehsil,Tehsil,8116.0,Kanraj Tehsil                                                         2394         4477       6287      8116
+BALOCHISTAN,LASBELA DISTRICT,Hub Sub-Division,Sub-Division,131690.0,Hub Sub-Division                                   3903              21039        33705      47604    131690
+BALOCHISTAN,LASBELA DISTRICT,Gadani Sub-Tehsil,Sub-Tehsil,18957.0,Gadani Sub-Tehsil                                                     32 10        7104      12452    18957
+BALOCHISTAN,LASBELA DISTRICT,Ourejl Sub-Division,Sub-Division,31504.0,Ourejl Sub-Division                            28 13                      10036         15389       25652     31504
+BALOCHISTAN,KECH DISTRICT,KECH DISTRICT,district,413204.0,KECH DISTRICT                                 22539            83631      70326        147978      379467    413204
+BALOCHISTAN,KECH DISTRICT,Kech (Turbat) Sub-Division,Sub-Division,194961.0,Kech (Turbat) Sub-Division                    15791    •                  41900         91982      168914    19496 1
+BALOCHISTAN,KECH DISTRICT,Kech Tehsil,Tehsil,157142.0,Kech Tehsil                                                               41900         91 982     147920    157142
+BALOCHISTAN,KECH DISTRICT,Hoshab Sub-Tehsil,Sub-Tehsil,37819.0,Hoshab Sub-Tehsil                                                                                   20994     37819
+BALOCHISTAN,KECH DISTRICT,Buleda Sub-Division,Sub-Division,73107.0,Buleda Sub-Division                                                                                 82804     73107
+BALOCHISTAN,KECH DISTRICT,Zamuran Sub-Tehsil,Sub-Tehsil,39842.0,Zamuran Sub-Tehsil                                                                                  60133     39842
+BALOCHISTAN,KECH DISTRICT,Dasht Sub-Division,Sub-Division,58621.0,Dasht Sub-Division                                                         8066         15007       399 19    5862 1
+BALOCHISTAN,G\VA l>AR DISTRICT,G\VA l>AR DISTRICT,district,185498.0,G\VA l>AR DISTRICT             12637     40630      49661          90820        11 2385   185498
+BALOCHISTAN,G\VA l>AR DISTRICT,Gwatlar Sub-Division,Sub-Division,109748.0,Gwatlar Sub-Division            50 19               25325          48756         57360    109748

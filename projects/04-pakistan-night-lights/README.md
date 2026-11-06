@@ -16,7 +16,7 @@ Two independent source series are provided, because no single public dataset cov
 | Known problem | 2014-2016 under-record dim lights (see VALIDATION.md) | 2013-2016 a quarter below 2012 and 2017 at the sensor change |
 | Files | ntl_A_harmonizedDN_*.csv | ntl_B_viirslike_*.csv |
 
-Series B is the one to start with for a single long series in physical units; series A is the standard DMSP-era reference and the better choice for 1992-2013 work. Across the 135 districts of the four provinces the two agree closely (correlation of log sum-of-lights 0.79 to 0.94 in every year).
+Series B is the one to start with for a single long series in physical units; series A is the standard DMSP-era reference and the better choice for 1992-2013 work. Across the 135 districts of the four provinces the two agree closely (correlation of log sum-of-lights 0.79 to 0.94 in every year), with one caveat at the dim end: in series A's VIIRS-converted years (2014 onward) remote districts show a faint glow that series B does not see; the dn_*_gt7 columns remove it (VALIDATION.md).
 
 ## Files
 ```
@@ -25,6 +25,8 @@ output/ntl_B_viirslike_district_2023frame_1992_2025.csv   one row per district a
 output/ntl_A_harmonizedDN_tehsil_2023frame_1992_2024.csv  (21,417 rows)
 output/ntl_A_harmonizedDN_district_2023frame_1992_2024.csv (5,148 rows)
 output/*_wide_*.csv                                       the sum-of-lights measure, one column per year
+output/panel_ntl_census_tehsil_2023frame.csv              analysis panel: both series joined to the crosswalked census populations (1951-2023) on 2023 units, with light per 1,000 people in census years
+output/panel_ntl_census_district_2023frame.csv            the same at district level
 output/boundaries_tehsil_2023.gpkg, boundaries_district_2023.gpkg, boundaries_units_2023.csv   the polygons used, with areas
 output/validation_summary.json, docs/VALIDATION.md
 code/01_download_nightlights.py   downloads and md5-checks series A (1.1 GB)
@@ -32,6 +34,7 @@ code/02_prepare_boundaries.py     repairs the PBS 2023 polygons and computes geo
 code/03_zonal_stats.py            series A statistics
 code/04_zonal_stats_viirs_like.py series B statistics (clips the 10 GB global files to Pakistan first)
 code/05_checks.py                 checks and the validation report
+code/06_merge_with_census.py      joins the light tables to the census population panel from project 02
 code/ntl_common.py                shared functions (pixel areas, exact zonal statistics)
 raw/                              inputs as downloaded (not in the repository because of size; see Sources)
 ```
@@ -42,7 +45,7 @@ raw/                              inputs as downloaded (not in the repository be
 - Series B: rad_sum (radiance summed over pixels, each weighted by the share of the pixel inside the unit), rad_mean (area-weighted mean radiance), rad_max, rad_lit_share (share of the unit's area with radiance above 0), rad_sum_km2 (radiance times pixel area, summed; the "sum of lights" that is comparable between a tehsil in Punjab and one in Balochistan), rad_per_km2 (= rad_sum_km2 / pixel_area_km2), log1p_rad_sum_km2, rad_sum_gt1_km2 and rad_lit_share_gt1 (the same two counting only pixels above 1 nW/cm2/sr), coverage_pixels, series_note.
 - Series A: the same with dn_ in place of rad_, and dn_sum_gt7_km2 / dn_lit_share_gt7 for the DN > 7 floor the authors recommend.
 
-For a regression the usual choices are log1p_rad_sum_km2 (or log1p_dn_sum_km2) and rad_per_km2 (density). Use rad_mean when comparing units of very different size. Zeros are real: many Balochistan tehsils had no detectable light in the 1990s.
+For a regression the usual choices are log1p_rad_sum_km2 (or log1p_dn_sum_km2) and rad_per_km2 (density). Use rad_mean when comparing units of very different size. Zeros are real: many Balochistan tehsils had no detectable light in the 1990s. The merged panel adds pop_census (the census population in 1998, 2017 and 2023, blank in other years; nothing is interpolated) and rad_sum_km2_per_1000 / dn_sum_km2_per_1000 (light per thousand people in census years), together with the constant-frame population history pop_1951 .. pop_2023 on every row.
 
 ## Method in plain words
 For each year the global raster is cut to a window around Pakistan. For every polygon, every pixel that touches it contributes in proportion to the share of the pixel's area that lies inside (exactextract), so a pixel on the border between two tehsils is split between them rather than given to one. Pixel areas are computed from the cell size and the row's latitude, so sums are in km2 terms. Districts are computed from their own polygons and checked against the sum of their tehsils (they agree to 0.2 percent at the median; the gaps come from the two PBS layers not nesting perfectly along the Karachi coast and in two AJK districts). Nothing is interpolated or modelled; every number is a weighted sum or mean of published pixel values.
@@ -53,6 +56,7 @@ pip install rasterio geopandas exactextract pyproj pandas numpy
 python code/01_download_nightlights.py            # series A rasters
 # series B: download the <year>_Version2.zip files listed in raw/viirs_like_list.txt into raw/viirs_like_v2/
 python code/02_prepare_boundaries.py && python code/03_zonal_stats.py && python code/04_zonal_stats_viirs_like.py && python code/05_checks.py
+python code/06_merge_with_census.py      # needs ../pk_crosswalk/output (or set CROSSWALK_OUTPUT to projects/02-pakistan-tehsil-crosswalk/output)
 ```
 The whole run takes about ten minutes on a laptop after the downloads.
 

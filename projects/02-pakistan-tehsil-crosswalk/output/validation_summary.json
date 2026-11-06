@@ -1,5 +1,5 @@
 {
- "tehsil_rows": 612,
+ "tehsil_rows": 613,
  "units_2017": 535,
  "units_2017_in_frame": 535,
  "units_2023": 590,
@@ -30,21 +30,21 @@
   }
  },
  "confidence": {
-  "high": 530,
-  "medium": 82
+  "high": 580,
+  "medium": 33
  },
  "weight_basis": {
-  "pbs_restatement": 554,
-  "pbs_restatement+lp_adjacency": 58
+  "pbs_restatement_exact": 525,
+  "pbs_restatement+milp_adjacency": 88
  },
  "area_basis": {
-  "identity": 481,
-  "pbs_area_2023_exact": 101,
-  "pbs_area_2023_uniform_density": 30
+  "identity": 479,
+  "pbs_area_2023_exact": 99,
+  "pbs_area_2023_uniform_density": 35
  },
  "relation_counts": {
-  "one_to_one": 481,
-  "split_or_transfer_2017_units": 54,
-  "2023_units_with_multiple_sources": 19
+  "one_to_one": 479,
+  "split_or_transfer_2017_units": 56,
+  "2023_units_with_multiple_sources": 22
  }
 }

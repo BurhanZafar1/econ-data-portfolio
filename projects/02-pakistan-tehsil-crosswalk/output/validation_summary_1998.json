@@ -9,8 +9,9 @@
   "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
   "tehsil_conservation_max_abs_dev": 0,
   "confidence": {
-   "high": 594,
-   "medium": 4
+   "high": 532,
+   "medium": 62,
+   "low": 4
   },
   "method": {
    "one_to_one": 274,
@@ -61,16 +62,17 @@
   }
  },
  "tehsil_1998_to_2023": {
-  "rows": 678,
+  "rows": 680,
   "units_1998": 424,
   "units_2023": 590,
   "pop_weight_sum_max_abs_dev": 3.3306690738754696e-16,
   "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
-  "total_1998_persons_in": 131547044.01,
+  "total_1998_persons_in": 131547044.02,
   "total_1998_persons_pco": 131547044,
   "confidence": {
-   "high": 587,
-   "medium": 91
+   "high": 575,
+   "medium": 101,
+   "low": 4
   },
   "split_1998_units": 143
  },

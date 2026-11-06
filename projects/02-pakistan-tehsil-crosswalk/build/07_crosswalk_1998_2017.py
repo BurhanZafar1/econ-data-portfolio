@@ -86,7 +86,7 @@ for gi,(o98,n17) in enumerate(sorted(groups,key=lambda g:sorted(g[1])[0])):
         drows,dconf=solve_group(dold,dnew,None,label+' [district level]')
         for a,b,f,meth,c,note in drows:
             dlog.append(dict(group=label,district_1998=a,district_2017=b,flow_1998=f,method=meth,confidence=c,note=note))
-            if dconf=='high': dflows[(a,b)]=f
+            if dconf in ('high','medium'): dflows[(a,b)]=f
         if dconf!='high': print('   district-level flows ambiguous; tehsil solve runs unconstrained',flush=True)
     if old['n'].sum()!=new['n'].sum():
         log.append(dict(group=label,pop98=int(old['n'].sum()),pop17_restated=int(new['n'].sum()))); print('IMBALANCE',label,old['n'].sum(),new['n'].sum()); continue

@@ -18,7 +18,7 @@
   "chained_weights_sum_to_1": true
  },
  "1972": {
-  "historical_districts": 59,
+  "historical_districts": 60,
   "weights_sum_to_1": true,
   "population_allocated": 65071791.0,
   "pco_tehsil_panel_total": 63203087.0,
@@ -27,7 +27,7 @@
   "chained_weights_sum_to_1": true
  },
  "1981": {
-  "historical_districts": 73,
+  "historical_districts": 74,
   "weights_sum_to_1": true,
   "population_allocated": 83913358.0,
   "pco_tehsil_panel_total": 83913358.0,

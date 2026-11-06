@@ -5,7 +5,23 @@ date are kept with confidence 'unverified' and a blank year, so the register say
 import pandas as pd, numpy as np, glob, re
 OUT='output/'
 cols=['province','level','event_type','unit_name','parent_or_source_units','new_or_destination_units','year','date','interval','notes','source_url','source_title','confidence']
-E=pd.concat([pd.read_csv(f) for f in sorted(glob.glob('build/intermediate/events/events_*.csv'))],ignore_index=True)[cols]
+first=[f for f in sorted(glob.glob('build/intermediate/events/events_*.csv')) if 'pass2' not in f]
+E=pd.concat([pd.read_csv(f) for f in first],ignore_index=True)[cols]
+# second research pass: replaces a first-pass row (same province and unit_name) when it dated the event or raised its grade
+P2=pd.concat([pd.read_csv(f) for f in sorted(glob.glob('build/intermediate/events/events_*_pass2.csv'))],ignore_index=True)[cols]
+rank={'verified':2,'reported':1,'unverified':0}
+E['_k']=E.province.str.upper()+'|'+E.unit_name.str.upper().str.strip(); P2['_k']=P2.province.str.upper()+'|'+P2.unit_name.str.upper().str.strip()
+replaced=0
+for k,r in P2.set_index('_k').iterrows():
+    idx=E.index[(E._k==k)&(E.level=='tehsil')]
+    if len(idx)==0: continue
+    cur=E.loc[idx[0]]
+    if rank.get(str(r.confidence).strip().lower(),0)>rank.get(str(cur.confidence).strip().lower(),0) or (pd.isna(cur.year) and not pd.isna(r.year)):
+        for c in cols: E.loc[idx[0],c]=r[c]
+        E.loc[idx[0],'notes']=str(r['notes'])+' (second research pass)'; replaced+=1
+    elif str(r.confidence).strip().lower()=='unverified' and isinstance(r['notes'],str) and len(r['notes'])>20:
+        E.loc[idx[0],'notes']=str(cur['notes'])+' Second pass: '+r['notes']
+E=E.drop(columns='_k'); print('second pass replaced',replaced,'rows')
 E['unit_name']=E.unit_name.str.replace(r'\s*\(not in input\)','',regex=True).str.strip()
 isnote=E.unit_name.str.contains('FRAME NOTE|reference row',case=False,regex=True)
 E.loc[isnote,['level','event_type']]=['note','note']

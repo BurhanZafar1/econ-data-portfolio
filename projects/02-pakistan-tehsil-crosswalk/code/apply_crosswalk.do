@@ -141,3 +141,42 @@ program define check_crosswalk
     }
     else di as txt "no PBS restatement exists for `from' on `to' units (chained table); total conservation only"
 end
+
+* Historical district maps (1951, 1961, 1972, 1981) -> 1998 or 2023 districts, using
+* crosswalk_district_historical_to_1998.csv or _to_2023.csv. The dataset in memory must have one row
+* per historical district (variable historical_district, names as in district_frames_by_census.csv)
+* for one census year.
+capture program drop apply_historical
+program define apply_historical
+    version 14
+    syntax , CW(string) YEAR(integer) [COUNTS(varlist) RATES(varlist)]
+    tempfile src cwf
+    isid historical_district
+    save `src'
+    import delimited using "`cw'", clear varnames(1) case(preserve) encoding(utf8) stringcols(_all)
+    destring census_year weight pop_historical_district, replace
+    keep if census_year == `year'
+    capture confirm variable district_2023
+    if _rc == 0 local tovar district_2023
+    else local tovar district_1998
+    gen double flow = weight * pop_historical_district
+    gen byte proxy = strpos(weight_basis, "proxy") > 0
+    keep historical_district `tovar' weight flow proxy lineage_confidence
+    save `cwf'
+    use `src', clear
+    merge 1:m historical_district using `cwf', keep(match) nogenerate
+    foreach v of local counts {
+        replace `v' = `v' * weight
+    }
+    local rsum
+    foreach v of local rates {
+        gen double `v'_num = `v' * flow
+        gen double `v'_den = cond(missing(`v'), 0, flow)
+        local rsum `rsum' `v'_num `v'_den
+    }
+    collapse (sum) `counts' `rsum' (count) n_sources=weight (max) any_proxy_weight=proxy, by(`tovar')
+    foreach v of local rates {
+        gen double `v' = `v'_num / `v'_den
+        drop `v'_num `v'_den
+    }
+end
