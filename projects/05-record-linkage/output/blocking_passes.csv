@@ -1,0 +1,6 @@
+pass,pairs_alone,completeness_alone,pairs_cumulative,completeness_cumulative
+postcode,28609,0.8438,28609,0.8438
+surname soundex + birth year,4624,0.7006,30306,0.9592
+given name soundex + birth year,4820,0.67,31837,0.9748
+date of birth,5107,0.8938,32536,0.988
+surname soundex + given name soundex,3750,0.61,33263,0.9962

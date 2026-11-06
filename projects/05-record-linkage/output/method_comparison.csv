@@ -1,0 +1,6 @@
+method,links,true_links_found,false_links,missed_links,precision,recall,f1
+Exact merge on name and birth date,2079,2079,0,2921,1.0,0.4158,0.5873710976126572
+"Fellegi-Sunter, all fields",4975,4974,1,26,0.9997989949748743,0.9948,0.9972932330827068
+"Fellegi-Sunter, all fields, one to one",4974,4974,0,26,1.0,0.9948,0.9973932223781832
+"Fellegi-Sunter, names, birth date, state",4116,4101,15,899,0.9963556851311953,0.8202,0.8997367266344888
+"Fellegi-Sunter, names, birth date, state, one to one",4101,4101,0,899,1.0,0.8202,0.9012196461927261

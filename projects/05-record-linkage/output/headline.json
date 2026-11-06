@@ -1,0 +1,22 @@
+{
+  "records_a": 5000,
+  "records_b": 5000,
+  "true_links": 5000,
+  "full_cross_product": 25000000,
+  "candidate_pairs": 33263,
+  "reduction_ratio": 0.99866948,
+  "pair_completeness": 0.9962,
+  "em_iterations": 8,
+  "estimated_match_share": 0.14961994635053344,
+  "estimated_matches_in_candidates": 4976.808275457794,
+  "true_matches_in_candidates": 4981,
+  "model_predicted_precision_at_0.5": 0.9997348366102565,
+  "actual_precision_at_0.5": 0.9997989949748743,
+  "person_only_candidate_pairs": 8725,
+  "person_only_pair_completeness": 0.9654,
+  "person_only_model_predicted_precision": 0.932897686450653,
+  "person_only_actual_precision": 0.9963556851311953,
+  "review_band_pairs": 21,
+  "review_band_true_share": 0.42857142857142855,
+  "match_weight_cutoff_bits": 2.5068052389960025
+}
