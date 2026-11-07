@@ -1,0 +1,121 @@
+{
+  "analysis_sample_n_by_cycle": {
+    "1999-2000": 4041,
+    "2001-2002": 4486,
+    "2003-2004": 4197,
+    "2005-2006": 4209,
+    "2007-2008": 5377,
+    "2009-2010": 5718,
+    "2011-2012": 5020,
+    "2013-2014": 5332,
+    "2015-2016": 5248,
+    "2017-2018": 4948
+  },
+  "htn140_age_std": {
+    "1999-2000": {
+      "estimate": 25.9,
+      "lower95": 23.0,
+      "upper95": 29.0
+    },
+    "2017-2018": {
+      "estimate": 27.5,
+      "lower95": 24.9,
+      "upper95": 30.2
+    }
+  },
+  "htn140_crude": {
+    "1999-2000": {
+      "estimate": 28.5,
+      "lower95": 25.3,
+      "upper95": 31.9
+    },
+    "2017-2018": {
+      "estimate": 34.9,
+      "lower95": 31.6,
+      "upper95": 38.4
+    }
+  },
+  "sbp_age_std": {
+    "Male": {
+      "1999-2000": {
+        "estimate": 124.3,
+        "lower95": 122.6,
+        "upper95": 125.9
+      },
+      "2017-2018": {
+        "estimate": 123.7,
+        "lower95": 122.5,
+        "upper95": 124.9
+      }
+    },
+    "Female": {
+      "1999-2000": {
+        "estimate": 120.4,
+        "lower95": 119.3,
+        "upper95": 121.6
+      },
+      "2017-2018": {
+        "estimate": 119.3,
+        "lower95": 118.3,
+        "upper95": 120.2
+      }
+    }
+  },
+  "change_htn140_age_std": {
+    "change": 1.6,
+    "lower95": -2.4,
+    "upper95": 5.6
+  },
+  "change_htn140_crude": {
+    "change": 6.5,
+    "lower95": 1.7,
+    "upper95": 11.2
+  },
+  "change_sbp_age_std": {
+    "Both": {
+      "change": -0.9,
+      "lower95": -2.5,
+      "upper95": 0.7
+    },
+    "Male": {
+      "change": -0.5,
+      "lower95": -2.6,
+      "upper95": 1.5
+    },
+    "Female": {
+      "change": -1.2,
+      "lower95": -2.7,
+      "upper95": 0.3
+    }
+  },
+  "sensitivity_us2000_htn140_age_std": {
+    "1999-2000": {
+      "estimate": 29.8,
+      "lower95": 27.0,
+      "upper95": 32.8
+    },
+    "2017-2018": {
+      "estimate": 31.4,
+      "lower95": 28.7,
+      "upper95": 34.4
+    }
+  },
+  "sensitivity_us2000_change_htn140": {
+    "change": 1.6,
+    "lower95": -2.5,
+    "upper95": 5.7
+  },
+  "validation_max_abs_diff_pp": 0.07,
+  "validation_max_abs_diff_pp_all_adults": 0.05,
+  "validation_max_abs_z": 0.05,
+  "validation_n_2017_2018": 5199,
+  "who_weights_20plus": {
+    "20-29": 0.246885,
+    "30-39": 0.225636,
+    "40-49": 0.193075,
+    "50-59": 0.151647,
+    "60-69": 0.102117,
+    "70-79": 0.057021,
+    "80+": 0.023618
+  }
+}
