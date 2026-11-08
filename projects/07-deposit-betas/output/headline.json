@@ -1,0 +1,15 @@
+{
+  "sample": "2009-06 to 2026-10",
+  "months": 209,
+  "main_nobs": 66,
+  "last_month": "2026-10",
+  "fedfunds_last": 3.88,
+  "cost_per_bn_now_musd": 6.255,
+  "cost_per_bn_month12_musd": {
+    "Hold": 6.508,
+    "Cut 100bp": 5.927,
+    "Hike 50bp": 7.068
+  },
+  "cut_vs_hold_musd": -0.58,
+  "hike_vs_hold_musd": 0.56
+}
