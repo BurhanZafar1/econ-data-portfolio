@@ -1,0 +1,29 @@
+{
+  "paper_test_period": "2015-04-27 to 2019-01-28",
+  "out_of_sample_period": "2019-03-01 to 2026-10-08",
+  "n_test_paper": 946,
+  "n_test_out_of_sample": 1913,
+  "always_up_paper_test": 0.6438,
+  "always_up_out_of_sample": 0.6801,
+  "replication_lstm_share_pred_up_min": 0.8425,
+  "model3_paper_params_test_accuracy": 0.6395,
+  "models_auc_ci_above_half": {
+    "baseline_original": 0,
+    "baseline_purged": 0,
+    "lstm_replication": 0,
+    "lstm_scaled": 0,
+    "baseline_extension": 0,
+    "lstm_extension_replication": 0,
+    "lstm_extension_scaled": 0
+  },
+  "best_out_of_sample_auc": 0.5849,
+  "checks_passed": [
+    "paper window has 9875 raw rows, as in the notebook",
+    "9454 rows after features, as in the notebook",
+    "946 test days, as in the report",
+    "test labels match the notebook exactly",
+    "training labels match the notebook exactly",
+    "feature table starts 31 Jul 1981, as in the notebook",
+    "every AUC lies inside its bootstrap interval"
+  ]
+}
