@@ -1,0 +1,7 @@
+method,key,cells,bias_pp,mae_pp,max_abs_error_pp,coverage_95
+No adjustment (self report as is),p_self,40,-1.0954,4.0320,12.1202,
+"Sensitivity and specificity correction, all earlier cycles",rogan_gladen,40,3.3415,4.0836,9.9883,
+"Sensitivity and specificity correction, latest 3 cycles",rogan_gladen_latest_3,40,1.9953,3.1040,9.4638,
+"Logit crosswalk, constant, all earlier cycles",crosswalk_all_cycles,40,2.0511,2.7313,8.1044,0.9500
+"Logit crosswalk, age specific linear trend",crosswalk_linear_trend,40,-0.8504,2.8544,7.7366,0.8500
+"Logit crosswalk, constant, latest 3 cycles",crosswalk_latest_3,40,1.3323,2.2643,5.7854,0.9500

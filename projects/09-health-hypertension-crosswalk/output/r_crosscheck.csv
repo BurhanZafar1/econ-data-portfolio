@@ -1,0 +1,7 @@
+"quantity","max_abs_difference"
+"p_self (100 cells)",4.9563635140526e-10
+"p_meas (100 cells)",4.88237117401980e-10
+"d (100 cells)",4.98114855786158e-10
+"se_d (100 cells)",4.99516414342871e-10
+"crosswalk d (10 cells)",9.87635195848213e-10
+"tau^2",3.95501678282506e-11

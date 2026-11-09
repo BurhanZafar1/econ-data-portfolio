@@ -1,0 +1,31 @@
+{
+  "analysed_adults": 52009,
+  "chosen_crosswalk_age_sex": "crosswalk_latest_3",
+  "chosen_crosswalk_age": "crosswalk_latest_3",
+  "crosswalk_cycles": "2013-2014 to 2017-2018",
+  "tau": 0.06837440890494048,
+  "selection_origins": [
+    "2005-2006",
+    "2007-2008",
+    "2009-2010",
+    "2011-2012"
+  ],
+  "test_origins": [
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "validation_test_cells": 30,
+  "mae_no_adjustment_pp": 4.267633781669004,
+  "mae_sens_spec_pp": 4.098276927908462,
+  "mae_sens_spec_latest_3_pp": 3.7445760004346074,
+  "mae_chosen_pp": 2.2082059431029553,
+  "bias_chosen_pp": -0.3508172985747127,
+  "coverage_chosen": 0.9666666666666667,
+  "age_only_model_mae_pp": 1.8897764352075,
+  "age_only_model_coverage": 0.8666666666666667,
+  "brfss_2017_cells": 299,
+  "brfss_2017_cells_ui_excludes_self_report": 146,
+  "brfss_rows_adjusted": 1197,
+  "brfss_rows_suppressed_by_cdc": 27
+}
