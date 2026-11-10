@@ -1,0 +1,136 @@
+table,page,tier,division,district,unit,area_km2,pop_1951,pop_1961,pop_1972,pop_1981,pop_1998,mark,uncertain,notes
+2,4,province,,,NORTH WEST FRONTIER PROVINCE,74521,4556545,5730991,8388551,11061328,17743645,,no,
+2,4,division,MALAKAND DIVISION,,MALAKAND DIVISION,29871,844669,1221471,1761809,2466767,4262700,,no,
+2,4,district,MALAKAND DIVISION,CHITRAL DISTRICT,CHITRAL DISTRICT,14850,105724,113057,159000,208560,318689,,no,
+2,4,tehsil,MALAKAND DIVISION,CHITRAL DISTRICT,Chitral Sub-Division,6458,,54844,87617,121641,184874,,no,
+2,4,tehsil,MALAKAND DIVISION,CHITRAL DISTRICT,Mastuj Sub-Division,8392,,58213,71383,86919,133815,,no,
+2,4,district,MALAKAND DIVISION,UPPER DIR DISTRICT,UPPER DIR DISTRICT,3699,148648,385183,251045,362565,575858,*,no,* on 1951 and 1961 figures: Includes population of Lower Dir district in 1951 & 1961.
+2,4,tehsil,MALAKAND DIVISION,UPPER DIR DISTRICT,Dir Sub-Division,3050,,,153276,222271,343464,,no,
+2,4,tehsil,MALAKAND DIVISION,UPPER DIR DISTRICT,Wari Sub-Division,649,,,97769,140294,232394,,no,
+2,4,district,MALAKAND DIVISION,LOWER DIR DISTRICT,LOWER DIR DISTRICT,1582,,,277481,404844,717649,,no,1951 and 1961 included in Upper Dir District (see its footnote)
+2,4,tehsil,MALAKAND DIVISION,LOWER DIR DISTRICT,Timargara Sub-Division,1163,,,204833,297967,528292,,no,
+2,4,tehsil,MALAKAND DIVISION,LOWER DIR DISTRICT,Jandul Sub-Division,419,,,72648,106877,189357,,no,
+2,4,district,MALAKAND DIVISION,SWAT DISTRICT,SWAT DISTRICT,5337,283720,344859,520614,715938,1257602,,no,
+2,5,tehsil,MALAKAND DIVISION,SWAT DISTRICT,Swat Tehsil,4654,,,413246,569687,1006234,,no,Footnote * on Mingora M.C. 1972 urban sub-row (51117): Includes 12618 population of Saidu Sharif Town in 1972 which is now part of Mingora MC.
+2,5,tehsil,MALAKAND DIVISION,SWAT DISTRICT,Matta Tehsil,683,,,107368,146251,251368,,no,
+2,5,district,MALAKAND DIVISION,SHANGLA DISTRICT,SHANGLA DISTRICT,1586,107731,121528,179813,251546,434563,,no,
+2,5,tehsil,MALAKAND DIVISION,SHANGLA DISTRICT,Alpuri Tehsil,663,44473,50701,76108,102742,172960,,no,
+2,5,tehsil,MALAKAND DIVISION,SHANGLA DISTRICT,Besham Tehsil,184,12331,13972,21240,31022,57739,,no,
+2,5,tehsil,MALAKAND DIVISION,SHANGLA DISTRICT,Chakesar Tehsil,227,16520,18953,27408,38806,67317,,no,
+2,5,tehsil,MALAKAND DIVISION,SHANGLA DISTRICT,Puran Tehsil,297,18454,21158,32521,45432,79106,,no,
+2,5,tehsil,MALAKAND DIVISION,SHANGLA DISTRICT,Martoong Tehsil,215,15953,16744,22536,33544,57441,,no,
+2,5,district,MALAKAND DIVISION,BUNER DISTRICT,BUNER DISTRICT,1865,109147,123217,187984,265517,506048,,no,
+2,5,tehsil,MALAKAND DIVISION,BUNER DISTRICT,Daggar/Buner Tehsil,1865,109147,123217,187984,265517,506048,,no,
+2,5,district,MALAKAND DIVISION,MALAKAND PROTECTED AREA,MALAKAND PROTECTED AREA,952,89699,133627,185872,257797,452291,,no,
+2,5,tehsil,MALAKAND DIVISION,MALAKAND PROTECTED AREA,Swat Ranizai Tehsil,672,,69817,105283,146050,260295,,no,Footnote ** on Urban 1972 sub-row (26192): Includes 11247 population of Thana Town in 1972 (de-notified).
+2,5,tehsil,MALAKAND DIVISION,MALAKAND PROTECTED AREA,Sam Ranizai Tehsil,280,,63810,80589,111747,191996,,no,Footnote # on Urban 1972 sub-row (40820): Includes 24223 population of Sakhakot Town and 16597 of Dargai Town in 1972 (de-notified).
+2,5,division,HAZARA DIVISION,,HAZARA DIVISION,17064,1308263,1419647,2069339,2701257,3505581,,no,
+2,6,district,HAZARA DIVISION,KOHISTAN DISTRICT,KOHISTAN DISTRICT,7492,,,204521,465237,472570,,no,
+2,6,tehsil,HAZARA DIVISION,KOHISTAN DISTRICT,Dassu Tehsil,4158,,,121529,180124,184746,,no,
+2,6,tehsil,HAZARA DIVISION,KOHISTAN DISTRICT,Pattan Tehsil,3334,,,82992,161428,122211,* **,no,* on area: Includes area figure of Palas Tehsil. ** on 1972: Includes population of Palas Tehsil in 1972.
+2,6,tehsil,HAZARA DIVISION,KOHISTAN DISTRICT,Palas Tehsil,,,,,123685,165613,,no,area printed as dash (included in Pattan Tehsil)
+2,6,district,HAZARA DIVISION,MANSEHRA DISTRICT,MANSEHRA DISTRICT,4579,737320,697331,748422,770235,1152839,#,no,# on 1951 and 1961 figures: Includes population of Kohistan district in 1951 & 61 and Batagram district in 1951.
+2,6,tehsil,HAZARA DIVISION,MANSEHRA DISTRICT,Mansehra Tehsil,1340,159394,216132,315637,394766,574975,,no,
+2,6,tehsil,HAZARA DIVISION,MANSEHRA DISTRICT,Balakot Tehsil,2376,75369,89743,127287,152319,214630,,no,
+2,6,tehsil,HAZARA DIVISION,MANSEHRA DISTRICT,Oghi Tehsil,409,25868,68100,109918,139223,188552,,no,
+2,6,tehsil,HAZARA DIVISION,MANSEHRA DISTRICT,Tribal Area adjoining Mansehra District (F.R.Kala Dhaka),454,142599,151718,195580,83927,174682,,no,
+2,6,district,HAZARA DIVISION,BATAGRAM DISTRICT,BATAGRAM DISTRICT,1301,,94357,174009,339119,307278,,no,1951 included in Mansehra District (see its footnote)
+2,6,tehsil,HAZARA DIVISION,BATAGRAM DISTRICT,Batagram Tehsil,497,,72394,117909,204164,185626,,no,
+2,6,tehsil,HAZARA DIVISION,BATAGRAM DISTRICT,Allai Tehsil,804,,21963,56100,134955,121652,,no,
+2,6,district,HAZARA DIVISION,ABBOTTABAD DISTRICT,ABBOTTABAD DISTRICT,1967,318775,354452,524826,647635,880666,,no,
+2,7,tehsil,HAZARA DIVISION,ABBOTTABAD DISTRICT,Abbottabad Tehsil,1967,318775,354452,524826,647635,880666,,no,Footnote * on Murree Gallies Cantt. 1961 (488): Includes 255 population of Gallies TC in 1961 which is now part of Murree Gallies Cantt.
+2,7,district,HAZARA DIVISION,HARIPUR DISTRICT,HARIPUR DISTRICT,1725,252168,273507,417561,479031,692228,,no,Stray figure 14358 printed under the Urban 1972 sub-row value 45323 (not a row of its own)
+2,7,tehsil,HAZARA DIVISION,HARIPUR DISTRICT,Haripur Tehsil,1725,213773,219965,346018,391470,579179,**,no,** on area: Includes area figure of Ghazi Tehsil. Footnote # on Urban 1951 sub-row (12734): Includes 4755 population of Kot Najibullah Town in 1951 (de-notified). Footnote (black square) on Haripur M.C. 1972 (25245): Includes 10887 population of Haripur Industrial Area TC in 1972 which is now part of Haripur MC.
+2,7,tehsil,HAZARA DIVISION,HARIPUR DISTRICT,Ghazi Tehsil,,38395,53542,71543,87561,113049,,no,area printed as dash (included in Haripur Tehsil). Footnote $ on Urban 1972 sub-row (20078): Includes 5758 population of Ghazi Town & 14320 of Tarbela Dam Project (Right Bank) in 1972 (de-notified).
+2,7,division,MARDAN DIVISION,,MARDAN DIVISION,3175,629734,813840,1204253,1506500,2486904,,no,
+2,7,district,MARDAN DIVISION,MARDAN DISTRICT,MARDAN DISTRICT,1632,357455,481297,696622,881465,1460100,,no,
+2,7,tehsil,MARDAN DIVISION,MARDAN DISTRICT,Mardan Tehsil,1311,263610,350716,515943,640260,1057394,,no,Footnote @ on Mardan M.C. 1972 (111366): Includes 6209 population of Mardan Industrial Area TC in 1972 which is now part of Mardan MC.
+2,7,tehsil,MARDAN DIVISION,MARDAN DISTRICT,Takht Bhai Tehsil,321,93845,130581,180679,241205,402706,,no,
+2,7,district,MARDAN DIVISION,SWABI DISTRICT,SWABI DISTRICT,1543,272279,332543,507631,625035,1026804,,no,
+2,8,tehsil,MARDAN DIVISION,SWABI DISTRICT,Swabi Tehsil,881,190370,232138,360246,438388,722001,,no,Footnote * on Urban 1972 sub-row (67418): Includes 5339 population of Tarbela Dam Project (Left Bank) in 1972 (de-notified).
+2,8,tehsil,MARDAN DIVISION,SWABI DISTRICT,Lahor Tehsil,662,81909,100405,147385,186647,304803,,no,
+2,8,division,PESHAWAR DIVISION,,PESHAWAR DIVISION,4001,895832,1170183,1730923,2281752,3923588,,no,
+2,8,district,PESHAWAR DIVISION,CHARSADDA DISTRICT,CHARSADDA DISTRICT,996,282618,364088,513193,630811,1022364,,no,
+2,8,tehsil,PESHAWAR DIVISION,CHARSADDA DISTRICT,Charsadda Tehsil,649,216503,280509,396001,481119,767903,,no,
+2,8,tehsil,PESHAWAR DIVISION,CHARSADDA DISTRICT,Tangi Tehsil,347,66115,83579,117192,149692,254461,,no,
+2,8,district,PESHAWAR DIVISION,PESHAWAR DISTRICT,PESHAWAR DISTRICT,1257,390687,529158,807012,1113303,2026851,,no,
+2,8,tehsil,PESHAWAR DIVISION,PESHAWAR DISTRICT,Peshawar Tehsil,1257,390687,529158,807012,1113303,2026851,,no,Footnote ** on Urban 1961 sub-row (218691): Includes 806 population of Nishat Mills Area in 1961 (de-notified).
+2,8,district,PESHAWAR DIVISION,NOWSHERA DISTRICT,NOWSHERA DISTRICT,1748,222527,276937,410718,537638,874373,,no,
+2,8,tehsil,PESHAWAR DIVISION,NOWSHERA DISTRICT,Nowshera Tehsil,1748,222527,276937,410718,537638,874373,,no,
+2,9,division,KOHAT DIVISION,,KOHAT DIVISION,7014,299030,378304,581390,758772,1307969,,no,
+2,9,district,KOHAT DIVISION,KOHAT DISTRICT,KOHAT DISTRICT,2545,143955,169942,264465,326617,562644,,no,
+2,9,tehsil,KOHAT DIVISION,KOHAT DISTRICT,Kohat Tehsil,2545,143955,169942,264465,326617,562644,,no,
+2,9,district,KOHAT DIVISION,HANGU DISTRICT,HANGU DISTRICT,1097,55167,87163,125721,182474,314529,,no,
+2,9,tehsil,KOHAT DIVISION,HANGU DISTRICT,Hangu Tehsil,1097,55167,87163,125721,182474,314529,,no,
+2,9,district,KOHAT DIVISION,KARAK DISTRICT,KARAK DISTRICT,3372,99908,121199,191204,249681,430796,,no,
+2,9,tehsil,KOHAT DIVISION,KARAK DISTRICT,Karak Tehsil,1906,39216,48348,72070,94192,162128,*,no,* on area: Includes area figure of Takht-e-Nasrati Tehsil.
+2,9,tehsil,KOHAT DIVISION,KARAK DISTRICT,Banda Daud Shah Tehsil,1466,26859,33756,48998,59172,98626,,no,
+2,9,tehsil,KOHAT DIVISION,KARAK DISTRICT,Takht-e-Nasriti Tehsil,,33833,39095,70136,96317,170042,,no,area cell printed blank (no dash); included in Karak Tehsil. Name spelled Takht-e-Nasriti in row and Takht-e-Nasrati in footnote.
+2,10,division,BANNU DIVISION,,BANNU DIVISION,4391,303046,375299,567219,710786,1165692,,no,
+2,10,district,BANNU DIVISION,BANNU DISTRICT,BANNU DISTRICT,1227,185434,222173,341690,422027,675667,,no,
+2,10,tehsil,BANNU DIVISION,BANNU DISTRICT,Bannu Tehsil,1227,185434,222173,341690,422027,675667,,no,
+2,10,district,BANNU DIVISION,LAKKI MARWAT DISTRICT,LAKKI MARWAT DISTRICT,3164,117612,153126,225529,288759,490025,,no,
+2,10,tehsil,BANNU DIVISION,LAKKI MARWAT DISTRICT,Lakki Marwat Tehsil,3164,117612,153126,225529,288759,490025,,no,
+2,10,division,D.I.KHAN DIVISION,,D.I.KHAN DIVISION,9005,275971,352247,473618,635494,1091211,,no,
+2,10,district,D.I.KHAN DIVISION,D.I.KHAN DISTRICT,D.I.KHAN DISTRICT,7326,222895,271888,380229,494432,852995,,no,
+2,10,tehsil,D.I.KHAN DIVISION,D.I.KHAN DISTRICT,D.I.Khan Tehsil,4557,114770,145422,211649,276918,493628,*,no,* on area: Includes area figure of Paharpur Tehsil.
+2,10,tehsil,D.I.KHAN DIVISION,D.I.KHAN DISTRICT,Pahar Pur Tehsil,,59762,67476,90892,119291,200273,,no,area printed as dash (included in D.I.Khan Tehsil)
+2,10,tehsil,D.I.KHAN DIVISION,D.I.KHAN DISTRICT,Kulachi Tehsil,2769,48363,58990,77688,98223,159094,,no,
+2,10,district,D.I.KHAN DIVISION,TANK DISTRICT,TANK DISTRICT,1679,53076,80359,93389,141062,238216,,no,
+2,10,tehsil,D.I.KHAN DIVISION,TANK DISTRICT,Tank Tehsil,1679,53076,80359,93389,141062,238216,,no,
+3,11,province,,,F.A.T.A.,27220,1332005,1847195,2491230,2198547,3176331,,no,
+3,11,district,,BAJAUR AGENCY,BAJAUR AGENCY,1290,320985,280200,364050,289206,595227,,no,
+3,11,tehsil,,BAJAUR AGENCY,Barang Tehsil,,,,,44048,50139,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Bar Chamer Kand Tehsil,,,,,34376,3247,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Khar Bajaur Tehsil,,,,,36874,116196,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Mamund Tehsil,,,,,83102,168283,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Salarzai Tehsil,,,,,62172,141750,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Utmankhel(Qzafi) Tehsil,,,,,28634,58348,,no,area cell blank
+3,11,tehsil,,BAJAUR AGENCY,Nawagai Tehsil,,,,,,57264,,no,area cell blank
+3,11,district,,MOHMAND AGENCY,MOHMAND AGENCY,2296,129300,294215,382922,163933,334453,,no,
+3,11,tehsil,,MOHMAND AGENCY,Halimzai Tehsil,,,,,26783,48418,,no,area cell blank
+3,11,tehsil,,MOHMAND AGENCY,Pindiali Tehsil,,,,,23671,51276,,no,area cell blank
+3,11,tehsil,,MOHMAND AGENCY,Safi Tehsil,,,,,35708,71503,,no,area cell blank
+3,11,tehsil,,MOHMAND AGENCY,Upper Mohmand Tehsil,,,,,48757,80177,,no,area cell blank
+3,11,tehsil,,MOHMAND AGENCY,Utman Khel (Ambar) Tehsil,,,,,16613,30728,,no,area cell blank
+3,11,tehsil,,MOHMAND AGENCY,Yake Ghund Tehsil,,,,,12401,33731,,no,area cell blank
+3,12,tehsil,,MOHMAND AGENCY,Pringhar Tehsil,,,,,,18620,,no,area cell blank
+3,12,district,,KHYBER AGENCY,KHYBER AGENCY,2576,216622,301319,378032,284256,546730,,no,
+3,12,tehsil,,KHYBER AGENCY,Bara Tehsil,,,,242315,142501,286184,,no,area cell blank
+3,12,tehsil,,KHYBER AGENCY,Jamrud Tehsil,,,,67161,60748,96188,,no,area cell blank
+3,12,tehsil,,KHYBER AGENCY,Landi Kotal Tehsil,,,,68556,81007,144714,,no,area cell blank
+3,12,tehsil,,KHYBER AGENCY,Mula Ghori Tehsil,,,,,,19644,,no,area cell blank
+3,12,district,,KURRAM AGENCY,KURRAM AGENCY,3380,158420,200512,279998,294362,448310,,no,
+3,12,tehsil,,KURRAM AGENCY,Upper Kurram Tehsil,,,,,118476,185571,,no,area cell blank
+3,12,tehsil,,KURRAM AGENCY,Lower Kurram Tehsil,,,,,53073,81323,,no,area cell blank
+3,12,tehsil,,KURRAM AGENCY,Kurram F.R.,,,,,122813,181416,,no,area cell blank
+3,12,district,,ORAKZAI AGENCY,ORAKZAI AGENCY,1538,,209616,283557,358751,225441,,no,1951 included in Tribal Area Adjoining Kohat District (see its footnote)
+3,12,tehsil,,ORAKZAI AGENCY,Central Tehsil,,,,,103505,47122,,no,area cell blank
+3,12,tehsil,,ORAKZAI AGENCY,Lower Tehsil,,,,,71582,65416,,no,area cell blank
+3,12,tehsil,,ORAKZAI AGENCY,Upper Tehsil,,,,,135548,84060,,no,area cell blank
+3,13,tehsil,,ORAKZAI AGENCY,Ismailzai Tehsil,,,,,48116,28843,,no,area cell blank
+3,13,district,,NORTH WAZIRISTAN AGENCY,NORTH WAZIRISTAN AGENCY,4707,128235,159470,250663,238910,361246,,no,
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Datta Khel Tehsil,,,,,72880,110006,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Dossali Tehsil,,,,,11895,20482,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Garyum Tehsil,,,,,5184,3917,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Ghulam Khan Tehsil,,,,,9314,13251,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Mir Ali Tehsil,,,,,49304,93855,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Miran Shah Tehsil,,,,,47427,67530,,no,area cell blank. Footnote * on Urban 1972 sub-row (4231): Includes 434 population of Mir Ali Adda TC in 1972 (de-notified). Tehsil total 1972 printed as dash although urban 1972 is 4231.
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Razmak Tehsil,,,,,10562,5729,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Spinwam Tehsil,,,,,32344,23520,,no,area cell blank
+3,13,tehsil,,NORTH WAZIRISTAN AGENCY,Shewa Tehsil,,,,,,22956,,no,area cell blank
+3,13,district,,SOUTH WAZIRISTAN AGENCY,SOUTH WAZIRISTAN AGENCY,6620,135784,235442,307514,309454,429841,,no,
+3,13,tehsil,,SOUTH WAZIRISTAN AGENCY,Ladha Tehsil,,,,,132756,72278,,no,area cell blank
+3,13,tehsil,,SOUTH WAZIRISTAN AGENCY,Makin(Charlai) Tehsil,,,,,24238,30528,,no,area cell blank
+3,13,tehsil,,SOUTH WAZIRISTAN AGENCY,Sararogha Tehsil,,,,,21355,72063,,no,area cell blank
+3,14,tehsil,,SOUTH WAZIRISTAN AGENCY,Sarwekai Tehsil,,,,,32676,31472,,no,area cell blank
+3,14,tehsil,,SOUTH WAZIRISTAN AGENCY,Tiarza Tehsil,,,,,22207,37708,,no,area cell blank
+3,14,tehsil,,SOUTH WAZIRISTAN AGENCY,Wana Tehsil,,,,,76222,90772,,no,area cell blank
+3,14,tehsil,,SOUTH WAZIRISTAN AGENCY,Toi Khullah Tehsil,,,,,,36508,,no,area cell blank
+3,14,tehsil,,SOUTH WAZIRISTAN AGENCY,Birmal Tehsil,,,,,,58512,,no,area cell blank
+3,14,district,,Tribal Area Adjoining Peshawar District,Tribal Area Adjoining Peshawar District,261,34250,43285,60132,37061,53841,,no,Frontier Region; no Rural/Urban sub-rows printed
+3,14,district,,Tribal Area Adjoining Kohat District,Tribal Area Adjoining Kohat District,446,133607,39875,44042,57245,88456,*,no,* on 1951: Includes population of Orakzai Agency in 1951.
+3,14,district,,Tribal Area Adjoining Bannu District,Tribal Area Adjoining Bannu District,745,26913,52762,50778,63213,19593,**,no,** on 1951 and 1961: Includes population of T.A. Adjoining Lakki Marwat district in 1951 & 1961.
+3,14,district,,Tribal Area Adjoining Lakki Marwat District,Tribal Area Adjoining Lakki Marwat District,132,,,13104,16149,6987,,no,1951 and 1961 included in T.A. Adjoining Bannu District
+3,14,district,,Tribal Area Adjoining D.I.Khan District,Tribal Area Adjoining D.I.Khan District,2008,47889,30499,49822,55824,38990,#,no,# on 1951 and 1961: Includes population of T.A. Adjoining Tank district in 1951 & 1961.
+3,14,district,,Tribal Area Adjoining Tank District,Tribal Area Adjoining Tank District,1221,,,26616,30183,27216,,no,1951 and 1961 included in T.A. Adjoining D.I.Khan District

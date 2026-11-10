@@ -1,6 +1,10 @@
-rasterio
-geopandas>=1.0
-exactextract>=0.3
-pyproj
-pandas>=2.0
-numpy
+# Exact versions used for the release of 10 November 2026, Python 3.13.18 on Ubuntu 24.04.
+pandas==3.0.5
+numpy==2.5.3
+geopandas==1.2.0
+shapely==2.2.0
+pyproj==3.8.0
+pyogrio==0.13.0
+rasterio==1.5.2
+exactextract==0.3.0
+matplotlib==3.11.2

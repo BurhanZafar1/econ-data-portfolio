@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these tables, please cite them as below, and cite the Pakistan Bureau of Statistics and the Population Census Organisation as the source of the census figures."
+type: dataset
+title: "Pakistan tehsil and district crosswalk, Censuses 1951 to 2023"
+version: "5.0"
+date-released: "2026-11-10"
+authors:
+  - family-names: Zafar
+    given-names: Burhan
+    affiliation: "Whitman College"
+    email: bssburhan0@gmail.com
+repository-code: "https://github.com/BurhanZafar1/econ-data-portfolio"
+url: "https://github.com/BurhanZafar1/econ-data-portfolio/tree/main/projects/02-pakistan-tehsil-crosswalk"
+license: "CC-BY-4.0"
+keywords:
+  - Pakistan
+  - census
+  - crosswalk
+  - tehsil
+  - district
+  - administrative boundaries
+abstract: "Population- and area-weighted crosswalks between the tehsil and district frames of Pakistan's censuses (1998 report frame and census-day frame, 2017, 2023), a district crosswalk from the 1951-1981 maps, a dated register of boundary changes with sources, and a population panel 1951-2023 on the 2023 units. Built for Professor M. Yasir Khan (University of Pittsburgh)."

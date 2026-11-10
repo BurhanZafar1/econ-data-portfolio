@@ -1,0 +1,19 @@
+Data licence
+
+The tables in output/ and the transcriptions and catalogues in raw/ that were produced in this project
+(the crosswalks, lineage and event tables, population panels, unit masters, the hand transcriptions of
+Census Publication 161, and the source catalogues) are released under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+
+Suggested attribution: Zafar, Burhan (2026). Pakistan tehsil and district crosswalk, Censuses 1951 to 2023.
+Fifth release. https://github.com/BurhanZafar1/econ-data-portfolio (projects/02-pakistan-tehsil-crosswalk).
+
+Inherited terms. The figures in these tables are published statistics of the Pakistan Bureau of Statistics
+and the Population Census Organisation (Censuses 1951 to 2023). The digital source tables were obtained from
+Data Darbar (https://darbar.adaad.org/), which redistributes its parsed census tables under CC BY 4.0, and the
+2023 polygons are the PBS Digital Census boundaries as redistributed there. The free 2017 polygon layers used
+only as checks are from the US Census Bureau (Demobase, public domain) and geoBoundaries (CC BY 4.0). The
+scanned PCO publications in raw/census1998_frames/ are official Government of Pakistan publications
+redistributed by the Lahore School of Economics repository; they are included for verification of the
+transcriptions and remain the property of their publisher. Users should cite the original statistical
+agencies as well as this package.

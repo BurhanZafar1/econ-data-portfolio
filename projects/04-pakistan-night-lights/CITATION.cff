@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these tables, please cite them as below, together with the two source products (Li et al. 2020; Chen et al. 2021, 2026) and the Pakistan Bureau of Statistics boundaries."
+type: dataset
+title: "Night-time lights by Pakistan district and tehsil, 1992 to 2025, on the Census 2023 frame"
+version: "2.0"
+date-released: "2026-11-10"
+authors:
+  - family-names: Zafar
+    given-names: Burhan
+    affiliation: "Whitman College"
+    email: bssburhan0@gmail.com
+repository-code: "https://github.com/BurhanZafar1/econ-data-portfolio"
+url: "https://github.com/BurhanZafar1/econ-data-portfolio/tree/main/projects/04-pakistan-night-lights"
+license: "CC-BY-4.0"
+keywords:
+  - Pakistan
+  - night-time lights
+  - DMSP
+  - VIIRS
+  - district
+  - tehsil
+abstract: "Exact area-weighted zonal statistics of two harmonized night-time light series (1992-2024 DMSP-scale digital numbers; 1992-2025 VIIRS-scale radiance) for every PBS Census 2023 tehsil and district, a panel merged with the crosswalked census populations 1951-2023, and district rankings by light under three exclusion rules. Built for Professor M. Yasir Khan (University of Pittsburgh)."

@@ -1,0 +1,275 @@
+{
+ "B_size_i_all": {
+  "series": "B",
+  "measure": "size",
+  "variant": "i_all",
+  "year": "1992-2025 (end to end)",
+  "n_units": 130,
+  "spearman_vs_first_year": 0.914,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.646,
+  "mean_abs_rank_change": 11.99,
+  "share_moved_10_or_more": 0.515,
+  "climbers_20_or_more": 12.0,
+  "fallers_20_or_more": 15.0
+ },
+ "B_size_ii_no_big5": {
+  "series": "B",
+  "measure": "size",
+  "variant": "ii_no_big5",
+  "year": "1992-2025 (end to end)",
+  "n_units": 125,
+  "spearman_vs_first_year": 0.905,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.6,
+  "mean_abs_rank_change": 12.15,
+  "share_moved_10_or_more": 0.528,
+  "climbers_20_or_more": 12.0,
+  "fallers_20_or_more": 15.0
+ },
+ "B_size_iii_no_big5_or_adjacent": {
+  "series": "B",
+  "measure": "size",
+  "variant": "iii_no_big5_or_adjacent",
+  "year": "1992-2025 (end to end)",
+  "n_units": 104,
+  "spearman_vs_first_year": 0.909,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.577,
+  "mean_abs_rank_change": 9.91,
+  "share_moved_10_or_more": 0.433,
+  "climbers_20_or_more": 8.0,
+  "fallers_20_or_more": 4.0
+ },
+ "B_density_i_all": {
+  "series": "B",
+  "measure": "density",
+  "variant": "i_all",
+  "year": "1992-2025 (end to end)",
+  "n_units": 130,
+  "spearman_vs_first_year": 0.925,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.623,
+  "mean_abs_rank_change": 11.1,
+  "share_moved_10_or_more": 0.431,
+  "climbers_20_or_more": 12.0,
+  "fallers_20_or_more": 13.0
+ },
+ "B_density_ii_no_big5": {
+  "series": "B",
+  "measure": "density",
+  "variant": "ii_no_big5",
+  "year": "1992-2025 (end to end)",
+  "n_units": 125,
+  "spearman_vs_first_year": 0.916,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.624,
+  "mean_abs_rank_change": 11.42,
+  "share_moved_10_or_more": 0.448,
+  "climbers_20_or_more": 12.0,
+  "fallers_20_or_more": 13.0
+ },
+ "B_density_iii_no_big5_or_adjacent": {
+  "series": "B",
+  "measure": "density",
+  "variant": "iii_no_big5_or_adjacent",
+  "year": "1992-2025 (end to end)",
+  "n_units": 104,
+  "spearman_vs_first_year": 0.916,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.644,
+  "mean_abs_rank_change": 9.41,
+  "share_moved_10_or_more": 0.365,
+  "climbers_20_or_more": 7.0,
+  "fallers_20_or_more": 8.0
+ },
+ "A_size_i_all": {
+  "series": "A",
+  "measure": "size",
+  "variant": "i_all",
+  "year": "1992-2024 (end to end)",
+  "n_units": 130,
+  "spearman_vs_first_year": 0.848,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.577,
+  "mean_abs_rank_change": 14.94,
+  "share_moved_10_or_more": 0.569,
+  "climbers_20_or_more": 18.0,
+  "fallers_20_or_more": 16.0
+ },
+ "A_size_ii_no_big5": {
+  "series": "A",
+  "measure": "size",
+  "variant": "ii_no_big5",
+  "year": "1992-2024 (end to end)",
+  "n_units": 125,
+  "spearman_vs_first_year": 0.841,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.568,
+  "mean_abs_rank_change": 14.88,
+  "share_moved_10_or_more": 0.576,
+  "climbers_20_or_more": 18.0,
+  "fallers_20_or_more": 15.0
+ },
+ "A_size_iii_no_big5_or_adjacent": {
+  "series": "A",
+  "measure": "size",
+  "variant": "iii_no_big5_or_adjacent",
+  "year": "1992-2024 (end to end)",
+  "n_units": 104,
+  "spearman_vs_first_year": 0.839,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.548,
+  "mean_abs_rank_change": 12.6,
+  "share_moved_10_or_more": 0.51,
+  "climbers_20_or_more": 13.0,
+  "fallers_20_or_more": 7.0
+ },
+ "A_density_i_all": {
+  "series": "A",
+  "measure": "density",
+  "variant": "i_all",
+  "year": "1992-2024 (end to end)",
+  "n_units": 130,
+  "spearman_vs_first_year": 0.903,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.562,
+  "mean_abs_rank_change": 12.37,
+  "share_moved_10_or_more": 0.531,
+  "climbers_20_or_more": 18.0,
+  "fallers_20_or_more": 12.0
+ },
+ "A_density_ii_no_big5": {
+  "series": "A",
+  "measure": "density",
+  "variant": "ii_no_big5",
+  "year": "1992-2024 (end to end)",
+  "n_units": 125,
+  "spearman_vs_first_year": 0.893,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.6,
+  "mean_abs_rank_change": 12.64,
+  "share_moved_10_or_more": 0.544,
+  "climbers_20_or_more": 18.0,
+  "fallers_20_or_more": 12.0
+ },
+ "A_density_iii_no_big5_or_adjacent": {
+  "series": "A",
+  "measure": "density",
+  "variant": "iii_no_big5_or_adjacent",
+  "year": "1992-2024 (end to end)",
+  "n_units": 104,
+  "spearman_vs_first_year": 0.885,
+  "spearman_vs_previous": NaN,
+  "share_same_quintile": 0.548,
+  "mean_abs_rank_change": 10.88,
+  "share_moved_10_or_more": 0.5,
+  "climbers_20_or_more": 10.0,
+  "fallers_20_or_more": 6.0
+ },
+ "series_agreement_2023_size_all": 0.927,
+ "window_spearman": {
+  "B_size_i_all": 0.914,
+  "B_size_ii_no_big5": 0.905,
+  "B_size_iii_no_big5_or_adjacent": 0.906,
+  "B_density_i_all": 0.924,
+  "B_density_ii_no_big5": 0.915,
+  "B_density_iii_no_big5_or_adjacent": 0.912,
+  "A_size_i_all": 0.891,
+  "A_size_ii_no_big5": 0.888,
+  "A_size_iii_no_big5_or_adjacent": 0.884,
+  "A_density_i_all": 0.919,
+  "A_density_ii_no_big5": 0.911,
+  "A_density_iii_no_big5_or_adjacent": 0.903
+ },
+ "window_top_climbers_B_size_iii": [
+  [
+   "THARPARKAR DISTRICT",
+   64,
+   24,
+   40
+  ],
+  [
+   "GWADAR DISTRICT",
+   73,
+   45,
+   28
+  ],
+  [
+   "UPPER KOHISTAN DISTRICT",
+   98,
+   70,
+   28
+  ],
+  [
+   "NAROWAL DISTRICT",
+   57,
+   30,
+   27
+  ],
+  [
+   "SWAT DISTRICT",
+   65,
+   39,
+   26
+  ],
+  [
+   "MANSEHRA DISTRICT",
+   74,
+   49,
+   25
+  ],
+  [
+   "CHAGAI DISTRICT",
+   82,
+   58,
+   24
+  ],
+  [
+   "MANDI BAHAUDDIN DISTRICT",
+   54,
+   31,
+   23
+  ],
+  [
+   "KARAK DISTRICT",
+   70,
+   50,
+   20
+  ],
+  [
+   "KHUSHAB DISTRICT",
+   39,
+   22,
+   17
+  ]
+ ],
+ "adjacent_to_big_five": [
+  "ABBOTTABAD DISTRICT",
+  "CHARSADDA DISTRICT",
+  "HARIPUR DISTRICT",
+  "HARNAI DISTRICT",
+  "JAMSHORO DISTRICT",
+  "KACHHI DISTRICT",
+  "KASUR DISTRICT",
+  "KHYBER DISTRICT",
+  "KILLA ABDULLAH DISTRICT",
+  "KOHAT DISTRICT",
+  "LASBELA DISTRICT",
+  "MASTUNG DISTRICT",
+  "MOHMAND DISTRICT",
+  "NANKANA SAHIB DISTRICT",
+  "NOWSHERA DISTRICT",
+  "PISHIN DISTRICT",
+  "RAWALPINDI DISTRICT",
+  "SHEIKHUPURA DISTRICT",
+  "SIBI DISTRICT",
+  "THATTA DISTRICT",
+  "ZIARAT DISTRICT"
+ ],
+ "n_units": {
+  "i_all": 130,
+  "ii_no_big5": 125,
+  "iii_no_big5_or_adjacent": 104
+ }
+}

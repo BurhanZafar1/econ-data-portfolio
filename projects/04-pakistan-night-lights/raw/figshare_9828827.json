@@ -1,1 +1,474 @@
-{"files": [{"id": 17626052, "name": "Harmonized_DN_NTL_1992_calDMSP.tif", "size": 30262018, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626052", "supplied_md5": "ccd2c6176493314969cdeb0ee7567b8f", "computed_md5": "ccd2c6176493314969cdeb0ee7567b8f", "mimetype": "image/tiff"}, {"id": 17626055, "name": "Harmonized_DN_NTL_1993_calDMSP.tif", "size": 32764832, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626055", "supplied_md5": "0c72818fb4aa41870fd8f3b4d2499b4b", "computed_md5": "0c72818fb4aa41870fd8f3b4d2499b4b", "mimetype": "image/tiff"}, {"id": 17626061, "name": "Harmonized_DN_NTL_1994_calDMSP.tif", "size": 32799570, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626061", "supplied_md5": "171b42e04c506b23f168707f133a37c6", "computed_md5": "171b42e04c506b23f168707f133a37c6", "mimetype": "image/tiff"}, {"id": 17626067, "name": "Harmonized_DN_NTL_1995_calDMSP.tif", "size": 33996196, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626067", "supplied_md5": "a77886218aa047931ce4610fcdab0435", "computed_md5": "a77886218aa047931ce4610fcdab0435", "mimetype": "image/tiff"}, {"id": 17626070, "name": "Harmonized_DN_NTL_1996_calDMSP.tif", "size": 34232370, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626070", "supplied_md5": "31d262d02aaa8e29d8259129ae4baf64", "computed_md5": "31d262d02aaa8e29d8259129ae4baf64", "mimetype": "image/tiff"}, {"id": 17626073, "name": "Harmonized_DN_NTL_1997_calDMSP.tif", "size": 32023140, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626073", "supplied_md5": "77921562bff6048f505b182755a425fe", "computed_md5": "77921562bff6048f505b182755a425fe", "mimetype": "image/tiff"}, {"id": 17626079, "name": "Harmonized_DN_NTL_1998_calDMSP.tif", "size": 33230618, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626079", "supplied_md5": "93f593793d9755e1fb03db2212bcb28d", "computed_md5": "93f593793d9755e1fb03db2212bcb28d", "mimetype": "image/tiff"}, {"id": 17626082, "name": "Harmonized_DN_NTL_1999_calDMSP.tif", "size": 33496284, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626082", "supplied_md5": "b09cd742c10ffe39e5a550c7f21f2750", "computed_md5": "b09cd742c10ffe39e5a550c7f21f2750", "mimetype": "image/tiff"}, {"id": 17626085, "name": "Harmonized_DN_NTL_2000_calDMSP.tif", "size": 34407498, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626085", "supplied_md5": "161ab5276a92552634caf799e8b77b66", "computed_md5": "161ab5276a92552634caf799e8b77b66", "mimetype": "image/tiff"}, {"id": 17626088, "name": "Harmonized_DN_NTL_2001_calDMSP.tif", "size": 33977614, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626088", "supplied_md5": "998e3a7ae9ac8b935a7858849d4ec817", "computed_md5": "998e3a7ae9ac8b935a7858849d4ec817", "mimetype": "image/tiff"}, {"id": 17626091, "name": "Harmonized_DN_NTL_2002_calDMSP.tif", "size": 33010122, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626091", "supplied_md5": "acc9b04de2ebe19140b893d2ab9bc5e9", "computed_md5": "acc9b04de2ebe19140b893d2ab9bc5e9", "mimetype": "image/tiff"}, {"id": 17626094, "name": "Harmonized_DN_NTL_2003_calDMSP.tif", "size": 33870652, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626094", "supplied_md5": "b30555cc2b06c1cd5648d172bf950411", "computed_md5": "b30555cc2b06c1cd5648d172bf950411", "mimetype": "image/tiff"}, {"id": 17626097, "name": "Harmonized_DN_NTL_2004_calDMSP.tif", "size": 34974162, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626097", "supplied_md5": "1197213f73f559256d4c3d82143d3dc0", "computed_md5": "1197213f73f559256d4c3d82143d3dc0", "mimetype": "image/tiff"}, {"id": 17626100, "name": "Harmonized_DN_NTL_2005_calDMSP.tif", "size": 34328410, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626100", "supplied_md5": "4e764ec4acc3c9e5eddb46c970ac9973", "computed_md5": "4e764ec4acc3c9e5eddb46c970ac9973", "mimetype": "image/tiff"}, {"id": 17626103, "name": "Harmonized_DN_NTL_2006_calDMSP.tif", "size": 34276244, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626103", "supplied_md5": "2426f9d8ee116ad9166fef43ba3cfd3d", "computed_md5": "2426f9d8ee116ad9166fef43ba3cfd3d", "mimetype": "image/tiff"}, {"id": 17626109, "name": "Harmonized_DN_NTL_2007_calDMSP.tif", "size": 36230298, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626109", "supplied_md5": "23b255f6f80b7a91466bc584b27dacd4", "computed_md5": "23b255f6f80b7a91466bc584b27dacd4", "mimetype": "image/tiff"}, {"id": 17626016, "name": "Harmonized_DN_NTL_2008_calDMSP.tif", "size": 36364284, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626016", "supplied_md5": "2ff25c7622437575655ba9f6f54858d1", "computed_md5": "2ff25c7622437575655ba9f6f54858d1", "mimetype": "image/tiff"}, {"id": 17626019, "name": "Harmonized_DN_NTL_2009_calDMSP.tif", "size": 34842068, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626019", "supplied_md5": "54065ac57523b0ae7ad6043be4ded88d", "computed_md5": "54065ac57523b0ae7ad6043be4ded88d", "mimetype": "image/tiff"}, {"id": 17626022, "name": "Harmonized_DN_NTL_2010_calDMSP.tif", "size": 38841372, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626022", "supplied_md5": "50cbe2e5853d8456021920893ce81043", "computed_md5": "50cbe2e5853d8456021920893ce81043", "mimetype": "image/tiff"}, {"id": 17626025, "name": "Harmonized_DN_NTL_2011_calDMSP.tif", "size": 38809934, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626025", "supplied_md5": "e08cfabea10ef7933a82d63d69b665e8", "computed_md5": "e08cfabea10ef7933a82d63d69b665e8", "mimetype": "image/tiff"}, {"id": 17626031, "name": "Harmonized_DN_NTL_2012_calDMSP.tif", "size": 38196812, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626031", "supplied_md5": "b8d84119fb79cb2db9ce45a6d7062a24", "computed_md5": "b8d84119fb79cb2db9ce45a6d7062a24", "mimetype": "image/tiff"}, {"id": 17626034, "name": "Harmonized_DN_NTL_2013_calDMSP.tif", "size": 37969756, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/17626034", "supplied_md5": "2978df44c1120354c6646283febf8611", "computed_md5": "2978df44c1120354c6646283febf8611", "mimetype": "image/tiff"}, {"id": 57065276, "name": "Harmonized_DN_NTL_2014_simVIIRS.tif", "size": 22251228, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065276", "supplied_md5": "8aa2766d611208ad03038883bd60042c", "computed_md5": "8aa2766d611208ad03038883bd60042c", "mimetype": "image/tiff"}, {"id": 57065321, "name": "Harmonized_DN_NTL_2015_simVIIRS.tif", "size": 22437216, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065321", "supplied_md5": "481a59ead274e4e9a52358a4010890fe", "computed_md5": "481a59ead274e4e9a52358a4010890fe", "mimetype": "image/tiff"}, {"id": 57065291, "name": "Harmonized_DN_NTL_2016_simVIIRS.tif", "size": 21834153, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065291", "supplied_md5": "63208e9e5259b2d5a030096842a15b77", "computed_md5": "63208e9e5259b2d5a030096842a15b77", "mimetype": "image/tiff"}, {"id": 57065282, "name": "Harmonized_DN_NTL_2017_simVIIRS.tif", "size": 25602042, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065282", "supplied_md5": "1a00b63bc1e4e64f25390393dbdc5b89", "computed_md5": "1a00b63bc1e4e64f25390393dbdc5b89", "mimetype": "image/tiff"}, {"id": 57065288, "name": "Harmonized_DN_NTL_2018_simVIIRS.tif", "size": 25617984, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065288", "supplied_md5": "58a07e1684160f49267c18e0c1f0ab1f", "computed_md5": "58a07e1684160f49267c18e0c1f0ab1f", "mimetype": "image/tiff"}, {"id": 57065285, "name": "Harmonized_DN_NTL_2019_simVIIRS.tif", "size": 25530587, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065285", "supplied_md5": "c716468dd7c3d824552fd0ab2d140b31", "computed_md5": "c716468dd7c3d824552fd0ab2d140b31", "mimetype": "image/tiff"}, {"id": 57065297, "name": "Harmonized_DN_NTL_2020_simVIIRS.tif", "size": 24996479, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065297", "supplied_md5": "5b83de86be4303810f6dcf3a1d8185e9", "computed_md5": "5b83de86be4303810f6dcf3a1d8185e9", "mimetype": "image/tiff"}, {"id": 57065294, "name": "Harmonized_DN_NTL_2021_simVIIRS.tif", "size": 28397367, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065294", "supplied_md5": "ed15964f9953acb237b027837010ef2c", "computed_md5": "ed15964f9953acb237b027837010ef2c", "mimetype": "image/tiff"}, {"id": 57065303, "name": "Harmonized_DN_NTL_2022_simVIIRS.tif", "size": 28777699, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065303", "supplied_md5": "5cef65eee189aa08e15cdb6f75526a73", "computed_md5": "5cef65eee189aa08e15cdb6f75526a73", "mimetype": "image/tiff"}, {"id": 57065300, "name": "Harmonized_DN_NTL_2023_simVIIRS.tif", "size": 30977139, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065300", "supplied_md5": "40e15eeae3803500050ad35044e1db1a", "computed_md5": "40e15eeae3803500050ad35044e1db1a", "mimetype": "image/tiff"}, {"id": 57065306, "name": "Harmonized_DN_NTL_2024_simVIIRS.tif", "size": 31746836, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/57065306", "supplied_md5": "47fa4a4b4ec7eac15f6bfc046186a595", "computed_md5": "47fa4a4b4ec7eac15f6bfc046186a595", "mimetype": "image/tiff"}, {"id": 22252821, "name": "DN_NTL_2013_simVIIRS.tif", "size": 40862548, "is_link_only": false, "download_url": "https://ndownloader.figshare.com/files/22252821", "supplied_md5": "36c809e558147255742b54c86c2401d4", "computed_md5": "36c809e558147255742b54c86c2401d4", "mimetype": "image/tiff"}], "folder_structure": {}, "authors": [{"id": 6309494, "full_name": "Xuecao Li", "first_name": "Xuecao", "last_name": "Li", "is_active": true, "url_name": "Xuecao_Li", "orcid_id": "0000-0002-6942-0746"}, {"id": 6308822, "full_name": "Yuyu Zhou", "first_name": "Yuyu", "last_name": "Zhou", "is_active": true, "url_name": "Yuyu_Zhou", "orcid_id": ""}, {"id": 7382739, "full_name": "Min zhao", "first_name": "Min", "last_name": "zhao", "is_active": false, "url_name": "_", "orcid_id": ""}, {"id": 8317320, "full_name": "Xia Zhao", "first_name": "Xia", "last_name": "Zhao", "is_active": false, "url_name": "_", "orcid_id": ""}], "custom_fields": [], "figshare_url": "https://figshare.com/articles/dataset/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827", "download_disabled": false, "description": "<p dir=\"ltr\">The dataset contains (1) temporally calibrated DMSP-OLS NTL time series data from 1992-2013; and (2) converted NTL time series from the VIIRS data (2014-2024)</p><p><br></p><p dir=\"ltr\">Spatial resolution: 30 arc-seconds (~1km)</p><p><br></p><p dir=\"ltr\">Information about the composited images from the calibrated DMSP dataset:</p><p dir=\"ltr\">F10(1992-1994); F12(1995-1996); F14(1997-2003); F16(2004-2009); F18(2010-2013)</p><p><br></p><p dir=\"ltr\">We suggested using pixels with DN values greater than 7.</p>", "funding": null, "funding_list": [], "version": 10, "status": "public", "size": 1091935532, "created_date": "2025-08-10T01:12:06Z", "modified_date": "2025-08-10T01:12:54Z", "is_public": true, "is_confidential": false, "is_metadata_record": false, "confidential_reason": "", "metadata_reason": "", "license": {"value": 1, "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/"}, "tags": ["DMSP/OLS data", "VIIRS", "nighttime light", "calibration", "consistent", "global", "Environmental Science"], "keywords": ["DMSP/OLS data", "VIIRS", "nighttime light", "calibration", "consistent", "global", "Environmental Science"], "categories": [{"id": 26998, "title": "Other environmental sciences not elsewhere classified", "parent_id": 26995, "path": "/26863/26995/26998", "source_id": "419999", "taxonomy_id": 100}], "references": ["https://doi.org/10.3390/rs9060637"], "has_linked_file": false, "citation": "Li, Xuecao; Zhou, Yuyu; zhao, Min; Zhao, Xia (2020). Harmonization of DMSP and VIIRS nighttime light data from 1992-2024 at the global scale. figshare. Dataset. https://doi.org/10.6084/m9.figshare.9828827.v10", "related_materials": [{"id": 149647950, "identifier": "https://doi.org/10.3390/rs9060637", "title": "", "relation": "References", "identifier_type": "URL", "is_linkout": false, "link": "https://doi.org/10.3390/rs9060637"}], "is_embargoed": false, "embargo_date": null, "embargo_type": "file", "embargo_title": "", "embargo_reason": "", "embargo_options": [], "id": 9828827, "title": "Harmonization of DMSP and VIIRS nighttime light data from 1992-2024 at the global scale", "doi": "10.6084/m9.figshare.9828827.v10", "handle": "", "url": "https://api.figshare.com/v2/articles/9828827", "published_date": "2025-08-10T01:12:06Z", "thumb": "", "defined_type": 3, "defined_type_name": "dataset", "group_id": null, "url_private_api": "https://api.figshare.com/v2/account/articles/9828827", "url_public_api": "https://api.figshare.com/v2/articles/9828827", "url_private_html": "https://figshare.com/account/articles/9828827", "url_public_html": "https://figshare.com/articles/dataset/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827", "timeline": {"posted": "2025-08-10T01:12:06", "firstOnline": "2020-01-17"}, "resource_title": null, "resource_doi": null}
+{
+ "files": [
+  {
+   "id": 17626052,
+   "name": "Harmonized_DN_NTL_1992_calDMSP.tif",
+   "size": 30262018,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626052",
+   "supplied_md5": "ccd2c6176493314969cdeb0ee7567b8f",
+   "computed_md5": "ccd2c6176493314969cdeb0ee7567b8f",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626055,
+   "name": "Harmonized_DN_NTL_1993_calDMSP.tif",
+   "size": 32764832,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626055",
+   "supplied_md5": "0c72818fb4aa41870fd8f3b4d2499b4b",
+   "computed_md5": "0c72818fb4aa41870fd8f3b4d2499b4b",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626061,
+   "name": "Harmonized_DN_NTL_1994_calDMSP.tif",
+   "size": 32799570,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626061",
+   "supplied_md5": "171b42e04c506b23f168707f133a37c6",
+   "computed_md5": "171b42e04c506b23f168707f133a37c6",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626067,
+   "name": "Harmonized_DN_NTL_1995_calDMSP.tif",
+   "size": 33996196,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626067",
+   "supplied_md5": "a77886218aa047931ce4610fcdab0435",
+   "computed_md5": "a77886218aa047931ce4610fcdab0435",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626070,
+   "name": "Harmonized_DN_NTL_1996_calDMSP.tif",
+   "size": 34232370,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626070",
+   "supplied_md5": "31d262d02aaa8e29d8259129ae4baf64",
+   "computed_md5": "31d262d02aaa8e29d8259129ae4baf64",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626073,
+   "name": "Harmonized_DN_NTL_1997_calDMSP.tif",
+   "size": 32023140,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626073",
+   "supplied_md5": "77921562bff6048f505b182755a425fe",
+   "computed_md5": "77921562bff6048f505b182755a425fe",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626079,
+   "name": "Harmonized_DN_NTL_1998_calDMSP.tif",
+   "size": 33230618,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626079",
+   "supplied_md5": "93f593793d9755e1fb03db2212bcb28d",
+   "computed_md5": "93f593793d9755e1fb03db2212bcb28d",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626082,
+   "name": "Harmonized_DN_NTL_1999_calDMSP.tif",
+   "size": 33496284,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626082",
+   "supplied_md5": "b09cd742c10ffe39e5a550c7f21f2750",
+   "computed_md5": "b09cd742c10ffe39e5a550c7f21f2750",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626085,
+   "name": "Harmonized_DN_NTL_2000_calDMSP.tif",
+   "size": 34407498,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626085",
+   "supplied_md5": "161ab5276a92552634caf799e8b77b66",
+   "computed_md5": "161ab5276a92552634caf799e8b77b66",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626088,
+   "name": "Harmonized_DN_NTL_2001_calDMSP.tif",
+   "size": 33977614,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626088",
+   "supplied_md5": "998e3a7ae9ac8b935a7858849d4ec817",
+   "computed_md5": "998e3a7ae9ac8b935a7858849d4ec817",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626091,
+   "name": "Harmonized_DN_NTL_2002_calDMSP.tif",
+   "size": 33010122,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626091",
+   "supplied_md5": "acc9b04de2ebe19140b893d2ab9bc5e9",
+   "computed_md5": "acc9b04de2ebe19140b893d2ab9bc5e9",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626094,
+   "name": "Harmonized_DN_NTL_2003_calDMSP.tif",
+   "size": 33870652,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626094",
+   "supplied_md5": "b30555cc2b06c1cd5648d172bf950411",
+   "computed_md5": "b30555cc2b06c1cd5648d172bf950411",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626097,
+   "name": "Harmonized_DN_NTL_2004_calDMSP.tif",
+   "size": 34974162,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626097",
+   "supplied_md5": "1197213f73f559256d4c3d82143d3dc0",
+   "computed_md5": "1197213f73f559256d4c3d82143d3dc0",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626100,
+   "name": "Harmonized_DN_NTL_2005_calDMSP.tif",
+   "size": 34328410,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626100",
+   "supplied_md5": "4e764ec4acc3c9e5eddb46c970ac9973",
+   "computed_md5": "4e764ec4acc3c9e5eddb46c970ac9973",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626103,
+   "name": "Harmonized_DN_NTL_2006_calDMSP.tif",
+   "size": 34276244,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626103",
+   "supplied_md5": "2426f9d8ee116ad9166fef43ba3cfd3d",
+   "computed_md5": "2426f9d8ee116ad9166fef43ba3cfd3d",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626109,
+   "name": "Harmonized_DN_NTL_2007_calDMSP.tif",
+   "size": 36230298,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626109",
+   "supplied_md5": "23b255f6f80b7a91466bc584b27dacd4",
+   "computed_md5": "23b255f6f80b7a91466bc584b27dacd4",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626016,
+   "name": "Harmonized_DN_NTL_2008_calDMSP.tif",
+   "size": 36364284,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626016",
+   "supplied_md5": "2ff25c7622437575655ba9f6f54858d1",
+   "computed_md5": "2ff25c7622437575655ba9f6f54858d1",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626019,
+   "name": "Harmonized_DN_NTL_2009_calDMSP.tif",
+   "size": 34842068,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626019",
+   "supplied_md5": "54065ac57523b0ae7ad6043be4ded88d",
+   "computed_md5": "54065ac57523b0ae7ad6043be4ded88d",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626022,
+   "name": "Harmonized_DN_NTL_2010_calDMSP.tif",
+   "size": 38841372,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626022",
+   "supplied_md5": "50cbe2e5853d8456021920893ce81043",
+   "computed_md5": "50cbe2e5853d8456021920893ce81043",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626025,
+   "name": "Harmonized_DN_NTL_2011_calDMSP.tif",
+   "size": 38809934,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626025",
+   "supplied_md5": "e08cfabea10ef7933a82d63d69b665e8",
+   "computed_md5": "e08cfabea10ef7933a82d63d69b665e8",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626031,
+   "name": "Harmonized_DN_NTL_2012_calDMSP.tif",
+   "size": 38196812,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626031",
+   "supplied_md5": "b8d84119fb79cb2db9ce45a6d7062a24",
+   "computed_md5": "b8d84119fb79cb2db9ce45a6d7062a24",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 17626034,
+   "name": "Harmonized_DN_NTL_2013_calDMSP.tif",
+   "size": 37969756,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/17626034",
+   "supplied_md5": "2978df44c1120354c6646283febf8611",
+   "computed_md5": "2978df44c1120354c6646283febf8611",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065276,
+   "name": "Harmonized_DN_NTL_2014_simVIIRS.tif",
+   "size": 22251228,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065276",
+   "supplied_md5": "8aa2766d611208ad03038883bd60042c",
+   "computed_md5": "8aa2766d611208ad03038883bd60042c",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065321,
+   "name": "Harmonized_DN_NTL_2015_simVIIRS.tif",
+   "size": 22437216,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065321",
+   "supplied_md5": "481a59ead274e4e9a52358a4010890fe",
+   "computed_md5": "481a59ead274e4e9a52358a4010890fe",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065291,
+   "name": "Harmonized_DN_NTL_2016_simVIIRS.tif",
+   "size": 21834153,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065291",
+   "supplied_md5": "63208e9e5259b2d5a030096842a15b77",
+   "computed_md5": "63208e9e5259b2d5a030096842a15b77",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065282,
+   "name": "Harmonized_DN_NTL_2017_simVIIRS.tif",
+   "size": 25602042,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065282",
+   "supplied_md5": "1a00b63bc1e4e64f25390393dbdc5b89",
+   "computed_md5": "1a00b63bc1e4e64f25390393dbdc5b89",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065288,
+   "name": "Harmonized_DN_NTL_2018_simVIIRS.tif",
+   "size": 25617984,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065288",
+   "supplied_md5": "58a07e1684160f49267c18e0c1f0ab1f",
+   "computed_md5": "58a07e1684160f49267c18e0c1f0ab1f",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065285,
+   "name": "Harmonized_DN_NTL_2019_simVIIRS.tif",
+   "size": 25530587,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065285",
+   "supplied_md5": "c716468dd7c3d824552fd0ab2d140b31",
+   "computed_md5": "c716468dd7c3d824552fd0ab2d140b31",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065297,
+   "name": "Harmonized_DN_NTL_2020_simVIIRS.tif",
+   "size": 24996479,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065297",
+   "supplied_md5": "5b83de86be4303810f6dcf3a1d8185e9",
+   "computed_md5": "5b83de86be4303810f6dcf3a1d8185e9",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065294,
+   "name": "Harmonized_DN_NTL_2021_simVIIRS.tif",
+   "size": 28397367,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065294",
+   "supplied_md5": "ed15964f9953acb237b027837010ef2c",
+   "computed_md5": "ed15964f9953acb237b027837010ef2c",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065303,
+   "name": "Harmonized_DN_NTL_2022_simVIIRS.tif",
+   "size": 28777699,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065303",
+   "supplied_md5": "5cef65eee189aa08e15cdb6f75526a73",
+   "computed_md5": "5cef65eee189aa08e15cdb6f75526a73",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065300,
+   "name": "Harmonized_DN_NTL_2023_simVIIRS.tif",
+   "size": 30977139,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065300",
+   "supplied_md5": "40e15eeae3803500050ad35044e1db1a",
+   "computed_md5": "40e15eeae3803500050ad35044e1db1a",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 57065306,
+   "name": "Harmonized_DN_NTL_2024_simVIIRS.tif",
+   "size": 31746836,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/57065306",
+   "supplied_md5": "47fa4a4b4ec7eac15f6bfc046186a595",
+   "computed_md5": "47fa4a4b4ec7eac15f6bfc046186a595",
+   "mimetype": "image/tiff"
+  },
+  {
+   "id": 22252821,
+   "name": "DN_NTL_2013_simVIIRS.tif",
+   "size": 40862548,
+   "is_link_only": false,
+   "download_url": "https://ndownloader.figshare.com/files/22252821",
+   "supplied_md5": "36c809e558147255742b54c86c2401d4",
+   "computed_md5": "36c809e558147255742b54c86c2401d4",
+   "mimetype": "image/tiff"
+  }
+ ],
+ "folder_structure": {},
+ "authors": [
+  {
+   "id": 6309494,
+   "full_name": "Xuecao Li",
+   "first_name": "Xuecao",
+   "last_name": "Li",
+   "is_active": true,
+   "url_name": "Xuecao_Li",
+   "orcid_id": "0000-0002-6942-0746"
+  },
+  {
+   "id": 6308822,
+   "full_name": "Yuyu Zhou",
+   "first_name": "Yuyu",
+   "last_name": "Zhou",
+   "is_active": true,
+   "url_name": "Yuyu_Zhou",
+   "orcid_id": ""
+  },
+  {
+   "id": 7382739,
+   "full_name": "Min zhao",
+   "first_name": "Min",
+   "last_name": "zhao",
+   "is_active": false,
+   "url_name": "_",
+   "orcid_id": ""
+  },
+  {
+   "id": 8317320,
+   "full_name": "Xia Zhao",
+   "first_name": "Xia",
+   "last_name": "Zhao",
+   "is_active": false,
+   "url_name": "_",
+   "orcid_id": ""
+  }
+ ],
+ "custom_fields": [],
+ "figshare_url": "https://figshare.com/articles/dataset/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827",
+ "download_disabled": false,
+ "description": "<p dir=\"ltr\">The dataset contains (1) temporally calibrated DMSP-OLS NTL time series data from 1992-2013; and (2) converted NTL time series from the VIIRS data (2014-2024)</p><p><br></p><p dir=\"ltr\">Spatial resolution: 30 arc-seconds (~1km)</p><p><br></p><p dir=\"ltr\">Information about the composited images from the calibrated DMSP dataset:</p><p dir=\"ltr\">F10(1992-1994); F12(1995-1996); F14(1997-2003); F16(2004-2009); F18(2010-2013)</p><p><br></p><p dir=\"ltr\">We suggested using pixels with DN values greater than 7.</p>",
+ "funding": null,
+ "funding_list": [],
+ "version": 10,
+ "status": "public",
+ "size": 1091935532,
+ "created_date": "2025-08-10T01:12:06Z",
+ "modified_date": "2025-08-10T01:12:54Z",
+ "is_public": true,
+ "is_confidential": false,
+ "is_metadata_record": false,
+ "confidential_reason": "",
+ "metadata_reason": "",
+ "license": {
+  "value": 1,
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/"
+ },
+ "tags": [
+  "DMSP/OLS data",
+  "VIIRS",
+  "nighttime light",
+  "calibration",
+  "consistent",
+  "global",
+  "Environmental Science"
+ ],
+ "keywords": [
+  "DMSP/OLS data",
+  "VIIRS",
+  "nighttime light",
+  "calibration",
+  "consistent",
+  "global",
+  "Environmental Science"
+ ],
+ "categories": [
+  {
+   "id": 26998,
+   "title": "Other environmental sciences not elsewhere classified",
+   "parent_id": 26995,
+   "path": "/26863/26995/26998",
+   "source_id": "419999",
+   "taxonomy_id": 100
+  }
+ ],
+ "references": [
+  "https://doi.org/10.3390/rs9060637"
+ ],
+ "has_linked_file": false,
+ "citation": "Li, Xuecao; Zhou, Yuyu; zhao, Min; Zhao, Xia (2020). Harmonization of DMSP and VIIRS nighttime light data from 1992-2024 at the global scale. figshare. Dataset. https://doi.org/10.6084/m9.figshare.9828827.v10",
+ "related_materials": [
+  {
+   "id": 149647950,
+   "identifier": "https://doi.org/10.3390/rs9060637",
+   "title": "",
+   "relation": "References",
+   "identifier_type": "URL",
+   "is_linkout": false,
+   "link": "https://doi.org/10.3390/rs9060637"
+  }
+ ],
+ "is_embargoed": false,
+ "embargo_date": null,
+ "embargo_type": "file",
+ "embargo_title": "",
+ "embargo_reason": "",
+ "embargo_options": [],
+ "id": 9828827,
+ "title": "Harmonization of DMSP and VIIRS nighttime light data from 1992-2024 at the global scale",
+ "doi": "10.6084/m9.figshare.9828827.v10",
+ "handle": "",
+ "url": "https://api.figshare.com/v2/articles/9828827",
+ "published_date": "2025-08-10T01:12:06Z",
+ "thumb": "",
+ "defined_type": 3,
+ "defined_type_name": "dataset",
+ "group_id": null,
+ "url_private_api": "https://api.figshare.com/v2/account/articles/9828827",
+ "url_public_api": "https://api.figshare.com/v2/articles/9828827",
+ "url_private_html": "https://figshare.com/account/articles/9828827",
+ "url_public_html": "https://figshare.com/articles/dataset/Harmonization_of_DMSP_and_VIIRS_nighttime_light_data_from_1992-2018_at_the_global_scale/9828827",
+ "timeline": {
+  "posted": "2025-08-10T01:12:06",
+  "firstOnline": "2020-01-17"
+ },
+ "resource_title": null,
+ "resource_doi": null
+}

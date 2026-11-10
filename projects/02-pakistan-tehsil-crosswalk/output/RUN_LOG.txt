@@ -1,0 +1,45 @@
+run started 2026-11-10 08:12:09 UTC on Linux 6.18.44-fc-v338 x86_64, 2 cpu, 7 GB
+Python 3.13.18
+pandas 3.0.5 numpy 2.5.3 scipy 1.18.1 geopandas 1.2.0 shapely 2.2.0
+== 01_unit_master.py
+   8 s
+== 02_crosswalk_pop.py
+   2 s
+== 03_resolve_lp.py
+   2 s
+== 02c_resolve_2017_2023_milp.py
+   3 s
+== 02b_overlay.py
+   2 s
+== 04_area_weights.py
+   1 s
+== 05_district_and_validate.py
+   1 s
+== 06_unit_master_1998.py
+   0 s
+== 07_crosswalk_1998_2017.py
+   5 s
+== 08_crosswalk_1998_tables.py
+   1 s
+== 10_event_register.py
+   1 s
+== 09_lineage.py
+   1 s
+== 11_validation_1998_md.py
+   1 s
+== 12_population_panel.py
+   1 s
+== 13_backward_district_crosswalk.py
+   1 s
+== 14_census_day_1998_frame.py
+   1 s
+== 15_census_day_frames_pub161.py
+   1 s
+== 16_census_day_layers.py
+   24 s
+== 17_census_day_report.py
+   1 s
+== 19_weights_and_uncertainty.py
+   5 s
+== 18_codebook.py
+FAILED: 18_codebook.py (see build/intermediate/log_18_codebook.txt)

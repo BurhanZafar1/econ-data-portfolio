@@ -1,5 +1,6 @@
 """District-level crosswalk (aggregated from the tehsil flows) and validation checks."""
-import pandas as pd, numpy as np, json
+import pandas as pd, numpy as np, json, sys
+sys.path.insert(0,'build'); from crosswalk_lib import district_confidence
 OUT='output/'
 X=pd.read_csv(OUT+'crosswalk_tehsil_2017_to_2023.csv')
 m17=pd.read_csv(OUT+'unit_master_2017_all.csv'); m23=pd.read_csv(OUT+'unit_master_2023_all.csv')
@@ -17,7 +18,7 @@ X['area_ij']=X.area_weight*X.groupby('unit_id_2017').apply(lambda g:(g.area_2023
 DA=X.groupby(['district_2017','district_2023']).area_ij.sum().reset_index()
 D=D.merge(DA,on=['district_2017','district_2023']); D['area_weight']=D.area_ij/D.groupby('district_2017').area_ij.transform('sum'); D=D.drop(columns='area_ij')
 D['pop_2017_restated_2023']=D.district_2023.map(d23.pop_2017_restated).astype(int); D['pop_2023']=D.district_2023.map(d23.pop_2023).astype(int)
-D['confidence']=D.apply(lambda r: X[(X.district_2017==r.district_2017)&(X.district_2023==r.district_2023)].confidence.map({'high':2,'medium':1,'low':0}).min(),axis=1).map({2:'high',1:'medium',0:'low'})
+D['confidence']=D.apply(district_confidence(X,'district_2017','district_2023'),axis=1)   # grade of the district flow: see crosswalk_lib.district_confidence
 D['karachi_division']=D.district_2023.isin(KARACHI)
 D['relation']=np.where(D.pop_weight==1,'whole', 'part')
 D=D.sort_values(['province_2017','district_2017','district_2023'])

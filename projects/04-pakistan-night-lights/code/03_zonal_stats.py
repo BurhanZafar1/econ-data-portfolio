@@ -18,7 +18,7 @@ Per unit and year:
                     dataset's authors recommend ("we suggested using pixels with DN values greater than 7")
   pixel_area_km2    the unit's area as seen by the raster grid (close to area_km2 from the polygon)
   series_note       flags 2014-2016, whose dim-light coverage in Pakistan is far below both 2013 and
-                    2017 in the source files (see docs/README.md)
+                    2017 in the source files (see README.md)
 DN is 0-63. 1992-2013 are inter-calibrated DMSP-OLS stable lights (satellites F10 to F18); 2014-2024 are
 VIIRS composites converted to the DMSP scale (sensor_basis records which).
 
@@ -49,7 +49,7 @@ for f in files:
 T=pd.concat(out_t); D=pd.concat(out_d)
 T=T.merge(teh[['dds_id','name','district','province','in_four_provinces','outside_census_frame','area_km2']],on='dds_id').rename(columns={'name':'tehsil_2023','district':'district_2023','province':'province_2023'})
 D=D.merge(dis[['district_code','name','census_name','province','in_four_provinces','outside_census_frame','area_km2']],on='district_code').rename(columns={'name':'district_2023','province':'province_2023'})
-stats=['area_km2','pixel_area_km2','dn_sum','dn_mean','dn_max','dn_lit_share','dn_sum_km2','dn_per_km2','log1p_dn_sum_km2','dn_sum_gt7_km2','dn_lit_share_gt7','coverage_pixels','series_note']
+stats=['area_km2','pixel_area_km2','dn_sum','dn_mean','dn_max','dn_lit_share','dn_sum_km2','dn_per_km2','log1p_dn_sum_km2','asinh_dn_sum_km2','dn_sum_gt7_km2','dn_lit_share_gt7','coverage_pixels','series_note']
 T=T[['year','sensor_basis','dds_id','tehsil_2023','district_2023','province_2023','in_four_provinces','outside_census_frame']+stats].sort_values(['dds_id','year'])
 D=D[['year','sensor_basis','district_code','district_2023','census_name','province_2023','in_four_provinces','outside_census_frame']+stats].sort_values(['district_code','year'])
 for X in (T,D):

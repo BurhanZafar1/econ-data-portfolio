@@ -1,0 +1,862 @@
+{
+ "census_day_units": 417,
+ "census_day_districts": 118,
+ "report_frame_units": 424,
+ "tehsil_rows": 450,
+ "tehsil_confidence": {
+  "high": 432,
+  "medium": 16,
+  "low": 2
+ },
+ "chained_rows": 817,
+ "chained_confidence": {
+  "high": 695,
+  "medium": 115,
+  "low": 7
+ },
+ "population_total": 131547044,
+ "population_total_report_frame": 131547044,
+ "weights_sum_to_one": true,
+ "totals_conserved": true,
+ "district_rows": 127,
+ "district_rows_2023": 186,
+ "district_level_flows": [
+  {
+   "province": "SINDH",
+   "district_1998census": "BADIN DISTRICT",
+   "district_1998_pcoframe": "BADIN DISTRICT",
+   "flow_1998": 1136044,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "DADU DISTRICT",
+   "district_1998_pcoframe": "DADU DISTRICT",
+   "flow_1998": 1688811,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "GHOTKI DISTRICT",
+   "district_1998_pcoframe": "GHOTKI DISTRICT",
+   "flow_1998": 968490,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "GHOTKI DISTRICT",
+   "district_1998_pcoframe": "SUKKUR DISTRICT",
+   "flow_1998": 2059,
+   "method": "split_and_merge",
+   "confidence": "low",
+   "note": "2,059 persons (source-year count) of GHOTKI DISTRICT fall in SUKKUR DISTRICT (cell cost 2.00); ambiguous: an equally parsimonious alternative allocation exists"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "HYDERABAD DISTRICT",
+   "district_1998_pcoframe": "BADIN DISTRICT",
+   "flow_1998": 57037,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "57,037 persons (source-year count) of HYDERABAD DISTRICT fall in BADIN DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "HYDERABAD DISTRICT",
+   "district_1998_pcoframe": "HYDERABAD DISTRICT",
+   "flow_1998": 2834451,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "JACOBABAD DISTRICT",
+   "district_1998_pcoframe": "JACOBABAD DISTRICT",
+   "flow_1998": 1404310,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "JACOBABAD DISTRICT",
+   "district_1998_pcoframe": "SUKKUR DISTRICT",
+   "flow_1998": 21262,
+   "method": "split_and_merge",
+   "confidence": "low",
+   "note": "21,262 persons (source-year count) of JACOBABAD DISTRICT fall in SUKKUR DISTRICT (cell cost 2.00); ambiguous: an equally parsimonious alternative allocation exists"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "KARACHI CENTRAL DISTRICT",
+   "district_1998_pcoframe": "KARACHI CITY DISTRICT",
+   "flow_1998": 2277931,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "KARACHI EAST DISTRICT",
+   "district_1998_pcoframe": "KARACHI CITY DISTRICT",
+   "flow_1998": 2746014,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "KARACHI SOUTH DISTRICT",
+   "district_1998_pcoframe": "KARACHI CITY DISTRICT",
+   "flow_1998": 1745038,
+   "method": "merge",
+   "confidence": "medium",
+   "note": "1,745,038 persons (source-year count) of KARACHI SOUTH DISTRICT fall in KARACHI CITY DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "KARACHI WEST DISTRICT",
+   "district_1998_pcoframe": "KARACHI CITY DISTRICT",
+   "flow_1998": 2105923,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "KHAIRPUR DISTRICT",
+   "district_1998_pcoframe": "KHAIRPUR DISTRICT",
+   "flow_1998": 1546587,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "LARKANA DISTRICT",
+   "district_1998_pcoframe": "LARKANA DISTRICT",
+   "flow_1998": 1927066,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "MALIR DISTRICT",
+   "district_1998_pcoframe": "KARACHI CITY DISTRICT",
+   "flow_1998": 981412,
+   "method": "merge",
+   "confidence": "medium",
+   "note": "981,412 persons (source-year count) of MALIR DISTRICT fall in KARACHI CITY DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "MIRPUR KHAS DISTRICT",
+   "district_1998_pcoframe": "MIRPUR KHAS DISTRICT",
+   "flow_1998": 905935,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "NAUSHAHRO FEROZE DISTRICT",
+   "district_1998_pcoframe": "NAUSHAHRO FEROZE DISTRICT",
+   "flow_1998": 1087571,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "NAWAB SHAH DISTRICT",
+   "district_1998_pcoframe": "NAWAB SHAH DISTRICT",
+   "flow_1998": 1071533,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "SANGHAR DISTRICT",
+   "district_1998_pcoframe": "NAWAB SHAH DISTRICT",
+   "flow_1998": 31051,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "31,051 persons (source-year count) of SANGHAR DISTRICT fall in NAWAB SHAH DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "SANGHAR DISTRICT",
+   "district_1998_pcoframe": "SANGHAR DISTRICT",
+   "flow_1998": 1421977,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "SHIKARPUR DISTRICT",
+   "district_1998_pcoframe": "SHIKARPUR DISTRICT",
+   "flow_1998": 880438,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "SUKKUR DISTRICT",
+   "district_1998_pcoframe": "SUKKUR DISTRICT",
+   "flow_1998": 908373,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "THARPARKAR DISTRICT",
+   "district_1998_pcoframe": "THARPARKAR DISTRICT",
+   "flow_1998": 914291,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "THATTA DISTRICT",
+   "district_1998_pcoframe": "THATTA DISTRICT",
+   "flow_1998": 1113194,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "SINDH",
+   "district_1998census": "UMERKOT DISTRICT",
+   "district_1998_pcoframe": "MIRPUR KHAS DISTRICT",
+   "flow_1998": 663095,
+   "method": "merge",
+   "confidence": "medium",
+   "note": "663,095 persons (source-year count) of UMERKOT DISTRICT fall in MIRPUR KHAS DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "ABBOTTABAD DISTRICT",
+   "district_1998_pcoframe": "ABBOTTABAD DISTRICT",
+   "flow_1998": 880666,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "BANNU DISTRICT",
+   "district_1998_pcoframe": "BANNU DISTRICT",
+   "flow_1998": 675667,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "BATAGRAM DISTRICT",
+   "district_1998_pcoframe": "BATAGRAM DISTRICT",
+   "flow_1998": 307278,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "BUNER DISTRICT",
+   "district_1998_pcoframe": "BUNER DISTRICT",
+   "flow_1998": 506048,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "CHARSADDA DISTRICT",
+   "district_1998_pcoframe": "CHARSADDA DISTRICT",
+   "flow_1998": 1022364,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "CHITRAL DISTRICT",
+   "district_1998_pcoframe": "CHITRAL DISTRICT",
+   "flow_1998": 318689,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "D.I.KHAN DISTRICT",
+   "district_1998_pcoframe": "D.I.KHAN DISTRICT",
+   "flow_1998": 852995,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "HANGU DISTRICT",
+   "district_1998_pcoframe": "HANGU DISTRICT",
+   "flow_1998": 314529,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "HARIPUR DISTRICT",
+   "district_1998_pcoframe": "HARIPUR DISTRICT",
+   "flow_1998": 692228,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "KARAK DISTRICT",
+   "district_1998_pcoframe": "KARAK DISTRICT",
+   "flow_1998": 430796,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "KOHAT DISTRICT",
+   "district_1998_pcoframe": "KOHAT DISTRICT",
+   "flow_1998": 562644,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "KOHISTAN DISTRICT",
+   "district_1998_pcoframe": "KOHISTAN DISTRICT",
+   "flow_1998": 472570,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "LAKKI MARWAT DISTRICT",
+   "district_1998_pcoframe": "LAKKI MARWAT DISTRICT",
+   "flow_1998": 490025,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "LOWER DIR DISTRICT",
+   "district_1998_pcoframe": "LOWER DIR DISTRICT",
+   "flow_1998": 717649,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "MALAKAND PROTECTED AREA",
+   "district_1998_pcoframe": "MALAKAND PROTECTED AREA",
+   "flow_1998": 452291,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "MANSEHRA DISTRICT",
+   "district_1998_pcoframe": "MANSEHRA DISTRICT",
+   "flow_1998": 1152839,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "MARDAN DISTRICT",
+   "district_1998_pcoframe": "MARDAN DISTRICT",
+   "flow_1998": 1460100,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "NOWSHERA DISTRICT",
+   "district_1998_pcoframe": "NOWSHERA DISTRICT",
+   "flow_1998": 874373,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "PESHAWAR DISTRICT",
+   "district_1998_pcoframe": "PESHAWAR DISTRICT",
+   "flow_1998": 2026851,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "SHANGLA DISTRICT",
+   "district_1998_pcoframe": "SHANGLA DISTRICT",
+   "flow_1998": 434563,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "SWABI DISTRICT",
+   "district_1998_pcoframe": "SWABI DISTRICT",
+   "flow_1998": 1026804,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "SWAT DISTRICT",
+   "district_1998_pcoframe": "SWAT DISTRICT",
+   "flow_1998": 1257602,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "TANK DISTRICT",
+   "district_1998_pcoframe": "TANK DISTRICT",
+   "flow_1998": 238216,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "KHYBER PAKHTUNKHWA",
+   "district_1998census": "UPPER DIR DISTRICT",
+   "district_1998_pcoframe": "UPPER DIR DISTRICT",
+   "flow_1998": 575858,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "BAJAUR AGENCY",
+   "district_1998_pcoframe": "BAJAUR AGENCY",
+   "flow_1998": 595227,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "KHYBER AGENCY",
+   "district_1998_pcoframe": "KHYBER AGENCY",
+   "flow_1998": 546730,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "KURRAM AGENCY",
+   "district_1998_pcoframe": "KURRAM AGENCY",
+   "flow_1998": 448310,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "MOHMAND AGENCY",
+   "district_1998_pcoframe": "MOHMAND AGENCY",
+   "flow_1998": 334453,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "NORTH WAZIRISTAN AGENCY",
+   "district_1998_pcoframe": "NORTH WAZIRISTAN AGENCY",
+   "flow_1998": 361246,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "ORAKZAI AGENCY",
+   "district_1998_pcoframe": "ORAKZAI AGENCY",
+   "flow_1998": 225441,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "SOUTH WAZIRISTAN AGENCY",
+   "district_1998_pcoframe": "SOUTH WAZIRISTAN AGENCY",
+   "flow_1998": 429841,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING BANNU DISTRICT",
+   "district_1998_pcoframe": "FR BANNU",
+   "flow_1998": 19593,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING D.I.KHAN DISTRICT",
+   "district_1998_pcoframe": "FR D.I.KHAN",
+   "flow_1998": 38990,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING KOHAT DISTRICT",
+   "district_1998_pcoframe": "FR KOHAT",
+   "flow_1998": 88456,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING LAKKI MARWAT DISTRICT",
+   "district_1998_pcoframe": "FR LAKKI MARWAT",
+   "flow_1998": 6987,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING PESHAWAR DISTRICT",
+   "district_1998_pcoframe": "FR PESHAWAR",
+   "flow_1998": 53841,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "FATA",
+   "district_1998census": "TRIBAL AREA ADJOINING TANK DISTRICT",
+   "district_1998_pcoframe": "FR TANK",
+   "flow_1998": 27216,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "AWARAN DISTRICT",
+   "district_1998_pcoframe": "AWARAN DISTRICT",
+   "flow_1998": 118173,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "BARKHAN DISTRICT",
+   "district_1998_pcoframe": "BARKHAN DISTRICT",
+   "flow_1998": 103545,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "BOLAN DISTRICT",
+   "district_1998_pcoframe": "BOLAN DISTRICT",
+   "flow_1998": 255480,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "BOLAN DISTRICT",
+   "district_1998_pcoframe": "SIBI DISTRICT",
+   "flow_1998": 32576,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "32,576 persons (source-year count) of BOLAN DISTRICT fall in SIBI DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "CHAGAI DISTRICT",
+   "district_1998_pcoframe": "CHAGAI DISTRICT",
+   "flow_1998": 104534,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "CHAGAI DISTRICT",
+   "district_1998_pcoframe": "NUSHKI DISTRICT",
+   "flow_1998": 98030,
+   "method": "split",
+   "confidence": "medium",
+   "note": "98,030 persons (source-year count) of CHAGAI DISTRICT fall in NUSHKI DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "DERA BUGTI DISTRICT",
+   "district_1998_pcoframe": "DERA BUGTI DISTRICT",
+   "flow_1998": 181310,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "GWADAR DISTRICT",
+   "district_1998_pcoframe": "GWADAR DISTRICT",
+   "flow_1998": 185498,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "JAFARABAD DISTRICT",
+   "district_1998_pcoframe": "JAFARABAD DISTRICT",
+   "flow_1998": 432817,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "JHAL MAGSI DISTRICT",
+   "district_1998_pcoframe": "JHAL MAGSI DISTRICT",
+   "flow_1998": 109941,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KALAT DISTRICT",
+   "district_1998_pcoframe": "KALAT DISTRICT",
+   "flow_1998": 237834,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KECH DISTRICT",
+   "district_1998_pcoframe": "KECH DISTRICT",
+   "flow_1998": 413204,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KHARAN DISTRICT",
+   "district_1998_pcoframe": "KHARAN DISTRICT",
+   "flow_1998": 206909,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KHUZDAR DISTRICT",
+   "district_1998_pcoframe": "KHUZDAR DISTRICT",
+   "flow_1998": 417466,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KILLA ABDULLAH DISTRICT",
+   "district_1998_pcoframe": "KILLA ABDULLAH DISTRICT",
+   "flow_1998": 360724,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KILLA ABDULLAH DISTRICT",
+   "district_1998_pcoframe": "PISHIN DISTRICT",
+   "flow_1998": 9545,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "9,545 persons (source-year count) of KILLA ABDULLAH DISTRICT fall in PISHIN DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KILLA SAIFULLAH DISTRICT",
+   "district_1998_pcoframe": "KILLA SAIFULLAH DISTRICT",
+   "flow_1998": 193553,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "KOHLU DISTRICT",
+   "district_1998_pcoframe": "KOHLU DISTRICT",
+   "flow_1998": 99846,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "LASBELA DISTRICT",
+   "district_1998_pcoframe": "LASBELA DISTRICT",
+   "flow_1998": 312695,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "LORALAI DISTRICT",
+   "district_1998_pcoframe": "LORALAI DISTRICT",
+   "flow_1998": 250147,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "LORALAI DISTRICT",
+   "district_1998_pcoframe": "ZIARAT DISTRICT",
+   "flow_1998": 47408,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "47,408 persons (source-year count) of LORALAI DISTRICT fall in ZIARAT DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "MASTUNG DISTRICT",
+   "district_1998_pcoframe": "MASTUNG DISTRICT",
+   "flow_1998": 160546,
+   "method": "split",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "MASTUNG DISTRICT",
+   "district_1998_pcoframe": "QUETTA DISTRICT",
+   "flow_1998": 4099,
+   "method": "split_and_merge",
+   "confidence": "medium",
+   "note": "4,099 persons (source-year count) of MASTUNG DISTRICT fall in QUETTA DISTRICT (cell cost 2.00); inferred: another balancing allocation exists but is less parsimonious under the adjacency prior"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "MUSAKHEL DISTRICT",
+   "district_1998_pcoframe": "MUSAKHEL DISTRICT",
+   "flow_1998": 134056,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "NASIRABAD DISTRICT",
+   "district_1998_pcoframe": "NASIRABAD DISTRICT",
+   "flow_1998": 245894,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "PANJGUR DISTRICT",
+   "district_1998_pcoframe": "PANJGUR DISTRICT",
+   "flow_1998": 234051,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "PISHIN DISTRICT",
+   "district_1998_pcoframe": "PISHIN DISTRICT",
+   "flow_1998": 367183,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "QUETTA DISTRICT",
+   "district_1998_pcoframe": "QUETTA DISTRICT",
+   "flow_1998": 759941,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "SIBI DISTRICT",
+   "district_1998_pcoframe": "SIBI DISTRICT",
+   "flow_1998": 180398,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "ZHOB DISTRICT",
+   "district_1998_pcoframe": "ZHOB DISTRICT",
+   "flow_1998": 275142,
+   "method": "one_to_one",
+   "confidence": "high",
+   "note": "same name"
+  },
+  {
+   "province": "BALOCHISTAN",
+   "district_1998census": "ZIARAT DISTRICT",
+   "district_1998_pcoframe": "ZIARAT DISTRICT",
+   "flow_1998": 33340,
+   "method": "merge",
+   "confidence": "high",
+   "note": "same name"
+  }
+ ]
+}

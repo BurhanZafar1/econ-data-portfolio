@@ -15,14 +15,17 @@
 * rates : averaged over source units with weights = people moved (pop_weight x source population).
 *         Rates whose denominator is not population should be rebuilt from counts instead.
 * weight: pop (default) or area.
-* The source and target years are read from the crosswalk's column names.
+* The source and target years are read from the crosswalk's column names. Frames: 1998, 2017, 2023 and
+* 1998census (the census-day 1998 units, id unit_id_1998census / district_1998census). The two census-day ->
+* report-frame tables (…_1998census_to_pcoframe.csv) carry population weights only and are not handled by this
+* program; use the R function or the chained …_1998census_to_2023.csv tables.
 
 capture program drop _cw_frames
 program define _cw_frames, rclass
     * finds the two census years in the crosswalk variable names
     local yrs
     foreach v of varlist _all {
-        if regexm("`v'", "^(unit_id|district)_([0-9][0-9][0-9][0-9])$") {
+        if regexm("`v'", "^(unit_id|district)_([0-9][0-9][0-9][0-9](census)?)$") {
             local y = regexs(2)
             if !strpos(" `yrs' ", " `y' ") local yrs `yrs' `y'
         }

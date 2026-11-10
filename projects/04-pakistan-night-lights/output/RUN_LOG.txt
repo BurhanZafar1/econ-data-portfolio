@@ -1,0 +1,27 @@
+run started 2026-11-10 08:21:04 UTC on Linux 6.18.44-fc-v338 x86_64, 2 cpu, 7 GB
+Python 3.13.18
+pandas 3.0.5 numpy 2.5.3 geopandas 1.2.0 rasterio 1.5.2 exactextract 0.3.0 pyproj 3.8.0 matplotlib 3.11.2
+== 01_download_nightlights.py
+   19 s
+== 01b_download_viirs_like.py
+   6 s
+== 02_prepare_boundaries.py
+   1 s
+== 03_zonal_stats.py
+   170 s
+== 04_zonal_stats_viirs_like.py
+   281 s
+== 05_checks.py
+   0 s
+== 06_merge_with_census.py
+   1 s
+== 07_district_rankings.py
+   10 s
+== 08_rankings_report.py
+   1 s
+== 09_codebook.py
+   0 s
+== 99_checksums.py
+   0 s
+== tests/
+   TESTS FAILED (output/logs/log_pytest.txt)

@@ -36,4 +36,5 @@ def zonal(layer,key,value,lit,area,prof,prefix,thresh_value=None,thresh_lit=None
                     r=r.merge(exact_extract(tl,layer,['mean'],include_cols=[key],output='pandas').rename(columns={'mean':f'{prefix}_lit_share_{thresh_label}'}),on=key)
     r[f'{prefix}_per_km2']=r[f'{prefix}_sum_km2']/r.pixel_area_km2
     r[f'log1p_{prefix}_sum_km2']=np.log1p(r[f'{prefix}_sum_km2'])
+    r[f'asinh_{prefix}_sum_km2']=np.arcsinh(r[f'{prefix}_sum_km2'])   # inverse hyperbolic sine, the usual alternative to log(1+x); both keep zeros
     return r

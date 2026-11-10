@@ -1,6 +1,6 @@
 {
  "tehsil_1998_to_2017": {
-  "rows": 598,
+  "rows": 597,
   "units_1998": 424,
   "units_1998_in_frame": 424,
   "units_2017": 535,
@@ -9,25 +9,25 @@
   "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
   "tehsil_conservation_max_abs_dev": 0,
   "confidence": {
-   "high": 532,
-   "medium": 62,
+   "high": 535,
+   "medium": 58,
    "low": 4
   },
   "method": {
-   "one_to_one": 274,
+   "one_to_one": 275,
    "split": 195,
-   "split_and_merge": 90,
+   "split_and_merge": 88,
    "merge": 33,
    "one_to_one_renamed": 6
   },
   "area_basis": {
-   "identity": 313,
+   "identity": 314,
    "pbs_area_2017_exact": 191,
-   "pbs_area_2017_uniform_density": 89,
+   "pbs_area_2017_uniform_density": 87,
    "implied_2017_area_uniform_density": 5
   },
-  "split_1998_units": 111,
-  "units_2017_with_multiple_sources": 60,
+  "split_1998_units": 110,
+  "units_2017_with_multiple_sources": 59,
   "collapsed_1998_districts": [
    "KARACHI CITY DISTRICT",
    "LAHORE CITY DISTRICT",
@@ -62,16 +62,16 @@
   }
  },
  "tehsil_1998_to_2023": {
-  "rows": 680,
+  "rows": 678,
   "units_1998": 424,
   "units_2023": 590,
   "pop_weight_sum_max_abs_dev": 3.3306690738754696e-16,
   "area_weight_sum_max_abs_dev": 2.220446049250313e-16,
-  "total_1998_persons_in": 131547044.02,
+  "total_1998_persons_in": 131547044.03999999,
   "total_1998_persons_pco": 131547044,
   "confidence": {
-   "high": 575,
-   "medium": 101,
+   "high": 580,
+   "medium": 94,
    "low": 4
   },
   "split_1998_units": 143

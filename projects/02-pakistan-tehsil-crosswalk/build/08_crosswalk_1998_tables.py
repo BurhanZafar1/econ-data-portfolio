@@ -8,7 +8,8 @@
  c) district tables for both, aggregated from the tehsil flows.
  d) validation_summary_1998.json
 """
-import pandas as pd, numpy as np, json
+import pandas as pd, numpy as np, json, sys
+sys.path.insert(0,'build'); from crosswalk_lib import district_confidence
 OUT='output/'; INT='build/intermediate/'
 PROV={'PUNJAB','SINDH','BALOCHISTAN','KHYBER PAKHTUNKHWA','FATA'}
 KARACHI={'KARACHI CENTRAL DISTRICT','KARACHI EAST DISTRICT','KARACHI SOUTH DISTRICT','KARACHI WEST DISTRICT','KORANGI DISTRICT','MALIR DISTRICT','KEAMARI DISTRICT','KARACHI CITY DISTRICT'}
@@ -71,7 +72,8 @@ print('1998->2023 rows',len(C),'| 1998 units',C.unit_id_1998.nunique(),'| 2023 u
 # ---- c) district tables
 def district_table(T,yr_new,pop_new_col,area_src):
     key=['province_1998','district_1998',f'province_{yr_new}',f'district_{yr_new}']
-    D=T.groupby(key,as_index=False).agg(flow_1998=('flow_1998','sum'),area=(area_src,'sum'),conf=('confidence',lambda c:'low' if (c=='low').any() else 'medium' if (c=='medium').any() else 'high'),n_tehsil_rows=('flow_1998','size'))
+    D=T.groupby(key,as_index=False).agg(flow_1998=('flow_1998','sum'),area=(area_src,'sum'),n_tehsil_rows=('flow_1998','size'))
+    D['conf']=D.apply(district_confidence(T,'district_1998',f'district_{yr_new}'),axis=1)   # grade of the district flow: see crosswalk_lib.district_confidence
     D['pop_1998']=D.district_1998.map(T.groupby('district_1998').pop_1998.apply(lambda s:s.groupby(level=0).first().sum()) if False else T.drop_duplicates('unit_id_1998').groupby('district_1998').pop_1998.sum())
     D['pop_weight']=D.flow_1998/D.pop_1998
     D['area_weight']=D.area/D.groupby('district_1998').area.transform('sum')

@@ -123,6 +123,12 @@ def solve_group(old,new,adjacency=None,label='',district_flows=None,pin_equal=Tr
         for i in range(m):
             for j in range(n):
                 if NM[i,j] and P[i]==Q[j] and NM[i].sum()==1 and NM[:,j].sum()==1: fixed[(i,j)]=int(P[i])
+        # a name printed more than once (e.g. "Quetta Tehsil (Part)" under two sub-divisions): pin the pair whose
+        # populations are identical when that equality singles out one partner on each side
+        for i in range(m):
+            for j in range(n):
+                if NM[i,j] and P[i]==Q[j] and (i,j) not in fixed:
+                    if sum(1 for k in range(n) if NM[i,k] and Q[k]==P[i])==1 and sum(1 for k in range(m) if NM[k,j] and P[k]==Q[j])==1: fixed[(i,j)]=int(P[i])
     t0=time.time(); print(f'solving {label}: {m} old x {n} new, {len(fixed)} pinned, {len(block)} district constraints',flush=True)
     F,obj=_solve(P,Q,W,fixed=fixed,block_eq=block,allowed=allowed)
     if F is None:
@@ -175,3 +181,17 @@ def components(edges):
     comp={}
     for x in list(parent): comp.setdefault(find(x),[]).append(x)
     return [({k for t,k in v if t=='o'},{k for t,k in v if t=='n'}) for v in comp.values()]
+
+RANK={'high':2,'medium':1,'low':0}; INV={2:'high',1:'medium',0:'low'}
+def district_confidence(T,a_col,b_col,conf_col='confidence'):
+    """Grade of a district-to-district flow, from the tehsil rows that make it up.
+    For a pair of different districts: the weakest tehsil row in that pair. For the within-district pair
+    (a == b): the weakest tehsil row that leaves district a for another district (what stays is what did not
+    leave), high if nothing leaves. Inferred rows between tehsils of the same district do not change any
+    district total, so they do not lower the district grade. Returns a function for DataFrame.apply(axis=1)."""
+    cross=T[T[a_col]!=T[b_col]]
+    def f(r):
+        if r[a_col]!=r[b_col]: s=cross[(cross[a_col]==r[a_col])&(cross[b_col]==r[b_col])][conf_col]
+        else: s=cross[cross[a_col]==r[a_col]][conf_col]
+        return INV[min(RANK[x] for x in s)] if len(s) else 'high'
+    return f

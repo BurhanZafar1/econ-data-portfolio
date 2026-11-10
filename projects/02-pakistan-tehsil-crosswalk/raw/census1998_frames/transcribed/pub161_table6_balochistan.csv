@@ -1,0 +1,210 @@
+page,tier,division,district,unit,area_km2,pop_1951,pop_1961,pop_1972,pop_1981,pop_1998,mark,uncertain,notes
+40,province,,,BALOCHISTAN PROVINCE,347190,1167167,1353484,2428678,4332376,6565885,,no,
+40,division,Quetta,,QUETTA DIVISION,64310,244170,308663,566829,880618,1699957,,no,
+40,district,Quetta,Quetta,QUETTA DISTRICT,2653,199135,142070,252380,381566,759941,* / **,no,"* on area: Sub-Division wise area figure not available. ** on Rural 1951 (115243): Includes rural population of Pishin & Killa Abdullah districts in 1951. An extra unlabeled line (142070 252380 381566 759941) repeating the district totals is printed below the Urban row."
+40,tehsil,Quetta,Quetta,Quetta City Sub-Division,,83892,121906,217705,321592,638896,,no,
+40,tehsil,Quetta,Quetta,Quetta Tehsil (Part),,83892,121906,217705,321592,638896,,no,under Quetta City Sub-Division; printed in regular (non-bold) type
+40,tehsil,Quetta,Quetta,Quetta Saddar Sub-Division,,,20164,34675,59974,121045,,no,
+40,tehsil,Quetta,Quetta,Quetta Tehsil (Part),,,17971,31124,52437,105906,,no,under Quetta Saddar Sub-Division; printed in regular type
+40,tehsil,Quetta,Quetta,Panj Pai Sub Tehsil,,,2193,3551,7537,15139,,no,under Quetta Saddar Sub-Division; printed in regular type
+40,district,Quetta,Pishin,PISHIN DISTRICT,7819,,58957,131923,202256,367183,*,no,"* on area: Sub-Division wise area figure not available. 1951 total printed as dash although Urban 1951 = 3106 (rural 1951 included in Quetta district)."
+40,tehsil,Quetta,Pishin,Pishin Sub-Division,,,32307,79619,123279,196635,,no,
+40,tehsil,Quetta,Pishin,Pishin Tehsil,,,19179,51525,75387,138542,,no,under Pishin Sub-Division; printed in regular type
+40,tehsil,Quetta,Pishin,Hurramzai Sub-Tehsil,,,13128,28094,47892,58093,,no,under Pishin Sub-Division; printed in regular type
+40,tehsil,Quetta,Pishin,Barshore Sub-Division,,,12408,28114,43182,95132,,no,
+40,tehsil,Quetta,Pishin,Barshore Sub-Tehsil,,,12408,28114,43182,95132,,no,under Barshore Sub-Division; printed in regular type
+41,tehsil,Quetta,Pishin,Karezat Sub-Division,,,14242,24190,35795,75416,,no,
+41,tehsil,Quetta,Pishin,Karezat Sub-Tehsil,,,14242,24190,35795,75416,,no,under Karezat Sub-Division; printed in regular type
+41,district,Quetta,Killa Abdullah,KILLA ABDULLAH DISTRICT,3293,,66373,117231,176341,370269,*,no,"* on area: Sub-Division wise area figure not available. 1951 total printed as dash although Urban 1951 = 6980."
+41,tehsil,Quetta,Killa Abdullah,Gulistan Sub-Division,,,33562,53190,83443,187365,,no,
+41,tehsil,Quetta,Killa Abdullah,Gulistan Sub-Tehsil,,,33562,53190,83443,187365,**,no,"under Gulistan Sub-Division; printed in regular type. ** on Urban 1961 (128) and 1972 (206): Includes 128 & 206 population of Gulistan Bazar Town in 1961 & 1972 (de-notified)."
+41,tehsil,Quetta,Killa Abdullah,Chaman Sub-Division,,,32811,64041,92898,182904,,no,
+41,tehsil,Quetta,Killa Abdullah,Chaman Tehsil,,,26087,47692,68848,151854,,no,under Chaman Sub-Division; printed in regular type
+41,tehsil,Quetta,Killa Abdullah,Dobandi Sub-Tehsil,,,6724,16349,24050,31050,,no,under Chaman Sub-Division; printed in regular type
+41,district,Quetta,Chagai,CHAGAI DISTRICT,50545,34949,41263,65295,120455,202564,,no,
+41,tehsil,Quetta,Chagai,Nushki Sub-Division,5797,,19849,31261,56742,98030,,no,
+41,tehsil,Quetta,Chagai,Nushki Tehsil,,,19849,31261,56742,98030,,no,under Nushki Sub-Division; printed in regular type
+41,tehsil,Quetta,Chagai,Dalbandin Sub-Division,19338,,16715,26536,50467,82839,,no,
+41,tehsil,Quetta,Chagai,Dalbandin Tehsil,,,13344,20555,40789,60328,,no,under Dalbandin Sub-Division; printed in regular type
+41,tehsil,Quetta,Chagai,Chagai Sub-Tehsil,,,3371,5981,9678,22511,,no,under Dalbandin Sub-Division; printed in regular type
+42,tehsil,Quetta,Chagai,Taftan Sub-Division,25410,,4699,7498,13246,21695,,no,
+42,tehsil,Quetta,Chagai,Nokundi Sub-Tehsil,,,3030,6150,11183,14029,*,no,"under Taftan Sub-Division; printed in regular type. * on Urban 1961 (861) and 1972 (3054): Includes 861 & 3054 population of Nokundi Town in 1961 & 1972 (de-notified)."
+42,tehsil,Quetta,Chagai,Taftan Sub-Tehsil,,,1669,1348,2063,7666,,no,under Taftan Sub-Division; printed in regular type
+42,division,Zhob,,ZHOB DIVISION,46200,150856,198406,359308,749545,1003851,,no,
+42,district,Zhob,Loralai,LORALAI DISTRICT,9830,86735,56644,104068,235038,297555,**,no,** on 1951: Includes population of Musakhel and Barkhan districts in 1951.
+42,tehsil,Zhob,Loralai,Loralai Sub-Division,3785,,23293,41615,97887,134171,,no,
+42,tehsil,Zhob,Loralai,Loralai/Bori Tehsil,,,14349,31806,76188,102426,,no,under Loralai Sub-Division; printed in regular type
+42,tehsil,Zhob,Loralai,Mekhtar Sub-Tehsil,,,8944,9809,21699,31745,,no,under Loralai Sub-Division; printed in regular type
+42,tehsil,Zhob,Loralai,Duki Sub-Division,6045,,22772,42751,106168,115976,#,no,# on area: Includes area figure of Sinjawi Sub-Division.
+42,tehsil,Zhob,Loralai,Duki Tehsil,,,22772,42751,106168,115976,,no,under Duki Sub-Division; printed in regular type
+42,tehsil,Zhob,Loralai,Sinjawi Sub-Division,,,10579,19702,30983,47408,,no,area blank (included in Duki Sub-Division area)
+42,tehsil,Zhob,Loralai,Sinjawi Sub-Tehsil,,,10579,19702,30983,47408,■,no,"under Sinjawi Sub-Division; printed in regular type. ■ (black square) on Urban 1961 (565), 1972 (1126), 1981 (5327): Includes 565, 1126 & 5327 population of Sinjawi TC in 1961, 1972 & 1981 (de-notified)."
+42,district,Zhob,Barkhan,BARKHAN DISTRICT,3514,,29756,44704,61686,103545,,no,
+43,tehsil,Zhob,Barkhan,Barkhan Sub-Division,3514,,29756,44704,61686,103545,,no,
+43,tehsil,Zhob,Barkhan,Barkhan Tehsil,,,29756,44704,61686,103545,,no,under Barkhan Sub-Division; printed in regular type
+43,district,Zhob,Musakhel,MUSAKHEL DISTRICT,5728,,24320,38547,91174,134056,,no,
+43,tehsil,Zhob,Musakhel,Musakhel Sub-Division,5728,,24320,38547,91174,134056,,no,
+43,tehsil,Zhob,Musakhel,Musakhel Tehsil,,,18153,29351,73290,109234,,no,under Musakhel Sub-Division; printed in regular type
+43,tehsil,Zhob,Musakhel,Kingri Sub-Tehsil,,,6167,9196,17884,24822,,no,under Musakhel Sub-Division; printed in regular type
+43,district,Zhob,Killa Saifullah,KILLA SAIFULLAH DISTRICT,6831,,37577,72086,148362,193553,,no,
+43,tehsil,Zhob,Killa Saifullah,Killa Saifullah sub-div.,4386,,19792,35504,95599,98724,,no,printed as "Killa Saifullah sub-div." (abbreviated Sub-Division)
+43,tehsil,Zhob,Killa Saifullah,Killa Saifullah Tehsil,,,17981,31938,85664,92141,,no,under Killa Saifullah sub-div.; printed in regular type
+43,tehsil,Zhob,Killa Saifullah,Baddini Sub-Tehsil,,,1811,3566,9935,6583,,no,under Killa Saifullah sub-div.; printed in regular type
+43,tehsil,Zhob,Killa Saifullah,Upper Zhob Sub-Division,2445,,17785,36582,52763,94829,,no,
+43,tehsil,Zhob,Killa Saifullah,Muslim Bagh Tehsil,,,13175,25382,37688,69038,,no,under Upper Zhob Sub-Division; printed in regular type
+43,tehsil,Zhob,Killa Saifullah,Loiband Sub-Tehsil,,,4610,11200,15075,25791,,no,under Upper Zhob Sub-Division; printed in regular type
+44,district,Zhob,Zhob,ZHOB DISTRICT,20297,64121,50109,99903,213285,275142,*,no,* on 1951: Includes population of Killa Saifullah district in 1951.
+44,tehsil,Zhob,Zhob,Zhob Sub-Division,16520,,34567,63430,115265,169191,,no,
+44,tehsil,Zhob,Zhob,Zhob Tehsil,,,30911,56221,104241,153993,,no,under Zhob Sub-Division; printed in regular type
+44,tehsil,Zhob,Zhob,Sambaza Sub-Tehsil,,,3656,7209,11024,15198,,no,under Zhob Sub-Division; printed in regular type
+44,tehsil,Zhob,Zhob,Sherani Sub-Division,3777,,10354,25384,78625,81684,**,no,** on area: Includes area figure of Kakar Khurasan Sub-Division.
+44,tehsil,Zhob,Zhob,Sherani Sub-Tehsil,,,10354,25384,78625,81684,,no,under Sherani Sub-Division; printed in regular type
+44,tehsil,Zhob,Zhob,Kakar Khurasan Sub-Division,,,5188,11089,19395,24267,,no,area blank (included in Sherani Sub-Division area)
+44,tehsil,Zhob,Zhob,Qamar Din Karez Tehsil,,,2950,5847,8649,5855,,no,under Kakar Khurasan Sub-Division; printed in regular type
+44,tehsil,Zhob,Zhob,Ashwat Sub-Tehsil,,,2238,5242,10746,18412,,no,under Kakar Khurasan Sub-Division; printed in regular type
+44,division,Sibi,,SIBI DIVISION,27055,194359,123049,214935,305768,494894,#,no,# on 1951: Includes rural population of Nasirabad division in 1951.
+44,district,Sibi,Sibi,SIBI DISTRICT,7796,194359,57625,88734,98482,180398,■,no,"■ (black square) on 1951: Includes rural population of Ziarat, Kohlu, Dera Bugti and Nasirabad distts. in 1951."
+44,tehsil,Sibi,Sibi,Sibi Sub-Division,5304,,34618,60604,58469,103746,,no,
+44,tehsil,Sibi,Sibi,Sibi Tehsil,,,31731,51388,51499,92665,,no,under Sibi Sub-Division; printed in regular type
+45,tehsil,Sibi,Sibi,Kutmandai Sub-Tehsil,,,909,4906,3551,8057,,no,under Sibi Sub-Division; printed in regular type
+45,tehsil,Sibi,Sibi,Sangan Sub-Tehsil,,,1978,4310,3419,3024,,no,under Sibi Sub-Division; printed in regular type
+45,tehsil,Sibi,Sibi,Harnai Sub-Division,2492,,23007,28130,40013,76652,,no,
+45,tehsil,Sibi,Sibi,Harnai Tehsil,,,23007,28130,40013,76652,*,no,under Harnai Sub-Division; printed in regular type. * on Urban 1972 (3286): Includes 783 population of Shahrig Bazar Town in 1972 (de-notified).
+45,district,Sibi,Ziarat,ZIARAT DISTRICT,1489,,5274,17986,32196,33340,,no,
+45,tehsil,Sibi,Ziarat,Ziarat Sub-Division,1489,,5274,17986,32196,33340,,no,
+45,tehsil,Sibi,Ziarat,Ziarat Tehsil,,,5274,17986,32196,33340,,no,under Ziarat Sub-Division; printed in regular type
+45,district,Sibi,Kohlu,KOHLU DISTRICT,7610,,28101,55497,71269,99846,,no,
+45,tehsil,Sibi,Kohlu,Kohlu Sub-Division,925,,8230,19951,24255,49025,,no,
+45,tehsil,Sibi,Kohlu,Kohlu Tehsil,,,8230,19951,24255,49025,,no,under Kohlu Sub-Division; printed in regular type
+45,tehsil,Sibi,Kohlu,Kahan Sub-Division,6685,,19871,24830,34085,26765,**,no,** on area: Includes area figure of Mawand Sub-Division.
+45,tehsil,Sibi,Kohlu,Kahan Tehsil,,,19871,24830,34085,26765,,no,under Kahan Sub-Division; printed in regular type
+45,tehsil,Sibi,Kohlu,Mawand Sub-Division,,,,10716,12929,24056,,no,area blank (included in Kahan Sub-Division area); 1961 dash
+46,tehsil,Sibi,Kohlu,Mawand Tehsil,,,,10716,12929,24056,,no,under Mawand Sub-Division; printed in bold on this page
+46,district,Sibi,Dera Bugti,DERA BUGTI DISTRICT,10160,,32049,52718,103821,181310,*,no,* on area: Sub-Division wise area figure not available.
+46,tehsil,Sibi,Dera Bugti,Dera Bugti Sub-Division,,,9174,15669,27173,48075,,no,
+46,tehsil,Sibi,Dera Bugti,Dera Bugti Tehsil,,,8787,9424,17037,34375,,no,under Dera Bugti Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Sangsillah Sub-Tehsil,,,387,6245,10136,13700,,no,under Dera Bugti Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Sui Sub-Division,,,11606,10495,37735,69218,,no,
+46,tehsil,Sibi,Dera Bugti,Sui Tehsil,,,9352,4931,32989,60727,**,no,under Sui Sub-Division; printed in regular type. ** on Urban 1961 (1082) and 1972 (545): Includes 1082 & 545 population of Sui Town in 1961 & 1972 (de-notified).
+46,tehsil,Sibi,Dera Bugti,Loti Tehsil,,,2254,5564,4746,8491,,no,under Sui Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Phelawagh Sub-Division,,,11269,26554,38913,64017,,no,
+46,tehsil,Sibi,Dera Bugti,Phelawagh Tehsil,,,4587,4325,4950,14553,,no,under Phelawagh Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Malam Sub-Tehsil,,,1964,4480,6331,16575,,no,under Phelawagh Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Baiker Sub-Tehsil,,,159,2737,4726,5305,,no,under Phelawagh Sub-Division; printed in regular type
+46,tehsil,Sibi,Dera Bugti,Pir Koh Sub-Tehsil,,,4559,15012,22906,27584,,no,under Phelawagh Sub-Division; printed in regular type
+46,division,Nasirabad,,NASIRABAD DIVISION,16946,,286596,445167,699669,1076708,,no,1951 total printed as dash although Urban 1951 = 5300 (rural 1951 included in Sibi)
+46,district,Nasirabad,Jafarabad,JAFARABAD DISTRICT,2445,,101647,179981,265342,432817,,no,1951 total printed as dash although Urban 1951 = 2089
+47,tehsil,Nasirabad,Jafarabad,Jhat Pat Sub-Division,1467,,53950,105665,158203,272587,,no,
+47,tehsil,Nasirabad,Jafarabad,Jhat Pat Tehsil,,,30332,77329,120382,213701,,no,under Jhat Pat Sub-Division; printed in regular type. Locality footnote *: Jhatpat TC renamed as Dera Allah Yar MC.
+47,tehsil,Nasirabad,Jafarabad,Panhwar Sub-Tehsil,,,23618,28336,37821,58886,,no,under Jhat Pat Sub-Division; printed in regular type
+47,tehsil,Nasirabad,Jafarabad,Usta Muhammad Sub-Division,978,,47697,74316,107139,160230,,no,
+47,tehsil,Nasirabad,Jafarabad,Usta Muhammad Tehsil,,,30419,49965,76680,122929,,no,under Usta Muhammad Sub-Division; printed in regular type
+47,tehsil,Nasirabad,Jafarabad,Gandaka Sub-Tehsil,,,17278,24351,30459,37301,,no,under Usta Muhammad Sub-Division; printed in regular type
+47,district,Nasirabad,Nasirabad,NASIRABAD DISTRICT,3387,,21458,43893,129112,245894,**,no,** on area: Sub-Division wise area figure not available.
+47,tehsil,Nasirabad,Nasirabad,Chattar Sub-Division,,,11306,27233,29667,50034,,no,
+47,tehsil,Nasirabad,Nasirabad,Chattar Tehsil,,,11306,27233,29667,50034,,no,under Chattar Sub-Division; printed in regular type
+47,tehsil,Nasirabad,Nasirabad,Dera Murad Jamali Sub-Division,,,10152,16660,99445,195860,,no,
+47,tehsil,Nasirabad,Nasirabad,Tamboo Tehsil,,,10152,16660,56464,91341,,no,under Dera Murad Jamali Sub-Division; printed in regular type
+47,tehsil,Nasirabad,Nasirabad,D.M.Jamali Tehsil,,,,,42981,104519,,no,under Dera Murad Jamali Sub-Division; printed in regular type; 1961 and 1972 dashes
+47,district,Nasirabad,Bolan,BOLAN DISTRICT,7499,,110460,146032,237123,288056,,no,1951 total printed as dash although Urban 1951 = 3211
+48,tehsil,Nasirabad,Bolan,Dhadar Sub-Division,3666,,33189,48823,79139,85078,*,no,* on area: Includes area figure of Sanni Sub-Division.
+48,tehsil,Nasirabad,Bolan,Dhadar Tehsil,,,11051,14814,27589,45481,,no,under Dhadar Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Balanari Sub-Tehsil,,,22138,34009,51550,39597,,no,under Dhadar Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Sanni Sub-Division,,,20020,27218,57240,84272,,no,area blank (included in Dhadar Sub-Division area)
+48,tehsil,Nasirabad,Bolan,Sanni Sub-Tehsil,,,14738,22521,42031,77070,,no,under Sanni Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Khattan Sub-Tehsil,,,5282,4697,15209,7202,,no,under Sanni Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Mach Sub-Division,708,,11721,16103,17470,30107,,no,
+48,tehsil,Nasirabad,Bolan,Mach Tehsil,,,11721,16103,17470,30107,,no,under Mach Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Bhag Sub-Division,1308,,28928,31576,47014,56023,,no,
+48,tehsil,Nasirabad,Bolan,Bhag Tehsil,,,28928,31576,47014,56023,,no,under Bhag Sub-Division; printed in regular type
+48,tehsil,Nasirabad,Bolan,Lehri Sub-Division,1817,,16602,22312,36260,32576,,no,
+48,tehsil,Nasirabad,Bolan,Lehri Tehsil,,,16602,22312,36260,32576,,no,under Lehri Sub-Division; printed in regular type
+48,district,Nasirabad,Jhal Magsi,JHAL MAGSI DISTRICT,3615,,53031,75261,68092,109941,**,no,** on area: Sub-Division wise area figure not available.
+48,tehsil,Nasirabad,Jhal Magsi,Gandawa Sub-Division,,,19188,28596,28784,46353,,no,
+49,tehsil,Nasirabad,Jhal Magsi,Gandawa Tehsil,,,13335,20106,21600,34791,,no,under Gandawa Sub-Division; printed in regular type
+49,tehsil,Nasirabad,Jhal Magsi,Mirpur Sub-Tehsil,,,5853,8490,7184,11562,,no,under Gandawa Sub-Division; printed in regular type
+49,tehsil,Nasirabad,Jhal Magsi,Jhal Magsi Sub-Division,,,33843,46665,39308,63588,,no,
+49,tehsil,Nasirabad,Jhal Magsi,Jhal Magsi Tehsil,,,33843,46665,39308,63588,,no,under Jhal Magsi Sub-Division; printed in regular type
+49,division,Kalat,,KALAT DIVISION,140612,418661,289555,546821,1044174,1457722,,no,
+49,district,Kalat,Kalat,KALAT DISTRICT,6622,298267,30821,71746,209149,237834,* / **,no,"* on area: Sub-Division wise area figure not available. ** on Rural 1951 (296258): Includes rural population of Mastung, Khuzdar and Awaran districts in 1951."
+49,tehsil,Kalat,Kalat,Kalat Sub-Division,,,22185,50008,114429,144433,,no,
+49,tehsil,Kalat,Kalat,Kalat Tehsil,,,22185,50008,59219,86565,,no,under Kalat Sub-Division; printed in regular type
+49,tehsil,Kalat,Kalat,Mangochar Sub-Tehsil,,,,,27156,41590,,no,under Kalat Sub-Division; printed in regular type; 1961 and 1972 dashes
+49,tehsil,Kalat,Kalat,Johan Sub-Tehsil,,,,,21850,12299,,no,under Kalat Sub-Division; printed in regular type; 1961 and 1972 dashes
+49,tehsil,Kalat,Kalat,Gazg Sub-Tehsil,,,,,6204,3979,,no,under Kalat Sub-Division; printed in regular type; 1961 and 1972 dashes
+49,tehsil,Kalat,Kalat,Surab Sub-Division,,,8636,21738,94720,93401,,no,
+49,tehsil,Kalat,Kalat,Surab Sub-Tehsil,,,8636,21738,94720,93401,,no,under Surab Sub-Division; printed in regular type
+49,district,Kalat,Mastung,MASTUNG DISTRICT,5896,,33785,74887,132044,164645,*,no,* on area: Sub-Division wise area figure not available. 1951 total printed as dash although Urban 1951 = 2792 (rural 1951 included in Kalat).
+50,tehsil,Kalat,Mastung,Mastung Sub-Division,,,33785,74887,100173,125469,,no,
+50,tehsil,Kalat,Mastung,Mastung Tehsil,,,33785,74887,60650,81993,,no,under Mastung Sub-Division; printed in regular type
+50,tehsil,Kalat,Mastung,Kirdgap Sub-Tehsil,,,,,23654,24214,,no,under Mastung Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Mastung,Khad Koocha Sub-Tehsil,,,,,15869,19262,,no,under Mastung Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Mastung,Dasht Sub-Division,,,,,31871,39176,,no,1961 and 1972 dashes
+50,tehsil,Kalat,Mastung,Dasht Sub-Tehsil,,,,,31871,39176,,no,under Dasht Sub-Division (Mastung); printed in regular type; 1961 and 1972 dashes
+50,district,Kalat,Khuzdar,KHUZDAR DISTRICT,35380,,71214,146207,276449,417466,*,no,* on area: Sub-Division wise area figure not available.
+50,tehsil,Kalat,Khuzdar,Khuzdar Sub-Division,,,52062,106981,129889,235771,,no,
+50,tehsil,Kalat,Khuzdar,Khuzdar Tehsil,,,52062,106981,84115,161845,,no,under Khuzdar Sub-Division; printed in regular type
+50,tehsil,Kalat,Khuzdar,Zehri Tehsil,,,,,19143,38799,,no,under Khuzdar Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Khuzdar,Moola Sub-Tehsil,,,,,8794,13143,,no,under Khuzdar Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Khuzdar,Karakh Sub-Tehsil,,,,,17837,21984,,no,under Khuzdar Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Khuzdar,Nal Sub-Division,,,,,60458,80221,,no,1961 and 1972 dashes
+50,tehsil,Kalat,Khuzdar,Nal Sub-Tehsil,,,,,39686,59314,,no,under Nal Sub-Division; printed in regular type; 1961 and 1972 dashes
+50,tehsil,Kalat,Khuzdar,Ornach Sub-Tehsil,,,,,20772,20907,,no,under Nal Sub-Division; printed in regular type; 1961 and 1972 dashes
+51,tehsil,Kalat,Khuzdar,Wadh Sub-Division,,,19152,39226,86102,101474,,no,
+51,tehsil,Kalat,Khuzdar,Wadh Sub-Tehsil,,,19152,39226,35263,52333,,no,under Wadh Sub-Division; printed in regular type
+51,tehsil,Kalat,Khuzdar,Saroona Sub-Tehsil,,,,,13684,20580,,no,under Wadh Sub-Division; printed in regular type; 1961 and 1972 dashes
+51,tehsil,Kalat,Khuzdar,Aranji Sub-Tehsil,,,,,37155,28561,,no,under Wadh Sub-Division; printed in regular type; 1961 and 1972 dashes
+51,district,Kalat,Awaran,AWARAN DISTRICT,29510,,31893,51918,110353,118173,,no,
+51,tehsil,Kalat,Awaran,Awaran Sub-Division,29510,,31893,51918,110353,118173,,no,
+51,tehsil,Kalat,Awaran,Awaran Tehsil,,,31893,51918,44394,49586,,no,under Awaran Sub-Division; printed in regular type
+51,tehsil,Kalat,Awaran,Mashkai Sub-Tehsil,,,,,37668,34373,,no,under Awaran Sub-Division; printed in regular type; 1961 and 1972 dashes
+51,tehsil,Kalat,Awaran,Jhal Jao Sub-Tehsil,,,,,28291,34214,,no,under Awaran Sub-Division; printed in regular type; 1961 and 1972 dashes
+51,district,Kalat,Kharan,KHARAN DISTRICT,48051,49413,38845,76800,128040,206909,,no,
+51,tehsil,Kalat,Kharan,Kharan Sub-Division,14958,,23588,45770,69226,116541,,no,
+51,tehsil,Kalat,Kharan,Kharan Tehsil,,,23588,45770,69226,116541,,no,under Kharan Sub-Division; printed in regular type
+51,tehsil,Kalat,Kharan,Rakhshan Sub-Division,20907,,9741,20246,44051,60524,,no,
+51,tehsil,Kalat,Kharan,Besima Sub-Tehsil,,,6261,12700,25348,38555,,no,under Rakhshan Sub-Division; printed in regular type
+51,tehsil,Kalat,Kharan,Washuk Sub-Tehsil,,,3480,7546,18703,21969,,no,under Rakhshan Sub-Division; printed in regular type
+52,tehsil,Kalat,Kharan,Mashkhel Sub-Division,12186,,5516,10784,14763,29844,,no,
+52,tehsil,Kalat,Kharan,Mashkhel Sub-Tehsil,,,5516,10784,14763,29844,,no,under Mashkhel Sub-Division; printed in regular type
+52,district,Kalat,Lasbela,LASBELA DISTRICT,15153,68189,82997,125263,188139,312695,,no,
+52,tehsil,Kalat,Lasbela,Bela Sub-Division,8437,,49528,71692,108596,141385,*,no,* on area: Includes area figure of Kanraj Sub-Division.
+52,tehsil,Kalat,Lasbela,Bela Tehsil,,,22073,32705,47835,68341,,no,under Bela Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Uthal Tehsil,,,13360,19146,32947,39724,,no,under Bela Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Lakhra Tehsil,,,9727,14630,19807,25474,,no,under Bela Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Liari Sub-Tehsil,,,4368,5211,8007,7846,,no,under Bela Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Kanraj Sub-Division,,,2394,4477,6287,8116,,no,area blank (included in Bela Sub-Division area)
+52,tehsil,Kalat,Lasbela,Kanraj Tehsil,,,2394,4477,6287,8116,,no,under Kanraj Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Hub Sub-Division,3903,,21039,33705,47604,131690,,no,
+52,tehsil,Kalat,Lasbela,Hub Tehsil,,,9042,10391,14477,80934,,no,under Hub Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Gadani Sub-Tehsil,,,3210,7104,12452,18957,,no,under Hub Sub-Division; printed in regular type
+52,tehsil,Kalat,Lasbela,Sonmiani/Winder Tehsil,,,8787,16210,20675,31799,,no,under Hub Sub-Division; printed in regular type
+53,tehsil,Kalat,Lasbela,Dureji Sub-Division,2813,,10036,15389,25652,31504,,no,
+53,tehsil,Kalat,Lasbela,Dureji Tehsil,,,10036,15389,25652,31504,,no,under Dureji Sub-Division; printed in regular type
+53,division,Mekran,,MEKRAN DIVISION,52067,153821,147215,295618,652602,832753,,no,
+53,district,Mekran,Kech,KECH DISTRICT,22539,83631,70326,147978,379467,413204,,no,
+53,tehsil,Mekran,Kech,Kech (Turbat) Sub-Division,15791,,41900,91982,168914,194961,*,no,* on area: Includes area figure of Buleda and Dasht Sub-Divisions.
+53,tehsil,Mekran,Kech,Kech Tehsil,,,41900,91982,147920,157142,,no,under Kech (Turbat) Sub-Division; printed in regular type
+53,tehsil,Mekran,Kech,Hoshab Sub-Tehsil,,,,,20994,37819,,no,under Kech (Turbat) Sub-Division; printed in regular type; 1961 and 1972 dashes
+53,tehsil,Mekran,Kech,Buleda Sub-Division,,,,,82804,73107,,no,area blank (included in Kech (Turbat) Sub-Division area); 1961 and 1972 dashes
+53,tehsil,Mekran,Kech,Buleda Sub-Tehsil,,,,,22671,33265,,no,under Buleda Sub-Division; printed in regular type; 1961 and 1972 dashes
+53,tehsil,Mekran,Kech,Zamuran Sub-Tehsil,,,,,60133,39842,,no,under Buleda Sub-Division; printed in regular type; 1961 and 1972 dashes
+53,tehsil,Mekran,Kech,Dasht Sub-Division,,,8066,15007,39919,58621,,no,area blank (included in Kech (Turbat) Sub-Division area)
+53,tehsil,Mekran,Kech,Balnigor Sub-Tehsil,,,,,13203,19560,,no,under Dasht Sub-Division (Kech); printed in regular type; 1961 and 1972 dashes
+53,tehsil,Mekran,Kech,Dasht Sub-Tehsil,,,8066,15007,26716,39061,,no,under Dasht Sub-Division (Kech); printed in regular type
+53,tehsil,Mekran,Kech,Tump Sub-Division,6748,,20360,40989,87830,86515,,no,
+54,tehsil,Mekran,Kech,Tump Tehsil,,,14296,27694,47875,51234,,no,under Tump Sub-Division; printed in regular type
+54,tehsil,Mekran,Kech,Mand Sub-Tehsil,,,6064,13295,39955,35281,,no,under Tump Sub-Division; printed in regular type
+54,district,Mekran,Gwadar,GWADAR DISTRICT,12637,40630,49661,90820,112385,185498,,no,
+54,tehsil,Mekran,Gwadar,Gwadar Sub-Division,5019,,25325,48756,57360,109748,,no,
+54,tehsil,Mekran,Gwadar,Gwadar Tehsil,2590,,14304,27473,33404,72614,,no,under Gwadar Sub-Division; printed in regular type
+54,tehsil,Mekran,Gwadar,Jiwani Tehsil,2429,,4925,10301,13619,19788,,no,under Gwadar Sub-Division; printed in regular type
+54,tehsil,Mekran,Gwadar,Suntsar Sub-Tehsil,,,6096,10982,10337,17346,,no,under Gwadar Sub-Division; printed in regular type
+54,tehsil,Mekran,Gwadar,Pasni Sub-Division,7618,,24336,42064,55025,75750,,no,
+54,tehsil,Mekran,Gwadar,Pasni Tehsil,4822,,16507,32610,39810,56902,,no,under Pasni Sub-Division; printed in regular type
+54,tehsil,Mekran,Gwadar,Ormara Tehsil,2796,,7829,9454,15215,18848,,no,under Pasni Sub-Division; printed in regular type
+54,district,Mekran,Panjgur,PANJGUR DISTRICT,16891,29560,27228,56820,160750,234051,,no,
+54,tehsil,Mekran,Panjgur,Panjgur Sub-Division,16891,29560,27228,56820,160750,234051,,no,
+54,tehsil,Mekran,Panjgur,Panjgur Tehsil,,,22054,46928,119122,166857,,no,under Panjgur Sub-Division; printed in regular type
+54,tehsil,Mekran,Panjgur,Parome Sub-Tehsil,,,4459,7927,34849,44626,,no,under Panjgur Sub-Division; printed in regular type
+54,tehsil,Mekran,Panjgur,Gichk Sub-Tehsil,,,715,1965,6779,22568,,no,under Panjgur Sub-Division; printed in regular type

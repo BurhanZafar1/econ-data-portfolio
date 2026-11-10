@@ -1,5 +1,5 @@
 # apply_crosswalk.R  --  move tehsil- or district-level data from one census frame to another
-# (1998 -> 2017, 2017 -> 2023, or 1998 -> 2023) using the PBS-based crosswalk. Base R only.
+# (1998 -> 2017, 2017 -> 2023, 1998 -> 2023, or the census-day 1998 layers) using the PBS-based crosswalk. Base R only.
 #
 # Usage:
 #   source("apply_crosswalk.R")
@@ -27,14 +27,25 @@
 
 read_crosswalk <- function(path) {
   cw <- read.csv(path, stringsAsFactors = FALSE, check.names = FALSE)
-  stopifnot(all(c("pop_weight", "area_weight", "confidence") %in% names(cw)))
+  stopifnot(all(c("pop_weight", "confidence") %in% names(cw)))
+  if (!"area_weight" %in% names(cw)) cw$area_weight <- NA_real_   # the census-day -> report-frame tables carry population weights only
   cw
 }
 
 .frames <- function(cw) {
-  yrs <- sort(unique(as.integer(sub(".*_(\\d{4})$", "\\1", grep("^(unit_id|district)_\\d{4}$", names(cw), value = TRUE)))))
-  if (length(yrs) != 2) stop("could not read the two census years from the crosswalk columns")
+  # frame labels are the suffixes of the id columns: 1998, 2017, 2023, or 1998census (census-day 1998 units)
+  # and 1998_pcoframe (the report frame as target of the census-day layer); sorted so that 1998 < 1998census < 2017 < 2023
+  yrs <- sub("_pcoframe$", "", sub(".*_(\\d{4}[a-z_]*)$", "\\1", grep("^(unit_id|district)_\\d{4}(census|_pcoframe)?$", names(cw), value = TRUE)))
+  yrs <- sort(unique(yrs))
+  yrs <- yrs[order(substr(yrs, 1, 4), yrs)]
+  if (identical(sort(yrs), c("1998", "1998census"))) yrs <- c("1998census", "1998")   # census-day units -> report frame
+  if (length(yrs) != 2) stop("could not read the two census frames from the crosswalk columns")
   list(from = yrs[1], to = yrs[2])
+}
+
+.idcol <- function(cw, level, fr) {   # the id column of a frame; the report-frame side of the census-day district table is district_1998_pcoframe
+  for (v in c(paste0(level, "_", fr), paste0(level, "_", fr, "_pcoframe"))) if (v %in% names(cw)) return(v)
+  paste0(level, "_", fr)
 }
 
 apply_crosswalk <- function(data, cw, id = NULL, counts = character(0),
@@ -43,8 +54,8 @@ apply_crosswalk <- function(data, cw, id = NULL, counts = character(0),
   fr <- .frames(cw)
   wcol <- if (weight == "pop") "pop_weight" else "area_weight"
   level <- if (paste0("unit_id_", fr$to) %in% names(cw)) "unit_id" else "district"
-  to_id <- paste0(level, "_", fr$to)
-  if (is.null(id)) id <- paste0(level, "_", fr$from)
+  to_id <- .idcol(cw, level, fr$to)
+  if (is.null(id)) id <- .idcol(cw, level, fr$from)
   if (!id %in% names(cw)) stop("id column not in crosswalk: ", id)
   if (!id %in% names(data)) stop("id column not in data: ", id)
   if (anyDuplicated(data[[id]])) stop("data must have one row per source unit")
@@ -68,7 +79,7 @@ apply_crosswalk <- function(data, cw, id = NULL, counts = character(0),
   }))
   names(out)[names(out) == "tid"] <- to_id
   rownames(out) <- NULL
-  lab <- unique(cw[, intersect(c(to_id, paste0(c("province_", "district_", "unit_"), fr$to)), names(cw))])
+  lab <- unique(cw[, intersect(c(to_id, paste0(c("province_", "district_", "unit_"), fr$to), paste0(c("district_", "unit_"), fr$to, "_pcoframe")), names(cw)), drop = FALSE])
   merge(lab, out, by = to_id)
 }
 
@@ -78,15 +89,16 @@ apply_crosswalk <- function(data, cw, id = NULL, counts = character(0),
 check_crosswalk <- function(cw) {
   fr <- .frames(cw)
   level <- if (paste0("unit_id_", fr$to) %in% names(cw)) "unit_id" else "district"
-  from_id <- paste0(level, "_", fr$from); to_id <- paste0(level, "_", fr$to)
+  from_id <- .idcol(cw, level, fr$from); to_id <- .idcol(cw, level, fr$to)
   popcol <- paste0("pop_", fr$from)
   u <- unique(cw[, c(from_id, popcol)])
   out <- apply_crosswalk(u, cw, id = from_id, counts = popcol)
   cat("weights sum to 1 for every source unit:",
       all(abs(tapply(cw$pop_weight, cw[[from_id]], sum) - 1) < 1e-9),
-      "(pop) ", all(abs(tapply(cw$area_weight, cw[[from_id]], sum) - 1) < 1e-9), "(area)\n")
+      "(pop) ", if (all(is.na(cw$area_weight))) "no area weight in this table" else all(abs(tapply(cw$area_weight, cw[[from_id]], sum) - 1) < 1e-9), "(area)\n")
   cat("total source population conserved:", isTRUE(all.equal(sum(out[[popcol]]), sum(u[[popcol]]))), "\n")
   rest <- paste0("pop_", fr$from, "_restated_", fr$to)
+  if (fr$from == "1998census" && fr$to == "1998") rest <- "pop_1998_pcoframe"   # the report frame's own 1998 count
   if (rest %in% names(cw)) {
     tgt <- unique(cw[, c(to_id, rest)])
     chk <- merge(out, tgt, by = to_id)

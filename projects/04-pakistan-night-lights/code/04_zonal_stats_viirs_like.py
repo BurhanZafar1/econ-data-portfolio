@@ -51,7 +51,7 @@ for f in sorted(glob.glob(os.path.join(CLIP,'nppviirs_like_V2_*_pakistan.tif')))
 T=pd.concat(out_t); D=pd.concat(out_d)
 T=T.merge(teh[['dds_id','name','district','province','in_four_provinces','outside_census_frame','area_km2']],on='dds_id').rename(columns={'name':'tehsil_2023','district':'district_2023','province':'province_2023'})
 D=D.merge(dis[['district_code','name','census_name','province','in_four_provinces','outside_census_frame','area_km2']],on='district_code').rename(columns={'name':'district_2023','province':'province_2023'})
-stats=['area_km2','pixel_area_km2','rad_sum','rad_mean','rad_max','rad_lit_share','rad_sum_km2','rad_per_km2','log1p_rad_sum_km2','rad_sum_gt1_km2','rad_lit_share_gt1','coverage_pixels','series_note']
+stats=['area_km2','pixel_area_km2','rad_sum','rad_mean','rad_max','rad_lit_share','rad_sum_km2','rad_per_km2','log1p_rad_sum_km2','asinh_rad_sum_km2','rad_sum_gt1_km2','rad_lit_share_gt1','coverage_pixels','series_note']
 T=T[['year','sensor_basis','dds_id','tehsil_2023','district_2023','province_2023','in_four_provinces','outside_census_frame']+stats].sort_values(['dds_id','year'])
 D=D[['year','sensor_basis','district_code','district_2023','census_name','province_2023','in_four_provinces','outside_census_frame']+stats].sort_values(['district_code','year'])
 for X in (T,D):

@@ -1,0 +1,14 @@
+Data licence
+
+The tables, rankings and figures in output/ produced in this project are released under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+
+Suggested attribution: Zafar, Burhan (2026). Night-time lights by Pakistan district and tehsil, 1992 to 2025, on the Census 2023 frame.
+Fifth release. https://github.com/BurhanZafar1/econ-data-portfolio (projects/04-pakistan-night-lights).
+
+Inherited terms. The light statistics are derived from two published raster products, both released under
+CC BY 4.0: Li, Zhou, Zhao and Zhao (2020), harmonized global night-time light dataset (figshare
+doi:10.6084/m9.figshare.9828827, version 10), and Chen, Yu, Yang et al., global NPP-VIIRS-like night-time light
+annual data, Version 2 (Harvard Dataverse doi:10.7910/DVN/YGIVCD). The polygons are the PBS Digital Census 2023
+boundaries as redistributed by Data Darbar (CC BY 4.0); the census populations in the merged panel come from
+projects/02-pakistan-tehsil-crosswalk. Users should cite those products as well as this package.
