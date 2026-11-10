@@ -41,13 +41,13 @@ The same names appear whichever way the change is measured. Several of the climb
 | Hangu | Khyber Pakhtunkhwa | 61 | 80 | 19 | 62 to 76 (-14) |
 | Tando Muhammad Khan | Sindh | 40 | 59 | 19 | 40 to 60 (-20) |
 
-The fallers are frontier districts of Khyber Pakhtunkhwa (Tank, Kurram, Bannu) and parts of northern Sindh (Jacobabad, Naushahro Feroze). Falling in rank does not mean getting darker in absolute terms: almost every district is brighter in 2025 than in 1992.
+The fallers are frontier districts of Khyber Pakhtunkhwa (Tank, Kurram, Bannu) and parts of northern Sindh (Jacobabad, Naushahro Feroze). A fall in rank is relative, but in these cases it is not only relative: of the 130 districts, 113 have a larger sum of lights in 2025 than in 1992 in series B and 17 do not (Awaran, Bannu, Barkhan, Charsadda, Hangu, Jacobabad, Kalat, Killa Abdullah, Kurram, Mastung, Naushahro Feroze, Pishin, Sherani, Sohbatpur, Tank, Torghar, Ziarat); 6 of the eight fallers listed are in that second group. Comparing a 1992 level with a 2025 level in series B compares a DMSP-derived value with a VIIRS one, so the within-era changes in rank_changes_by_period.csv are the safer reading.
 
 ## Light per person (census years only)
 Ranking districts by light per thousand people in 1998 and 2023 (ranking iii, 104 districts): Spearman correlation 0.61. Biggest climbers: Gwadar (70 to 3), Sialkot (74 to 9), Chagai (68 to 11), Tharparkar (75 to 22), Narowal (81 to 30), Upper Kohistan (101 to 53), Karak (80 to 35), Mandi Bahauddin (76 to 32). Biggest fallers: Dadu (22 to 64), Chaman (42 to 88), Loralai (9 to 57), Badin (10 to 66), Nushki (11 to 71). Per-person ranks reward sparsely populated districts with a single large installation, so they should be read next to the size ranking rather than instead of it.
 
 ## How much the two satellite series agree
-In 2023 the ranking by sum of lights (all units) has a Spearman correlation of 0.93 between series A and series B. Mobility is somewhat larger in series A end to end (correlation 0.84 against 0.91) because series A's VIIRS-converted years carry a faint floor that lifts dim districts; within eras the two agree closely. The full table for every series, measure, variant and era is output/rankings/mobility_summary.csv.
+In 2023 the ranking by sum of lights (all units) has a Spearman correlation of 0.93 between series A and series B. Mobility is somewhat larger in series A end to end (correlation 0.84 against 0.91) most likely because series A's VIIRS-converted years carry a faint floor that lifts dim districts (docs/VALIDATION.md, the dim end); within eras the two agree closely. The full table for every series, measure, variant and era is output/rankings/mobility_summary.csv.
 
 ## Figures (output/figures)
 - fig1_rank_stability_spearman.png: Spearman correlation of each year's ranking with 1992, for the three rankings (series B, sum of lights).
