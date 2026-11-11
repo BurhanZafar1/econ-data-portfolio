@@ -1,0 +1,24 @@
+{
+  "n_draws": 1000,
+  "seed": 20261111,
+  "n_nhanes_40plus": 3499,
+  "ihd_deaths_40plus_2018": 363097,
+  "ihd_deaths_all_ages_2018": 365744,
+  "paf_40plus": {
+    "mean": 0.5136840257737907,
+    "lower": 0.4694507734602336,
+    "upper": 0.5579227939861419,
+    "central": 0.5162969044113128
+  },
+  "attributable_deaths_40plus": {
+    "mean": 186517.12870638608,
+    "lower": 170456.16749109045,
+    "upper": 202580.09272798616
+  },
+  "share_of_attributable_deaths_from_sbp_below_140": 0.20942774389507843,
+  "gbd2019_usa_benchmark": {
+    "mean": 0.452,
+    "lower": 0.338,
+    "upper": 0.57
+  }
+}
