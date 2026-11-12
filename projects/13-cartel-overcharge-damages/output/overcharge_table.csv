@@ -1,0 +1,10 @@
+method,weeks,damage_weeks,log_overcharge_b,hac_se,overcharge_pct_of_but_for,damages_usd,damages_low_usd,damages_high_usd
+Dummy variable: No controls,328,203,0.364178,0.056524,0.439330,7741506.813733,5677063.612563,9589450.445929
+Dummy variable: Seasons only,328,203,0.355790,0.047832,0.427307,7593076.108141,5846577.638955,9183280.144310
+Dummy variable: Seasons and lakes (preferred),328,203,0.357898,0.047976,0.430320,7630508.886177,5882190.597136,9221920.537411
+Dummy variable: Preferred plus linear trend,328,203,0.295082,0.059387,0.343236,6480904.370112,4150057.047949,8555637.618102
+"Dummy variable: Preferred, transition weeks dropped",286,181,0.436426,0.045504,0.547167,7734063.825524,6415481.866427,8940135.395728
+"Dummy variable: Preferred, 13 HAC lags",328,203,0.357898,0.054094,0.430320,7630508.886177,5647206.450250,9414298.480654
+"Dummy variable: Preferred, 26 HAC lags",328,203,0.357898,0.056760,0.430320,7630508.886177,5543887.257565,9497440.464285
+"Forecasting: seasons and lakes, fit on price war weeks",328,203,,,0.389688,6599564.217305,,
+"Forecasting: plus linear trend, fit on price war weeks",328,203,,,0.371740,6368279.794090,,
