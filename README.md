@@ -18,6 +18,10 @@ Small, complete, tested projects in applied microeconomics, antitrust, finance a
 | 12 | Replicating time series momentum (Moskowitz, Ooi and Pedersen, 2012) | Test whether 12 month trend following across futures earns the paper's 1985 to 2009 alpha, survives its critiques and lasts after 2009 | Known answer tests on the authors' factor file, rebuild on 23 public markets (bond returns from yields, calendar rolled energy futures), ex ante volatility scaling, pooled regressions clustered by month, look back and holding grid, volatility scaling decomposition, deflated Sharpe ratio, block bootstrap, break even costs, out of sample 2010 to 2026 | [projects/12-time-series-momentum](projects/12-time-series-momentum) |
 | 13 | Cartel overcharge damages: the JEC railroad cartel, 1880 to 1886 | Estimate how much a cartel overcharged its customers, put a dollar figure and interval on the harm, and show the checks an opposing expert would demand | Dummy variable (during versus price war) and forecasting but for prices, Newey-West HAC errors, Kennedy correction, leave one price war out validation, circular shift placebo test, 2SLS demand elasticity for the volume effect, known answer tests against published regressions | [projects/13-cartel-overcharge-damages](projects/13-cartel-overcharge-damages) |
 
+## Authorship
+
+Projects 02 and 04 come from my research assistant work for Professor M. Yasir Khan (University of Pittsburgh); the others use public data. All of them were developed with AI coding assistance under my direction and review, as some commit messages record.
+
 ## Running a project
 
 ```bash

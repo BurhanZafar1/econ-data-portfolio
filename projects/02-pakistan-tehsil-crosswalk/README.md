@@ -1,6 +1,6 @@
 # Pakistan tehsil and district crosswalk, Censuses 1951 to 2023
 
-Fifth release (version 5.0), 10 November 2026. Built by Burhan Zafar (Whitman College) for Professor M. Yasir Khan (University of Pittsburgh). Release history in CHANGELOG.md; how to cite in CITATION.cff; licences in LICENSE-DATA.txt (CC BY 4.0) and LICENSE-CODE.txt (MIT).
+Fifth release (version 5.0), 10 November 2026. Prepared by Burhan Zafar (Whitman College) as research assistant work for Professor M. Yasir Khan (University of Pittsburgh). Release history in CHANGELOG.md; how to cite in CITATION.cff; licences in LICENSE-DATA.txt (CC BY 4.0) and LICENSE-CODE.txt (MIT).
 
 ## 1. Overview
 Tables that move any tehsil- or district-level variable reported on one census frame of Pakistan's four provinces onto another, with a population weight and an area weight for every pair of units, and the documentation needed to judge every weight:
