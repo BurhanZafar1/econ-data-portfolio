@@ -1,0 +1,10 @@
+| Series                                     | Months             | Mean a month   |   NW t (12 lags) |   Sharpe | 95% block bootstrap CI   | Max drawdown   |
+|:-------------------------------------------|:-------------------|:---------------|-----------------:|---------:|:-------------------------|:---------------|
+| AQR factor, paper window (original file)   | 1985-01 to 2009-12 | 1.42%          |             8.34 |     1.38 | 1.09 to 1.75             | -15.2%         |
+| Our rebuild, paper window, gross           | 1985-01 to 2009-12 | 1.43%          |             5.4  |     0.94 | 0.65 to 1.36             | -24.6%         |
+| Our rebuild, paper window, net of 1 bp     | 1985-01 to 2009-12 | 1.41%          |             5.34 |     0.93 | 0.64 to 1.32             | -24.7%         |
+| Our rebuild, paper window, net of 2 bp     | 1985-01 to 2009-12 | 1.40%          |             5.28 |     0.92 | 0.63 to 1.31             | -24.9%         |
+| Our rebuild, paper window, net of 5 bp     | 1985-01 to 2009-12 | 1.35%          |             5.1  |     0.89 | 0.60 to 1.29             | -25.3%         |
+| AQR factor, after the paper (updated file) | 2010-01 to 2026-05 | 0.44%          |             1.74 |     0.4  | -0.09 to 0.74            | -27.9%         |
+| Our rebuild, after the paper, gross        | 2010-01 to 2026-10 | 0.36%          |             1.06 |     0.23 | -0.19 to 0.63            | -43.5%         |
+| Our rebuild, after the paper, net of 2 bp  | 2010-01 to 2026-10 | 0.30%          |             0.86 |     0.19 | -0.24 to 0.59            | -44.4%         |

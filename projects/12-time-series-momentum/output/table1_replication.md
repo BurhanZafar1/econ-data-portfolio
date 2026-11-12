@@ -1,0 +1,16 @@
+| 1985 to 2009                                          | Paper           | AQR file of the paper's factor   | Our rebuild (public data)   |
+|:------------------------------------------------------|:----------------|:---------------------------------|:----------------------------|
+| Annualized volatility                                 | 12%             | 12.3%                            | 18.2%                       |
+| Sharpe ratio                                          | > 1             | 1.38                             | 0.94                        |
+| Mean excess return a month                            | n/r             | 1.42%                            | 1.43%                       |
+| Alpha a month (Table 3 A)                             | 1.58% (t 7.99)  | 1.22% (t 6.13)                   | 1.28% (t 4.24)              |
+| Beta on market                                        | 0.09 (t 1.89)   | 0.08 (t 1.83)                    | -0.02 (t -0.28)             |
+| Beta on SMB                                           | -0.05 (t -0.84) | -0.04 (t -0.66)                  | -0.19 (t -2.05)             |
+| Beta on HML                                           | -0.01 (t -0.21) | -0.03 (t -0.42)                  | -0.05 (t -0.44)             |
+| Beta on UMD                                           | 0.28 (t 6.78)   | 0.26 (t 6.45)                    | 0.29 (t 4.62)               |
+| R squared                                             | 14%             | 13%                              | 9%                          |
+| Alpha a quarter (Table 3 A)                           | 4.75% (t 7.73)  | 3.60% (t 5.54)                   |                             |
+| Beta on market squared, quarterly (Table 3 C)         | 1.99 (t 3.88)   | 1.89 (t 3.57)                    | 2.97 (t 3.92)               |
+| Alpha t, 12 month look back, 1 month hold (Table 2 A) | 6.61            |                                  | 4.61                        |
+| Instruments with positive TSMOM Sharpe                | 58 of 58        |                                  | 21 of 22                    |
+| Instruments significant at 5%                         | 52 of 58        |                                  | 10 of 22                    |
